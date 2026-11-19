@@ -1,0 +1,1501 @@
+employee_id,gender,ethnicity,age_band,met_objectives,rating
+E0001,Female,Group B,Under 30,0,2
+E0002,Female,Group C,45+,0,2
+E0003,Female,Group A,30-44,0,2
+E0004,Male,Group A,45+,0,3
+E0005,Male,Group A,45+,0,4
+E0006,Female,Group A,Under 30,0,1
+E0007,Male,Group C,45+,0,2
+E0008,Female,Group D,30-44,1,4
+E0009,Female,Group B,30-44,1,5
+E0010,Male,Group A,45+,1,4
+E0011,Male,Group A,30-44,1,3
+E0012,Male,Group C,30-44,1,3
+E0013,Male,Group D,Under 30,0,4
+E0014,Male,Group B,30-44,1,3
+E0015,Female,Group A,Under 30,0,3
+E0016,Female,Group A,30-44,1,4
+E0017,Non-binary,Group B,30-44,0,1
+E0018,Female,Group C,45+,0,1
+E0019,Female,Group A,30-44,1,4
+E0020,Non-binary,Group A,30-44,0,3
+E0021,Male,Group A,Under 30,1,3
+E0022,Male,Group A,30-44,1,4
+E0023,Female,Group C,45+,0,2
+E0024,Male,Group B,Under 30,1,3
+E0025,Male,Group D,45+,0,1
+E0026,Female,Group A,30-44,1,4
+E0027,Male,Group A,30-44,1,3
+E0028,Female,Group C,30-44,0,1
+E0029,Female,Group B,30-44,0,4
+E0030,Female,Group A,30-44,0,1
+E0031,Male,Group A,30-44,1,4
+E0032,Male,Group B,30-44,0,4
+E0033,Male,Group B,Under 30,0,3
+E0034,Male,Group B,Under 30,0,2
+E0035,Female,Group A,30-44,1,3
+E0036,Male,Group D,Under 30,0,4
+E0037,Male,Group B,30-44,0,1
+E0038,Male,Group C,30-44,1,4
+E0039,Female,Group B,45+,1,2
+E0040,Male,Group A,Under 30,1,3
+E0041,Male,Group A,30-44,0,3
+E0042,Female,Group A,45+,0,2
+E0043,Female,Group A,30-44,0,2
+E0044,Female,Group A,45+,0,3
+E0045,Female,Group A,30-44,1,3
+E0046,Female,Group A,Under 30,0,4
+E0047,Male,Group A,30-44,1,4
+E0048,Female,Group C,45+,1,3
+E0049,Female,Group A,30-44,1,5
+E0050,Female,Group A,30-44,0,3
+E0051,Male,Group C,45+,1,3
+E0052,Female,Group B,30-44,0,2
+E0053,Male,Group A,30-44,0,3
+E0054,Male,Group A,45+,0,2
+E0055,Male,Group B,30-44,1,4
+E0056,Male,Group A,Under 30,0,3
+E0057,Female,Group C,Under 30,0,3
+E0058,Male,Group C,30-44,1,5
+E0059,Non-binary,Group A,45+,0,3
+E0060,Female,Group A,30-44,0,2
+E0061,Female,Group C,Under 30,0,3
+E0062,Female,Group A,45+,1,4
+E0063,Female,Group B,30-44,1,3
+E0064,Male,Group C,Under 30,0,2
+E0065,Male,Group C,30-44,0,2
+E0066,Male,Group C,30-44,0,3
+E0067,Male,Group B,Under 30,0,2
+E0068,Male,Group C,30-44,1,4
+E0069,Non-binary,Group B,30-44,0,3
+E0070,Male,Group A,45+,0,1
+E0071,Female,Group B,Under 30,0,2
+E0072,Male,Group A,45+,0,2
+E0073,Female,Group C,45+,0,4
+E0074,Female,Group C,Under 30,0,3
+E0075,Male,Group A,30-44,1,4
+E0076,Female,Group A,30-44,1,4
+E0077,Female,Group A,30-44,0,3
+E0078,Female,Group B,Under 30,0,4
+E0079,Female,Group D,45+,0,1
+E0080,Male,Group D,Under 30,0,3
+E0081,Male,Group D,30-44,0,3
+E0082,Female,Group C,30-44,0,3
+E0083,Female,Group B,45+,0,2
+E0084,Male,Group A,30-44,0,2
+E0085,Female,Group A,30-44,0,2
+E0086,Female,Group A,45+,0,2
+E0087,Female,Group C,30-44,1,3
+E0088,Male,Group A,30-44,1,3
+E0089,Male,Group A,Under 30,0,2
+E0090,Male,Group A,45+,1,4
+E0091,Male,Group A,45+,0,3
+E0092,Female,Group C,45+,1,3
+E0093,Male,Group A,30-44,0,2
+E0094,Female,Group A,Under 30,1,3
+E0095,Male,Group C,30-44,0,3
+E0096,Female,Group C,45+,0,2
+E0097,Male,Group B,30-44,0,2
+E0098,Male,Group B,Under 30,1,3
+E0099,Male,Group A,Under 30,0,3
+E0100,Male,Group C,45+,0,2
+E0101,Non-binary,Group C,Under 30,1,5
+E0102,Female,Group B,Under 30,0,2
+E0103,Male,Group A,Under 30,0,3
+E0104,Female,Group A,45+,0,2
+E0105,Female,Group A,30-44,1,3
+E0106,Male,Group A,30-44,0,2
+E0107,Female,Group A,30-44,0,2
+E0108,Female,Group A,30-44,1,4
+E0109,Male,Group A,30-44,0,3
+E0110,Female,Group A,30-44,0,1
+E0111,Female,Group A,30-44,0,2
+E0112,Female,Group A,30-44,1,3
+E0113,Male,Group A,Under 30,0,3
+E0114,Female,Group B,30-44,0,1
+E0115,Male,Group B,Under 30,1,4
+E0116,Female,Group A,Under 30,0,1
+E0117,Female,Group C,45+,1,4
+E0118,Male,Group B,30-44,0,4
+E0119,Male,Group B,Under 30,0,3
+E0120,Female,Group C,30-44,0,3
+E0121,Male,Group C,30-44,0,3
+E0122,Female,Group C,Under 30,1,1
+E0123,Female,Group C,30-44,1,5
+E0124,Female,Group B,30-44,0,2
+E0125,Female,Group C,Under 30,1,5
+E0126,Male,Group A,45+,1,3
+E0127,Male,Group B,45+,1,3
+E0128,Male,Group A,30-44,0,3
+E0129,Male,Group A,45+,0,2
+E0130,Male,Group A,Under 30,0,2
+E0131,Female,Group A,Under 30,0,2
+E0132,Female,Group A,45+,0,3
+E0133,Male,Group B,30-44,0,4
+E0134,Male,Group C,Under 30,0,4
+E0135,Female,Group C,30-44,1,3
+E0136,Male,Group A,30-44,1,5
+E0137,Non-binary,Group B,30-44,0,1
+E0138,Female,Group C,Under 30,0,2
+E0139,Female,Group A,Under 30,0,3
+E0140,Female,Group A,30-44,0,3
+E0141,Female,Group A,Under 30,1,4
+E0142,Female,Group B,Under 30,1,5
+E0143,Male,Group A,30-44,0,2
+E0144,Female,Group B,30-44,0,1
+E0145,Male,Group A,Under 30,1,4
+E0146,Female,Group B,45+,1,5
+E0147,Male,Group B,30-44,1,4
+E0148,Male,Group B,45+,1,3
+E0149,Female,Group A,30-44,1,4
+E0150,Female,Group C,30-44,1,4
+E0151,Male,Group C,30-44,1,2
+E0152,Female,Group C,30-44,1,4
+E0153,Female,Group A,Under 30,1,5
+E0154,Female,Group D,Under 30,1,3
+E0155,Female,Group B,45+,1,3
+E0156,Non-binary,Group A,Under 30,0,2
+E0157,Male,Group A,30-44,0,3
+E0158,Male,Group B,30-44,0,4
+E0159,Male,Group B,30-44,0,4
+E0160,Male,Group A,30-44,1,4
+E0161,Male,Group A,45+,1,4
+E0162,Female,Group A,Under 30,0,3
+E0163,Female,Group C,Under 30,0,3
+E0164,Male,Group A,45+,0,3
+E0165,Female,Group A,Under 30,0,1
+E0166,Male,Group B,30-44,0,2
+E0167,Female,Group A,45+,0,3
+E0168,Female,Group A,30-44,1,4
+E0169,Male,Group D,45+,1,5
+E0170,Non-binary,Group A,45+,1,3
+E0171,Male,Group B,45+,0,4
+E0172,Female,Group A,Under 30,0,3
+E0173,Female,Group A,Under 30,1,3
+E0174,Male,Group D,45+,1,3
+E0175,Male,Group D,45+,0,3
+E0176,Male,Group A,Under 30,1,3
+E0177,Female,Group A,Under 30,1,4
+E0178,Female,Group A,Under 30,1,4
+E0179,Female,Group A,Under 30,0,3
+E0180,Male,Group B,30-44,1,3
+E0181,Female,Group C,30-44,0,3
+E0182,Female,Group C,30-44,1,5
+E0183,Female,Group B,Under 30,0,4
+E0184,Female,Group A,Under 30,1,4
+E0185,Female,Group A,Under 30,1,3
+E0186,Male,Group B,Under 30,0,3
+E0187,Male,Group C,Under 30,0,1
+E0188,Male,Group A,45+,1,4
+E0189,Male,Group A,30-44,0,2
+E0190,Male,Group C,Under 30,0,3
+E0191,Male,Group A,30-44,1,5
+E0192,Female,Group A,45+,0,1
+E0193,Male,Group A,45+,0,3
+E0194,Female,Group D,30-44,1,4
+E0195,Male,Group A,30-44,0,4
+E0196,Female,Group A,30-44,1,4
+E0197,Male,Group A,30-44,0,2
+E0198,Male,Group B,45+,1,4
+E0199,Female,Group A,45+,0,2
+E0200,Female,Group C,30-44,1,5
+E0201,Female,Group A,45+,1,3
+E0202,Female,Group C,30-44,1,2
+E0203,Female,Group A,30-44,0,4
+E0204,Male,Group C,Under 30,0,4
+E0205,Female,Group A,Under 30,1,4
+E0206,Male,Group C,Under 30,0,1
+E0207,Female,Group C,45+,1,3
+E0208,Non-binary,Group A,45+,0,1
+E0209,Female,Group A,45+,1,3
+E0210,Male,Group B,45+,0,2
+E0211,Male,Group B,45+,1,5
+E0212,Male,Group B,30-44,0,2
+E0213,Male,Group C,45+,1,3
+E0214,Female,Group B,Under 30,0,1
+E0215,Female,Group B,30-44,0,3
+E0216,Male,Group B,Under 30,0,3
+E0217,Female,Group B,45+,0,1
+E0218,Female,Group A,45+,0,3
+E0219,Male,Group A,Under 30,1,5
+E0220,Female,Group A,45+,1,2
+E0221,Female,Group A,45+,0,2
+E0222,Male,Group A,Under 30,1,4
+E0223,Female,Group C,30-44,1,2
+E0224,Female,Group A,30-44,1,5
+E0225,Female,Group A,30-44,0,3
+E0226,Male,Group B,45+,0,2
+E0227,Female,Group A,30-44,0,3
+E0228,Female,Group A,Under 30,1,3
+E0229,Female,Group A,30-44,1,5
+E0230,Female,Group B,30-44,1,5
+E0231,Male,Group B,Under 30,1,4
+E0232,Female,Group D,Under 30,1,2
+E0233,Female,Group C,30-44,1,4
+E0234,Female,Group A,Under 30,0,1
+E0235,Male,Group B,Under 30,1,3
+E0236,Male,Group A,30-44,0,3
+E0237,Female,Group A,45+,1,4
+E0238,Male,Group D,30-44,1,4
+E0239,Female,Group A,30-44,0,2
+E0240,Female,Group A,45+,1,3
+E0241,Male,Group B,30-44,1,4
+E0242,Male,Group B,30-44,0,2
+E0243,Male,Group A,Under 30,1,4
+E0244,Female,Group D,45+,1,1
+E0245,Male,Group A,Under 30,0,2
+E0246,Male,Group B,Under 30,1,3
+E0247,Male,Group A,30-44,0,3
+E0248,Female,Group C,30-44,1,4
+E0249,Female,Group A,45+,0,3
+E0250,Male,Group A,Under 30,1,5
+E0251,Male,Group C,45+,1,3
+E0252,Female,Group D,30-44,0,2
+E0253,Male,Group D,45+,0,1
+E0254,Male,Group C,30-44,1,5
+E0255,Male,Group A,Under 30,0,3
+E0256,Male,Group A,Under 30,1,4
+E0257,Male,Group B,30-44,1,3
+E0258,Female,Group A,30-44,1,4
+E0259,Female,Group D,30-44,0,3
+E0260,Male,Group A,30-44,0,3
+E0261,Male,Group A,Under 30,0,3
+E0262,Female,Group A,30-44,0,2
+E0263,Male,Group A,Under 30,1,4
+E0264,Male,Group B,45+,1,2
+E0265,Male,Group A,Under 30,1,4
+E0266,Male,Group C,45+,0,1
+E0267,Female,Group B,45+,0,3
+E0268,Male,Group A,30-44,0,2
+E0269,Male,Group C,45+,0,1
+E0270,Female,Group C,30-44,0,1
+E0271,Female,Group A,30-44,0,2
+E0272,Male,Group C,45+,0,1
+E0273,Male,Group D,45+,0,3
+E0274,Female,Group B,Under 30,1,3
+E0275,Male,Group A,45+,0,3
+E0276,Female,Group D,Under 30,0,2
+E0277,Male,Group D,Under 30,0,3
+E0278,Female,Group A,30-44,1,2
+E0279,Female,Group A,30-44,0,3
+E0280,Female,Group C,30-44,1,3
+E0281,Female,Group B,30-44,0,1
+E0282,Male,Group A,30-44,0,1
+E0283,Male,Group B,45+,1,4
+E0284,Female,Group A,45+,0,1
+E0285,Female,Group D,30-44,0,4
+E0286,Male,Group A,Under 30,0,3
+E0287,Male,Group A,30-44,1,4
+E0288,Female,Group A,Under 30,1,4
+E0289,Female,Group A,30-44,1,4
+E0290,Female,Group D,30-44,0,3
+E0291,Male,Group A,Under 30,0,4
+E0292,Male,Group B,45+,0,3
+E0293,Female,Group D,30-44,0,1
+E0294,Female,Group A,30-44,1,3
+E0295,Female,Group A,Under 30,1,4
+E0296,Non-binary,Group C,30-44,0,1
+E0297,Female,Group A,Under 30,0,1
+E0298,Female,Group D,45+,1,3
+E0299,Female,Group C,30-44,0,3
+E0300,Male,Group A,30-44,1,5
+E0301,Female,Group B,45+,0,3
+E0302,Male,Group B,30-44,1,4
+E0303,Female,Group B,Under 30,0,3
+E0304,Female,Group A,30-44,0,1
+E0305,Female,Group A,30-44,1,5
+E0306,Male,Group A,45+,0,2
+E0307,Male,Group A,30-44,1,2
+E0308,Male,Group A,30-44,0,3
+E0309,Male,Group D,45+,0,1
+E0310,Female,Group C,30-44,0,2
+E0311,Female,Group A,45+,0,2
+E0312,Male,Group B,Under 30,0,5
+E0313,Female,Group B,30-44,0,3
+E0314,Female,Group A,Under 30,1,2
+E0315,Male,Group A,45+,0,2
+E0316,Female,Group D,30-44,1,3
+E0317,Female,Group A,Under 30,0,2
+E0318,Male,Group B,Under 30,0,4
+E0319,Male,Group D,30-44,0,3
+E0320,Female,Group A,Under 30,0,3
+E0321,Non-binary,Group C,30-44,0,2
+E0322,Male,Group A,30-44,0,3
+E0323,Female,Group C,30-44,0,2
+E0324,Female,Group C,Under 30,0,2
+E0325,Female,Group C,30-44,0,1
+E0326,Male,Group D,Under 30,0,3
+E0327,Male,Group C,45+,0,3
+E0328,Non-binary,Group D,Under 30,0,2
+E0329,Male,Group A,30-44,1,4
+E0330,Male,Group B,30-44,1,4
+E0331,Female,Group A,30-44,1,3
+E0332,Male,Group A,45+,0,2
+E0333,Female,Group A,Under 30,1,3
+E0334,Male,Group C,45+,0,1
+E0335,Female,Group C,45+,1,3
+E0336,Male,Group A,30-44,1,5
+E0337,Female,Group D,30-44,0,3
+E0338,Male,Group A,30-44,0,3
+E0339,Male,Group A,Under 30,1,3
+E0340,Male,Group C,30-44,0,3
+E0341,Male,Group C,45+,1,4
+E0342,Male,Group C,Under 30,0,3
+E0343,Female,Group A,Under 30,1,4
+E0344,Male,Group B,30-44,0,2
+E0345,Male,Group C,30-44,0,1
+E0346,Non-binary,Group A,30-44,0,2
+E0347,Female,Group C,45+,1,4
+E0348,Female,Group C,45+,0,1
+E0349,Male,Group B,45+,1,4
+E0350,Male,Group C,30-44,0,1
+E0351,Male,Group A,45+,0,1
+E0352,Male,Group C,45+,0,2
+E0353,Male,Group B,Under 30,0,3
+E0354,Female,Group A,30-44,0,3
+E0355,Male,Group B,Under 30,1,3
+E0356,Male,Group B,45+,1,5
+E0357,Female,Group B,Under 30,0,2
+E0358,Male,Group A,30-44,0,3
+E0359,Male,Group D,30-44,0,3
+E0360,Female,Group D,30-44,0,4
+E0361,Male,Group A,30-44,0,4
+E0362,Female,Group D,45+,1,2
+E0363,Male,Group B,45+,0,2
+E0364,Female,Group A,30-44,1,4
+E0365,Female,Group C,30-44,0,2
+E0366,Female,Group A,Under 30,0,2
+E0367,Male,Group C,Under 30,1,3
+E0368,Female,Group C,30-44,0,3
+E0369,Female,Group B,45+,1,4
+E0370,Male,Group A,30-44,1,4
+E0371,Male,Group C,30-44,0,3
+E0372,Male,Group B,30-44,0,3
+E0373,Non-binary,Group D,30-44,1,4
+E0374,Female,Group A,30-44,0,1
+E0375,Male,Group C,30-44,1,4
+E0376,Non-binary,Group C,45+,1,2
+E0377,Male,Group A,30-44,1,4
+E0378,Female,Group A,45+,1,4
+E0379,Male,Group A,45+,1,4
+E0380,Female,Group A,45+,1,4
+E0381,Male,Group A,45+,1,4
+E0382,Male,Group A,45+,1,1
+E0383,Female,Group A,45+,0,2
+E0384,Male,Group C,30-44,1,3
+E0385,Male,Group A,30-44,0,3
+E0386,Male,Group B,30-44,0,1
+E0387,Female,Group A,45+,1,3
+E0388,Female,Group A,30-44,1,3
+E0389,Female,Group C,Under 30,1,3
+E0390,Female,Group B,Under 30,0,3
+E0391,Female,Group B,30-44,0,2
+E0392,Female,Group A,45+,1,4
+E0393,Female,Group B,45+,1,4
+E0394,Female,Group C,30-44,0,3
+E0395,Male,Group A,30-44,0,3
+E0396,Male,Group B,30-44,0,5
+E0397,Female,Group B,Under 30,0,2
+E0398,Male,Group A,Under 30,1,4
+E0399,Female,Group D,30-44,0,3
+E0400,Female,Group B,30-44,1,3
+E0401,Male,Group A,45+,0,2
+E0402,Female,Group C,Under 30,1,3
+E0403,Male,Group C,45+,0,1
+E0404,Female,Group B,Under 30,1,4
+E0405,Male,Group D,30-44,1,3
+E0406,Non-binary,Group A,30-44,0,3
+E0407,Female,Group B,Under 30,0,2
+E0408,Female,Group C,45+,1,3
+E0409,Male,Group D,45+,1,5
+E0410,Female,Group B,45+,1,4
+E0411,Female,Group B,Under 30,0,2
+E0412,Female,Group A,30-44,0,3
+E0413,Female,Group B,30-44,1,4
+E0414,Male,Group B,45+,1,4
+E0415,Male,Group D,Under 30,1,4
+E0416,Female,Group C,Under 30,0,1
+E0417,Female,Group C,45+,1,1
+E0418,Male,Group D,Under 30,1,3
+E0419,Female,Group A,Under 30,0,2
+E0420,Male,Group C,Under 30,0,3
+E0421,Female,Group B,30-44,0,3
+E0422,Female,Group C,30-44,1,3
+E0423,Male,Group A,30-44,0,2
+E0424,Female,Group B,45+,0,2
+E0425,Male,Group C,Under 30,0,3
+E0426,Female,Group A,45+,0,2
+E0427,Male,Group A,45+,1,5
+E0428,Male,Group B,45+,0,2
+E0429,Female,Group C,45+,0,2
+E0430,Female,Group A,30-44,0,3
+E0431,Female,Group C,Under 30,0,2
+E0432,Male,Group A,45+,0,1
+E0433,Female,Group A,30-44,0,4
+E0434,Female,Group B,30-44,0,3
+E0435,Female,Group B,30-44,0,3
+E0436,Male,Group C,30-44,1,3
+E0437,Male,Group C,30-44,1,4
+E0438,Female,Group A,30-44,1,3
+E0439,Female,Group C,30-44,0,3
+E0440,Male,Group B,45+,0,3
+E0441,Female,Group A,30-44,0,2
+E0442,Male,Group C,Under 30,0,1
+E0443,Male,Group C,45+,1,4
+E0444,Female,Group B,45+,1,4
+E0445,Male,Group D,30-44,1,4
+E0446,Male,Group A,Under 30,0,3
+E0447,Female,Group A,Under 30,0,2
+E0448,Female,Group C,45+,0,1
+E0449,Female,Group A,45+,0,2
+E0450,Female,Group B,Under 30,1,4
+E0451,Male,Group B,30-44,0,2
+E0452,Female,Group A,Under 30,0,2
+E0453,Female,Group C,30-44,0,3
+E0454,Female,Group C,30-44,1,4
+E0455,Female,Group A,30-44,1,4
+E0456,Male,Group A,45+,0,1
+E0457,Female,Group C,45+,0,3
+E0458,Male,Group D,Under 30,1,4
+E0459,Female,Group C,30-44,0,1
+E0460,Male,Group B,30-44,1,4
+E0461,Male,Group A,Under 30,1,4
+E0462,Female,Group A,30-44,1,3
+E0463,Female,Group A,30-44,0,3
+E0464,Male,Group B,45+,0,3
+E0465,Female,Group A,45+,0,1
+E0466,Male,Group A,Under 30,0,2
+E0467,Female,Group A,Under 30,1,4
+E0468,Female,Group A,45+,0,1
+E0469,Male,Group B,30-44,0,2
+E0470,Female,Group B,30-44,1,4
+E0471,Male,Group B,30-44,0,3
+E0472,Male,Group D,45+,0,3
+E0473,Female,Group C,30-44,1,4
+E0474,Female,Group B,30-44,0,2
+E0475,Female,Group C,Under 30,1,3
+E0476,Female,Group A,45+,1,4
+E0477,Female,Group C,Under 30,0,1
+E0478,Female,Group A,Under 30,0,3
+E0479,Male,Group B,30-44,1,4
+E0480,Male,Group D,45+,0,2
+E0481,Male,Group B,Under 30,0,4
+E0482,Male,Group B,30-44,1,5
+E0483,Male,Group C,Under 30,0,2
+E0484,Non-binary,Group A,30-44,0,2
+E0485,Male,Group C,45+,1,3
+E0486,Male,Group A,Under 30,0,3
+E0487,Male,Group A,30-44,0,3
+E0488,Female,Group A,30-44,0,3
+E0489,Female,Group A,Under 30,0,4
+E0490,Female,Group D,30-44,0,3
+E0491,Male,Group A,Under 30,1,4
+E0492,Male,Group A,Under 30,1,3
+E0493,Female,Group B,45+,1,4
+E0494,Male,Group C,Under 30,0,4
+E0495,Female,Group C,30-44,0,3
+E0496,Male,Group A,30-44,0,2
+E0497,Female,Group A,30-44,0,2
+E0498,Male,Group C,Under 30,1,3
+E0499,Male,Group A,45+,1,3
+E0500,Male,Group A,Under 30,0,3
+E0501,Male,Group A,30-44,0,3
+E0502,Female,Group B,45+,0,2
+E0503,Female,Group D,45+,0,3
+E0504,Male,Group C,45+,1,2
+E0505,Female,Group B,30-44,0,3
+E0506,Male,Group B,30-44,1,3
+E0507,Male,Group B,45+,0,4
+E0508,Female,Group B,Under 30,1,5
+E0509,Male,Group A,45+,0,2
+E0510,Male,Group A,Under 30,0,3
+E0511,Female,Group A,30-44,0,2
+E0512,Female,Group C,Under 30,0,2
+E0513,Male,Group B,Under 30,0,3
+E0514,Female,Group C,Under 30,0,2
+E0515,Female,Group A,45+,1,4
+E0516,Male,Group D,Under 30,0,3
+E0517,Male,Group A,45+,0,1
+E0518,Female,Group D,Under 30,0,1
+E0519,Male,Group B,30-44,1,4
+E0520,Female,Group B,Under 30,1,3
+E0521,Male,Group C,45+,0,2
+E0522,Female,Group B,Under 30,0,1
+E0523,Male,Group B,45+,0,4
+E0524,Male,Group A,30-44,0,2
+E0525,Female,Group B,45+,0,2
+E0526,Female,Group A,45+,0,1
+E0527,Male,Group A,Under 30,0,2
+E0528,Non-binary,Group A,30-44,0,2
+E0529,Male,Group B,Under 30,0,1
+E0530,Male,Group A,30-44,1,4
+E0531,Male,Group C,Under 30,1,4
+E0532,Male,Group A,30-44,0,3
+E0533,Male,Group A,30-44,0,3
+E0534,Female,Group D,Under 30,0,3
+E0535,Female,Group A,Under 30,0,2
+E0536,Male,Group B,45+,0,3
+E0537,Male,Group A,Under 30,0,4
+E0538,Male,Group A,30-44,1,4
+E0539,Female,Group A,Under 30,1,4
+E0540,Male,Group C,30-44,0,3
+E0541,Female,Group A,30-44,0,3
+E0542,Female,Group C,30-44,1,4
+E0543,Female,Group D,30-44,0,2
+E0544,Female,Group B,Under 30,1,4
+E0545,Female,Group A,45+,0,2
+E0546,Male,Group A,Under 30,0,3
+E0547,Male,Group A,30-44,1,5
+E0548,Male,Group A,30-44,0,3
+E0549,Male,Group C,Under 30,0,2
+E0550,Male,Group A,30-44,0,3
+E0551,Male,Group C,Under 30,0,2
+E0552,Female,Group B,30-44,1,4
+E0553,Male,Group A,30-44,0,2
+E0554,Male,Group A,Under 30,0,4
+E0555,Male,Group C,45+,1,4
+E0556,Male,Group B,30-44,0,3
+E0557,Non-binary,Group A,30-44,1,3
+E0558,Male,Group C,30-44,1,4
+E0559,Male,Group A,45+,1,4
+E0560,Male,Group A,Under 30,1,3
+E0561,Male,Group A,45+,0,2
+E0562,Male,Group B,45+,1,4
+E0563,Male,Group A,Under 30,0,3
+E0564,Male,Group A,Under 30,0,4
+E0565,Male,Group C,45+,0,2
+E0566,Female,Group B,30-44,0,3
+E0567,Male,Group B,Under 30,0,1
+E0568,Female,Group C,Under 30,0,3
+E0569,Male,Group B,30-44,1,3
+E0570,Male,Group A,45+,0,2
+E0571,Female,Group B,45+,1,2
+E0572,Male,Group A,30-44,0,3
+E0573,Female,Group A,30-44,0,1
+E0574,Female,Group A,45+,1,3
+E0575,Female,Group A,30-44,0,2
+E0576,Male,Group A,45+,0,2
+E0577,Female,Group B,30-44,0,1
+E0578,Female,Group C,30-44,1,3
+E0579,Female,Group A,30-44,0,1
+E0580,Male,Group A,Under 30,0,3
+E0581,Female,Group A,Under 30,0,2
+E0582,Female,Group B,Under 30,1,4
+E0583,Male,Group B,45+,0,1
+E0584,Male,Group D,45+,1,4
+E0585,Male,Group A,30-44,0,4
+E0586,Female,Group D,Under 30,0,4
+E0587,Female,Group D,Under 30,0,1
+E0588,Non-binary,Group A,30-44,0,4
+E0589,Female,Group C,30-44,1,4
+E0590,Female,Group C,Under 30,0,3
+E0591,Female,Group B,Under 30,1,3
+E0592,Female,Group A,30-44,1,3
+E0593,Female,Group B,45+,1,4
+E0594,Female,Group C,Under 30,1,3
+E0595,Male,Group A,30-44,0,3
+E0596,Female,Group B,30-44,0,1
+E0597,Male,Group A,30-44,1,4
+E0598,Female,Group C,30-44,0,1
+E0599,Female,Group C,30-44,0,3
+E0600,Male,Group A,45+,0,1
+E0601,Female,Group C,30-44,0,1
+E0602,Female,Group B,30-44,0,2
+E0603,Male,Group A,45+,1,5
+E0604,Male,Group B,45+,0,2
+E0605,Male,Group B,45+,1,4
+E0606,Male,Group A,Under 30,1,4
+E0607,Male,Group B,Under 30,0,3
+E0608,Male,Group D,30-44,1,4
+E0609,Female,Group B,45+,1,4
+E0610,Male,Group B,30-44,0,3
+E0611,Female,Group A,30-44,1,4
+E0612,Female,Group A,30-44,0,3
+E0613,Female,Group C,45+,1,3
+E0614,Male,Group C,Under 30,1,5
+E0615,Male,Group C,30-44,0,4
+E0616,Female,Group B,30-44,0,2
+E0617,Male,Group B,45+,1,5
+E0618,Male,Group B,45+,0,3
+E0619,Female,Group C,30-44,0,3
+E0620,Female,Group A,Under 30,1,4
+E0621,Male,Group B,45+,0,1
+E0622,Male,Group B,30-44,0,2
+E0623,Female,Group B,Under 30,1,3
+E0624,Male,Group A,Under 30,1,3
+E0625,Female,Group A,45+,1,4
+E0626,Male,Group A,45+,1,2
+E0627,Female,Group A,30-44,1,5
+E0628,Male,Group C,30-44,1,3
+E0629,Female,Group C,30-44,1,4
+E0630,Male,Group C,45+,0,1
+E0631,Female,Group A,30-44,1,4
+E0632,Female,Group A,45+,1,4
+E0633,Male,Group B,45+,1,5
+E0634,Male,Group C,45+,1,3
+E0635,Female,Group B,30-44,1,4
+E0636,Female,Group B,Under 30,0,2
+E0637,Male,Group A,30-44,0,3
+E0638,Female,Group A,45+,0,2
+E0639,Male,Group B,45+,0,2
+E0640,Female,Group B,Under 30,0,4
+E0641,Male,Group A,Under 30,0,2
+E0642,Female,Group A,30-44,0,2
+E0643,Female,Group B,45+,0,1
+E0644,Female,Group A,Under 30,1,4
+E0645,Male,Group B,30-44,0,2
+E0646,Female,Group A,Under 30,0,3
+E0647,Female,Group C,45+,0,2
+E0648,Male,Group A,30-44,0,1
+E0649,Male,Group B,Under 30,1,4
+E0650,Non-binary,Group D,45+,0,3
+E0651,Female,Group C,30-44,1,5
+E0652,Male,Group C,30-44,0,4
+E0653,Female,Group A,Under 30,0,3
+E0654,Male,Group C,30-44,0,1
+E0655,Male,Group A,Under 30,1,5
+E0656,Female,Group D,Under 30,0,4
+E0657,Male,Group C,30-44,1,4
+E0658,Male,Group B,Under 30,1,5
+E0659,Male,Group C,30-44,1,4
+E0660,Male,Group B,45+,0,3
+E0661,Male,Group C,30-44,1,4
+E0662,Male,Group A,Under 30,0,4
+E0663,Male,Group D,45+,1,4
+E0664,Male,Group C,Under 30,1,5
+E0665,Male,Group A,30-44,1,4
+E0666,Male,Group A,30-44,1,4
+E0667,Female,Group B,30-44,0,1
+E0668,Female,Group C,30-44,0,3
+E0669,Male,Group A,30-44,0,2
+E0670,Female,Group D,30-44,1,5
+E0671,Female,Group A,30-44,0,1
+E0672,Male,Group D,Under 30,1,5
+E0673,Male,Group C,30-44,1,4
+E0674,Female,Group B,30-44,0,3
+E0675,Male,Group A,Under 30,1,4
+E0676,Female,Group A,30-44,1,4
+E0677,Male,Group A,30-44,0,1
+E0678,Female,Group B,30-44,1,4
+E0679,Female,Group C,30-44,0,2
+E0680,Female,Group D,45+,0,2
+E0681,Male,Group A,30-44,1,4
+E0682,Female,Group D,30-44,0,4
+E0683,Male,Group A,45+,1,2
+E0684,Female,Group D,Under 30,1,4
+E0685,Male,Group D,45+,1,5
+E0686,Male,Group A,30-44,0,3
+E0687,Female,Group C,30-44,1,1
+E0688,Male,Group C,45+,1,4
+E0689,Male,Group C,30-44,0,1
+E0690,Non-binary,Group C,45+,0,3
+E0691,Male,Group B,45+,0,2
+E0692,Male,Group B,Under 30,1,4
+E0693,Male,Group A,30-44,0,3
+E0694,Male,Group C,45+,0,2
+E0695,Male,Group D,Under 30,0,3
+E0696,Female,Group A,30-44,1,3
+E0697,Female,Group C,45+,1,3
+E0698,Female,Group A,Under 30,0,3
+E0699,Female,Group A,Under 30,1,4
+E0700,Male,Group A,Under 30,0,2
+E0701,Female,Group B,30-44,0,4
+E0702,Female,Group A,Under 30,0,3
+E0703,Female,Group A,30-44,0,3
+E0704,Female,Group A,45+,0,2
+E0705,Female,Group A,30-44,1,5
+E0706,Male,Group C,30-44,1,3
+E0707,Female,Group A,Under 30,0,3
+E0708,Male,Group B,Under 30,1,5
+E0709,Male,Group B,45+,1,4
+E0710,Female,Group A,30-44,0,1
+E0711,Female,Group A,45+,0,3
+E0712,Male,Group D,30-44,0,3
+E0713,Female,Group D,30-44,0,1
+E0714,Female,Group C,30-44,0,1
+E0715,Male,Group A,Under 30,1,3
+E0716,Male,Group C,Under 30,1,4
+E0717,Male,Group B,30-44,0,2
+E0718,Female,Group A,Under 30,1,4
+E0719,Female,Group B,Under 30,0,2
+E0720,Female,Group D,Under 30,1,5
+E0721,Male,Group C,30-44,1,3
+E0722,Female,Group A,30-44,0,2
+E0723,Female,Group A,30-44,1,4
+E0724,Male,Group D,30-44,0,3
+E0725,Male,Group D,30-44,1,4
+E0726,Male,Group B,30-44,0,2
+E0727,Female,Group A,Under 30,1,3
+E0728,Female,Group B,45+,0,2
+E0729,Male,Group B,30-44,0,4
+E0730,Male,Group B,45+,1,5
+E0731,Male,Group A,Under 30,1,4
+E0732,Male,Group A,Under 30,1,3
+E0733,Female,Group A,Under 30,1,4
+E0734,Male,Group A,45+,0,2
+E0735,Male,Group A,30-44,0,3
+E0736,Male,Group D,45+,0,2
+E0737,Female,Group A,30-44,0,3
+E0738,Female,Group C,Under 30,0,2
+E0739,Male,Group C,30-44,1,3
+E0740,Male,Group A,30-44,1,3
+E0741,Male,Group B,30-44,0,3
+E0742,Non-binary,Group A,45+,0,2
+E0743,Female,Group B,Under 30,0,3
+E0744,Male,Group C,45+,0,3
+E0745,Female,Group C,30-44,0,1
+E0746,Male,Group B,30-44,1,4
+E0747,Female,Group D,30-44,1,5
+E0748,Male,Group C,Under 30,0,1
+E0749,Female,Group B,30-44,0,4
+E0750,Male,Group B,30-44,0,4
+E0751,Male,Group A,30-44,1,3
+E0752,Female,Group D,Under 30,1,3
+E0753,Female,Group B,Under 30,1,4
+E0754,Male,Group C,45+,1,2
+E0755,Male,Group A,30-44,0,4
+E0756,Male,Group D,30-44,1,4
+E0757,Male,Group A,45+,0,4
+E0758,Male,Group B,45+,1,4
+E0759,Male,Group A,Under 30,0,2
+E0760,Male,Group A,45+,0,4
+E0761,Male,Group C,Under 30,0,3
+E0762,Female,Group A,30-44,0,2
+E0763,Male,Group A,Under 30,0,5
+E0764,Male,Group A,Under 30,1,4
+E0765,Male,Group C,30-44,1,5
+E0766,Female,Group A,30-44,1,4
+E0767,Male,Group A,30-44,0,3
+E0768,Male,Group C,30-44,0,1
+E0769,Female,Group B,45+,0,2
+E0770,Male,Group C,Under 30,0,3
+E0771,Female,Group D,Under 30,1,3
+E0772,Female,Group A,30-44,0,3
+E0773,Male,Group B,30-44,0,3
+E0774,Female,Group C,30-44,0,2
+E0775,Male,Group C,30-44,0,2
+E0776,Male,Group C,30-44,1,3
+E0777,Male,Group A,45+,0,3
+E0778,Female,Group A,45+,0,1
+E0779,Female,Group C,45+,0,3
+E0780,Male,Group B,30-44,1,4
+E0781,Female,Group A,45+,0,3
+E0782,Male,Group A,30-44,0,3
+E0783,Male,Group B,Under 30,0,3
+E0784,Non-binary,Group A,45+,1,2
+E0785,Female,Group C,Under 30,0,3
+E0786,Male,Group A,30-44,1,3
+E0787,Female,Group C,30-44,1,4
+E0788,Male,Group A,45+,0,1
+E0789,Male,Group B,30-44,0,3
+E0790,Male,Group A,45+,1,4
+E0791,Female,Group C,Under 30,0,3
+E0792,Male,Group B,Under 30,0,2
+E0793,Female,Group A,Under 30,1,4
+E0794,Female,Group D,30-44,1,5
+E0795,Male,Group B,30-44,0,3
+E0796,Female,Group A,Under 30,0,3
+E0797,Male,Group C,Under 30,1,3
+E0798,Female,Group A,30-44,0,2
+E0799,Female,Group D,30-44,0,2
+E0800,Female,Group A,45+,1,4
+E0801,Non-binary,Group D,30-44,1,2
+E0802,Male,Group A,45+,0,4
+E0803,Female,Group C,45+,0,1
+E0804,Male,Group A,30-44,0,1
+E0805,Female,Group A,30-44,1,4
+E0806,Female,Group B,Under 30,0,4
+E0807,Non-binary,Group A,Under 30,0,1
+E0808,Male,Group A,30-44,1,4
+E0809,Male,Group A,30-44,1,5
+E0810,Female,Group C,Under 30,1,5
+E0811,Female,Group A,30-44,0,2
+E0812,Male,Group B,Under 30,1,5
+E0813,Female,Group A,45+,1,3
+E0814,Male,Group A,30-44,0,2
+E0815,Male,Group D,Under 30,0,4
+E0816,Female,Group B,30-44,0,2
+E0817,Male,Group B,Under 30,0,4
+E0818,Male,Group C,Under 30,0,4
+E0819,Male,Group C,30-44,0,3
+E0820,Male,Group A,Under 30,0,3
+E0821,Male,Group A,Under 30,0,2
+E0822,Male,Group B,30-44,0,3
+E0823,Female,Group A,30-44,0,3
+E0824,Female,Group A,30-44,0,3
+E0825,Female,Group D,30-44,0,3
+E0826,Female,Group B,30-44,1,5
+E0827,Male,Group A,30-44,1,5
+E0828,Male,Group A,30-44,1,5
+E0829,Male,Group C,30-44,0,3
+E0830,Male,Group B,30-44,0,1
+E0831,Female,Group A,45+,0,2
+E0832,Male,Group D,Under 30,0,3
+E0833,Male,Group D,Under 30,1,4
+E0834,Female,Group D,30-44,0,2
+E0835,Male,Group C,45+,0,2
+E0836,Male,Group B,45+,0,3
+E0837,Female,Group A,30-44,0,3
+E0838,Female,Group B,30-44,0,4
+E0839,Male,Group A,30-44,0,3
+E0840,Female,Group B,45+,0,1
+E0841,Male,Group A,Under 30,0,4
+E0842,Male,Group A,30-44,1,3
+E0843,Female,Group C,30-44,0,1
+E0844,Male,Group A,30-44,0,3
+E0845,Male,Group B,Under 30,0,4
+E0846,Female,Group C,30-44,0,2
+E0847,Female,Group C,Under 30,0,3
+E0848,Male,Group B,30-44,0,1
+E0849,Female,Group C,30-44,1,3
+E0850,Male,Group B,45+,1,4
+E0851,Non-binary,Group D,Under 30,1,3
+E0852,Male,Group C,Under 30,0,1
+E0853,Male,Group A,30-44,1,4
+E0854,Male,Group A,45+,0,2
+E0855,Non-binary,Group A,Under 30,0,1
+E0856,Male,Group A,30-44,1,4
+E0857,Female,Group A,Under 30,0,2
+E0858,Non-binary,Group C,30-44,0,2
+E0859,Female,Group A,Under 30,0,2
+E0860,Male,Group A,30-44,1,4
+E0861,Female,Group C,30-44,0,1
+E0862,Female,Group A,30-44,1,3
+E0863,Female,Group A,Under 30,0,3
+E0864,Male,Group D,Under 30,1,4
+E0865,Male,Group C,Under 30,1,4
+E0866,Male,Group A,Under 30,1,4
+E0867,Male,Group A,Under 30,0,3
+E0868,Female,Group A,Under 30,0,3
+E0869,Male,Group D,30-44,0,1
+E0870,Male,Group C,30-44,0,1
+E0871,Male,Group A,45+,0,3
+E0872,Male,Group C,30-44,0,1
+E0873,Male,Group A,30-44,0,3
+E0874,Female,Group C,30-44,1,4
+E0875,Male,Group A,45+,0,1
+E0876,Male,Group A,30-44,0,4
+E0877,Female,Group A,Under 30,1,4
+E0878,Male,Group A,30-44,1,4
+E0879,Male,Group C,Under 30,1,3
+E0880,Non-binary,Group C,30-44,0,2
+E0881,Female,Group B,Under 30,1,3
+E0882,Female,Group C,30-44,0,1
+E0883,Male,Group A,Under 30,0,1
+E0884,Male,Group A,45+,1,4
+E0885,Male,Group C,Under 30,1,4
+E0886,Male,Group D,30-44,0,2
+E0887,Male,Group A,30-44,0,3
+E0888,Male,Group C,Under 30,1,2
+E0889,Female,Group D,30-44,0,3
+E0890,Male,Group D,30-44,0,4
+E0891,Male,Group A,Under 30,1,4
+E0892,Female,Group B,Under 30,0,3
+E0893,Male,Group A,Under 30,1,5
+E0894,Male,Group B,30-44,0,1
+E0895,Male,Group B,Under 30,0,4
+E0896,Female,Group A,Under 30,1,3
+E0897,Female,Group A,Under 30,1,3
+E0898,Female,Group C,45+,1,3
+E0899,Female,Group B,30-44,0,2
+E0900,Male,Group C,30-44,1,5
+E0901,Male,Group A,30-44,0,3
+E0902,Female,Group A,45+,0,2
+E0903,Female,Group B,30-44,0,2
+E0904,Female,Group D,30-44,0,3
+E0905,Female,Group B,30-44,1,4
+E0906,Female,Group A,30-44,0,4
+E0907,Male,Group B,45+,1,4
+E0908,Female,Group D,30-44,0,1
+E0909,Male,Group C,30-44,1,4
+E0910,Male,Group C,45+,1,2
+E0911,Female,Group A,Under 30,0,4
+E0912,Female,Group A,Under 30,0,1
+E0913,Female,Group C,45+,1,2
+E0914,Male,Group C,45+,0,1
+E0915,Male,Group C,Under 30,1,4
+E0916,Male,Group A,Under 30,1,5
+E0917,Female,Group A,Under 30,0,3
+E0918,Non-binary,Group A,30-44,0,1
+E0919,Male,Group C,Under 30,0,1
+E0920,Female,Group D,30-44,0,2
+E0921,Male,Group A,30-44,1,3
+E0922,Male,Group C,Under 30,0,4
+E0923,Female,Group A,45+,1,3
+E0924,Male,Group A,Under 30,1,3
+E0925,Male,Group B,30-44,1,4
+E0926,Male,Group A,30-44,0,3
+E0927,Female,Group A,30-44,0,1
+E0928,Female,Group A,30-44,0,1
+E0929,Female,Group A,Under 30,1,4
+E0930,Female,Group B,30-44,0,1
+E0931,Male,Group A,Under 30,0,3
+E0932,Male,Group C,30-44,0,2
+E0933,Female,Group A,Under 30,1,4
+E0934,Female,Group A,30-44,1,3
+E0935,Male,Group B,30-44,1,4
+E0936,Male,Group A,45+,1,3
+E0937,Non-binary,Group A,Under 30,0,2
+E0938,Female,Group B,45+,1,3
+E0939,Male,Group B,30-44,0,3
+E0940,Female,Group C,Under 30,1,4
+E0941,Female,Group C,Under 30,0,4
+E0942,Male,Group A,45+,1,3
+E0943,Female,Group C,Under 30,0,3
+E0944,Female,Group B,Under 30,0,2
+E0945,Male,Group B,30-44,1,4
+E0946,Male,Group A,30-44,0,4
+E0947,Male,Group B,45+,1,4
+E0948,Female,Group B,30-44,0,3
+E0949,Female,Group C,30-44,0,3
+E0950,Female,Group C,30-44,1,4
+E0951,Female,Group A,Under 30,0,1
+E0952,Male,Group C,30-44,0,4
+E0953,Female,Group B,45+,0,1
+E0954,Male,Group B,Under 30,0,2
+E0955,Female,Group C,30-44,0,3
+E0956,Male,Group A,30-44,0,1
+E0957,Male,Group D,Under 30,1,5
+E0958,Non-binary,Group C,30-44,0,2
+E0959,Female,Group C,45+,1,4
+E0960,Male,Group A,Under 30,0,3
+E0961,Male,Group B,30-44,0,2
+E0962,Female,Group A,45+,1,3
+E0963,Male,Group C,Under 30,0,2
+E0964,Male,Group C,45+,0,2
+E0965,Male,Group A,30-44,1,5
+E0966,Female,Group C,30-44,0,1
+E0967,Male,Group B,Under 30,1,4
+E0968,Female,Group A,Under 30,0,3
+E0969,Male,Group D,Under 30,1,4
+E0970,Female,Group B,45+,0,3
+E0971,Male,Group A,45+,1,4
+E0972,Female,Group A,Under 30,0,2
+E0973,Non-binary,Group C,30-44,0,2
+E0974,Male,Group A,Under 30,1,3
+E0975,Male,Group B,45+,0,1
+E0976,Female,Group A,30-44,0,3
+E0977,Male,Group B,45+,1,3
+E0978,Female,Group A,30-44,0,2
+E0979,Male,Group C,Under 30,1,4
+E0980,Female,Group B,30-44,0,1
+E0981,Male,Group C,30-44,0,2
+E0982,Female,Group A,45+,0,2
+E0983,Female,Group A,30-44,0,2
+E0984,Male,Group C,Under 30,1,2
+E0985,Female,Group D,Under 30,0,1
+E0986,Female,Group B,Under 30,1,4
+E0987,Male,Group D,Under 30,1,4
+E0988,Male,Group C,30-44,1,5
+E0989,Male,Group B,Under 30,1,3
+E0990,Male,Group A,30-44,1,2
+E0991,Female,Group A,45+,0,1
+E0992,Male,Group B,45+,1,4
+E0993,Female,Group A,Under 30,0,1
+E0994,Non-binary,Group A,30-44,1,4
+E0995,Non-binary,Group B,30-44,0,1
+E0996,Female,Group A,Under 30,0,3
+E0997,Female,Group A,30-44,0,3
+E0998,Male,Group A,Under 30,0,1
+E0999,Non-binary,Group B,30-44,0,3
+E1000,Male,Group C,30-44,0,1
+E1001,Female,Group B,45+,0,1
+E1002,Female,Group B,Under 30,0,3
+E1003,Female,Group B,30-44,0,3
+E1004,Female,Group A,30-44,0,3
+E1005,Male,Group A,30-44,1,4
+E1006,Female,Group C,45+,0,1
+E1007,Male,Group D,30-44,1,4
+E1008,Male,Group A,30-44,0,3
+E1009,Male,Group A,30-44,0,3
+E1010,Female,Group D,30-44,0,3
+E1011,Female,Group C,30-44,1,4
+E1012,Male,Group B,Under 30,1,5
+E1013,Male,Group C,Under 30,0,1
+E1014,Male,Group B,30-44,0,3
+E1015,Male,Group D,30-44,1,3
+E1016,Male,Group A,45+,1,3
+E1017,Female,Group A,Under 30,1,5
+E1018,Male,Group B,Under 30,1,4
+E1019,Male,Group A,45+,1,3
+E1020,Male,Group C,30-44,1,3
+E1021,Female,Group A,Under 30,1,4
+E1022,Male,Group C,Under 30,1,1
+E1023,Male,Group C,45+,1,4
+E1024,Male,Group A,Under 30,1,5
+E1025,Female,Group D,30-44,1,4
+E1026,Male,Group B,45+,0,1
+E1027,Female,Group C,30-44,0,2
+E1028,Male,Group A,45+,0,3
+E1029,Female,Group A,45+,0,2
+E1030,Male,Group C,Under 30,1,4
+E1031,Female,Group D,45+,1,4
+E1032,Female,Group B,30-44,1,4
+E1033,Female,Group D,Under 30,0,3
+E1034,Male,Group A,Under 30,0,3
+E1035,Male,Group C,30-44,0,3
+E1036,Non-binary,Group C,Under 30,0,2
+E1037,Male,Group B,45+,0,3
+E1038,Male,Group A,30-44,0,2
+E1039,Female,Group C,Under 30,1,3
+E1040,Male,Group A,45+,0,2
+E1041,Male,Group B,30-44,0,2
+E1042,Male,Group B,30-44,1,3
+E1043,Male,Group B,Under 30,1,3
+E1044,Male,Group A,30-44,1,4
+E1045,Female,Group A,45+,0,3
+E1046,Male,Group A,30-44,0,2
+E1047,Male,Group C,30-44,0,2
+E1048,Female,Group A,30-44,1,3
+E1049,Female,Group A,30-44,1,4
+E1050,Female,Group A,30-44,1,3
+E1051,Male,Group B,Under 30,1,5
+E1052,Female,Group B,Under 30,1,4
+E1053,Female,Group C,Under 30,0,3
+E1054,Male,Group C,45+,1,4
+E1055,Female,Group D,Under 30,0,4
+E1056,Male,Group C,Under 30,1,4
+E1057,Female,Group B,30-44,0,2
+E1058,Male,Group A,30-44,0,1
+E1059,Female,Group D,45+,1,3
+E1060,Female,Group A,Under 30,0,2
+E1061,Female,Group B,Under 30,1,3
+E1062,Male,Group A,Under 30,0,2
+E1063,Non-binary,Group C,30-44,1,4
+E1064,Female,Group A,Under 30,0,1
+E1065,Male,Group A,30-44,1,4
+E1066,Male,Group A,30-44,1,4
+E1067,Female,Group C,30-44,1,3
+E1068,Male,Group B,30-44,0,2
+E1069,Female,Group B,Under 30,1,3
+E1070,Female,Group A,30-44,1,4
+E1071,Female,Group A,45+,0,2
+E1072,Female,Group C,45+,1,1
+E1073,Male,Group C,30-44,1,2
+E1074,Male,Group C,45+,0,3
+E1075,Male,Group D,Under 30,0,3
+E1076,Female,Group B,Under 30,0,1
+E1077,Male,Group A,30-44,1,4
+E1078,Female,Group B,30-44,0,3
+E1079,Male,Group A,45+,0,3
+E1080,Female,Group B,30-44,1,4
+E1081,Female,Group B,Under 30,1,2
+E1082,Male,Group B,30-44,0,3
+E1083,Non-binary,Group D,Under 30,0,2
+E1084,Female,Group C,45+,0,3
+E1085,Male,Group A,Under 30,1,4
+E1086,Male,Group C,Under 30,0,3
+E1087,Male,Group C,Under 30,1,4
+E1088,Female,Group C,30-44,1,4
+E1089,Male,Group B,30-44,0,2
+E1090,Male,Group C,Under 30,1,4
+E1091,Male,Group B,Under 30,0,2
+E1092,Female,Group A,30-44,0,4
+E1093,Female,Group A,30-44,0,2
+E1094,Female,Group B,Under 30,1,5
+E1095,Male,Group A,30-44,1,3
+E1096,Female,Group A,Under 30,1,4
+E1097,Male,Group A,Under 30,1,3
+E1098,Male,Group A,30-44,0,4
+E1099,Non-binary,Group A,Under 30,0,4
+E1100,Male,Group A,45+,1,3
+E1101,Female,Group B,Under 30,1,3
+E1102,Female,Group A,30-44,0,3
+E1103,Male,Group B,30-44,0,3
+E1104,Female,Group D,30-44,1,3
+E1105,Male,Group B,30-44,0,1
+E1106,Female,Group C,Under 30,1,4
+E1107,Male,Group C,Under 30,1,3
+E1108,Male,Group D,Under 30,1,4
+E1109,Female,Group A,45+,0,1
+E1110,Male,Group A,Under 30,0,4
+E1111,Male,Group D,Under 30,0,2
+E1112,Female,Group B,30-44,1,4
+E1113,Male,Group D,30-44,1,3
+E1114,Female,Group A,30-44,0,2
+E1115,Female,Group A,Under 30,0,1
+E1116,Female,Group C,Under 30,0,2
+E1117,Male,Group A,45+,1,4
+E1118,Female,Group B,Under 30,1,3
+E1119,Non-binary,Group D,Under 30,0,2
+E1120,Male,Group A,45+,1,4
+E1121,Female,Group D,Under 30,0,2
+E1122,Male,Group A,45+,1,3
+E1123,Female,Group A,Under 30,1,3
+E1124,Female,Group A,30-44,0,3
+E1125,Female,Group B,30-44,0,2
+E1126,Female,Group B,30-44,1,3
+E1127,Female,Group C,45+,1,4
+E1128,Male,Group A,Under 30,0,1
+E1129,Female,Group A,30-44,1,4
+E1130,Male,Group A,45+,0,2
+E1131,Male,Group B,Under 30,1,4
+E1132,Male,Group C,30-44,1,4
+E1133,Female,Group B,30-44,0,2
+E1134,Female,Group B,30-44,0,4
+E1135,Female,Group B,30-44,1,4
+E1136,Male,Group A,30-44,0,2
+E1137,Male,Group A,30-44,0,1
+E1138,Male,Group D,45+,1,3
+E1139,Female,Group A,30-44,1,3
+E1140,Female,Group D,45+,0,3
+E1141,Female,Group B,30-44,0,3
+E1142,Female,Group A,Under 30,1,4
+E1143,Female,Group A,Under 30,0,1
+E1144,Male,Group A,Under 30,1,4
+E1145,Male,Group A,Under 30,0,4
+E1146,Male,Group A,Under 30,1,5
+E1147,Female,Group A,30-44,0,2
+E1148,Female,Group B,30-44,0,4
+E1149,Male,Group B,30-44,0,3
+E1150,Male,Group A,30-44,0,2
+E1151,Male,Group A,30-44,1,5
+E1152,Female,Group D,Under 30,1,5
+E1153,Female,Group A,45+,1,3
+E1154,Female,Group C,Under 30,0,1
+E1155,Male,Group B,30-44,1,4
+E1156,Male,Group C,30-44,1,5
+E1157,Female,Group A,Under 30,1,4
+E1158,Female,Group A,45+,0,2
+E1159,Female,Group B,30-44,0,3
+E1160,Male,Group D,30-44,1,4
+E1161,Female,Group A,Under 30,0,3
+E1162,Male,Group A,Under 30,1,4
+E1163,Non-binary,Group A,30-44,0,2
+E1164,Male,Group C,Under 30,0,2
+E1165,Male,Group A,Under 30,0,2
+E1166,Female,Group A,30-44,0,1
+E1167,Male,Group B,30-44,0,3
+E1168,Female,Group C,45+,0,2
+E1169,Female,Group B,30-44,0,3
+E1170,Female,Group A,30-44,0,2
+E1171,Male,Group A,45+,0,3
+E1172,Female,Group A,45+,0,1
+E1173,Male,Group A,30-44,1,4
+E1174,Non-binary,Group D,30-44,0,2
+E1175,Female,Group B,Under 30,1,5
+E1176,Male,Group A,Under 30,1,5
+E1177,Male,Group C,Under 30,0,4
+E1178,Female,Group D,Under 30,0,3
+E1179,Male,Group C,Under 30,0,4
+E1180,Male,Group A,Under 30,0,2
+E1181,Male,Group A,30-44,0,3
+E1182,Male,Group B,Under 30,0,1
+E1183,Male,Group B,Under 30,0,3
+E1184,Female,Group C,30-44,0,3
+E1185,Female,Group D,Under 30,0,3
+E1186,Female,Group D,30-44,1,4
+E1187,Male,Group A,Under 30,0,3
+E1188,Male,Group B,30-44,1,4
+E1189,Male,Group A,Under 30,0,1
+E1190,Non-binary,Group B,30-44,0,3
+E1191,Male,Group A,45+,0,2
+E1192,Female,Group A,30-44,0,3
+E1193,Female,Group A,30-44,0,2
+E1194,Male,Group A,30-44,0,3
+E1195,Male,Group A,Under 30,0,3
+E1196,Female,Group C,Under 30,1,2
+E1197,Male,Group A,45+,0,2
+E1198,Female,Group A,30-44,0,3
+E1199,Male,Group B,30-44,0,2
+E1200,Male,Group B,30-44,0,2
+E1201,Male,Group C,45+,1,4
+E1202,Female,Group C,Under 30,0,2
+E1203,Male,Group B,30-44,0,2
+E1204,Female,Group B,30-44,0,2
+E1205,Female,Group C,45+,0,3
+E1206,Female,Group A,Under 30,0,3
+E1207,Male,Group A,30-44,0,3
+E1208,Male,Group C,30-44,0,4
+E1209,Male,Group A,30-44,1,5
+E1210,Non-binary,Group B,Under 30,1,4
+E1211,Female,Group A,30-44,0,1
+E1212,Male,Group A,30-44,1,3
+E1213,Female,Group C,30-44,0,2
+E1214,Female,Group B,Under 30,1,4
+E1215,Non-binary,Group A,30-44,0,1
+E1216,Female,Group A,Under 30,0,2
+E1217,Female,Group C,30-44,0,3
+E1218,Female,Group B,30-44,1,3
+E1219,Male,Group A,45+,0,2
+E1220,Male,Group C,Under 30,0,3
+E1221,Female,Group B,45+,0,1
+E1222,Male,Group D,Under 30,1,4
+E1223,Male,Group B,Under 30,1,5
+E1224,Non-binary,Group C,Under 30,0,1
+E1225,Female,Group B,Under 30,0,3
+E1226,Female,Group C,45+,0,1
+E1227,Female,Group C,45+,0,1
+E1228,Male,Group A,45+,0,1
+E1229,Non-binary,Group B,30-44,0,1
+E1230,Female,Group B,Under 30,0,3
+E1231,Male,Group A,30-44,1,4
+E1232,Male,Group C,45+,1,3
+E1233,Male,Group C,Under 30,1,2
+E1234,Female,Group D,45+,1,2
+E1235,Male,Group A,Under 30,1,4
+E1236,Male,Group B,30-44,1,5
+E1237,Female,Group D,30-44,0,3
+E1238,Female,Group A,45+,0,1
+E1239,Female,Group C,45+,0,1
+E1240,Female,Group A,Under 30,1,3
+E1241,Male,Group A,30-44,0,2
+E1242,Male,Group A,Under 30,0,4
+E1243,Male,Group A,30-44,0,3
+E1244,Male,Group A,Under 30,1,4
+E1245,Female,Group A,30-44,0,3
+E1246,Female,Group C,30-44,0,1
+E1247,Female,Group D,Under 30,0,2
+E1248,Female,Group A,30-44,1,4
+E1249,Male,Group A,45+,0,1
+E1250,Male,Group A,Under 30,0,3
+E1251,Female,Group D,45+,1,4
+E1252,Male,Group A,30-44,1,4
+E1253,Female,Group B,Under 30,0,3
+E1254,Male,Group A,45+,1,3
+E1255,Female,Group A,30-44,0,3
+E1256,Male,Group A,30-44,1,3
+E1257,Male,Group B,30-44,0,1
+E1258,Female,Group A,45+,1,4
+E1259,Female,Group C,Under 30,1,2
+E1260,Female,Group B,Under 30,0,2
+E1261,Female,Group A,Under 30,1,4
+E1262,Male,Group A,Under 30,0,2
+E1263,Male,Group B,45+,0,4
+E1264,Female,Group B,30-44,1,3
+E1265,Non-binary,Group A,30-44,1,4
+E1266,Male,Group A,45+,0,3
+E1267,Female,Group B,30-44,1,5
+E1268,Male,Group D,Under 30,0,2
+E1269,Male,Group B,30-44,1,4
+E1270,Female,Group C,30-44,0,1
+E1271,Female,Group B,Under 30,1,3
+E1272,Non-binary,Group B,Under 30,1,3
+E1273,Female,Group B,30-44,1,3
+E1274,Male,Group B,30-44,0,1
+E1275,Female,Group B,Under 30,0,2
+E1276,Male,Group C,45+,0,2
+E1277,Male,Group A,Under 30,1,4
+E1278,Male,Group A,Under 30,1,4
+E1279,Male,Group C,Under 30,0,3
+E1280,Male,Group A,30-44,0,2
+E1281,Male,Group C,30-44,0,2
+E1282,Male,Group D,30-44,0,3
+E1283,Male,Group B,45+,1,5
+E1284,Male,Group A,Under 30,0,3
+E1285,Female,Group C,45+,1,5
+E1286,Female,Group B,30-44,1,4
+E1287,Male,Group A,30-44,0,4
+E1288,Female,Group C,Under 30,1,4
+E1289,Female,Group B,45+,0,2
+E1290,Male,Group A,30-44,0,4
+E1291,Female,Group A,30-44,1,3
+E1292,Male,Group A,Under 30,0,3
+E1293,Female,Group B,30-44,0,2
+E1294,Female,Group C,Under 30,1,4
+E1295,Male,Group A,30-44,1,3
+E1296,Non-binary,Group A,30-44,1,4
+E1297,Female,Group B,Under 30,1,5
+E1298,Female,Group A,30-44,1,4
+E1299,Female,Group A,45+,1,2
+E1300,Female,Group C,Under 30,0,2
+E1301,Male,Group D,30-44,0,2
+E1302,Female,Group D,Under 30,1,4
+E1303,Male,Group C,Under 30,0,5
+E1304,Female,Group A,30-44,0,3
+E1305,Female,Group A,30-44,0,3
+E1306,Male,Group B,30-44,0,3
+E1307,Male,Group D,45+,1,5
+E1308,Female,Group A,30-44,0,3
+E1309,Female,Group B,30-44,0,2
+E1310,Female,Group A,30-44,1,5
+E1311,Male,Group A,30-44,0,3
+E1312,Female,Group A,45+,0,1
+E1313,Male,Group A,30-44,0,4
+E1314,Female,Group A,30-44,0,2
+E1315,Female,Group A,Under 30,0,3
+E1316,Female,Group B,45+,0,3
+E1317,Male,Group A,Under 30,0,3
+E1318,Male,Group C,30-44,1,4
+E1319,Female,Group B,45+,1,3
+E1320,Male,Group D,Under 30,0,2
+E1321,Female,Group A,45+,0,1
+E1322,Male,Group C,Under 30,0,3
+E1323,Male,Group A,Under 30,1,4
+E1324,Female,Group B,30-44,0,4
+E1325,Female,Group C,45+,0,1
+E1326,Female,Group A,30-44,0,4
+E1327,Female,Group A,45+,0,3
+E1328,Male,Group B,30-44,0,3
+E1329,Female,Group A,45+,1,4
+E1330,Male,Group B,Under 30,1,4
+E1331,Female,Group A,Under 30,1,3
+E1332,Male,Group A,Under 30,0,3
+E1333,Male,Group B,30-44,0,3
+E1334,Male,Group D,30-44,0,4
+E1335,Female,Group D,30-44,0,3
+E1336,Female,Group A,Under 30,0,2
+E1337,Female,Group A,30-44,1,4
+E1338,Female,Group B,45+,1,4
+E1339,Male,Group A,Under 30,0,2
+E1340,Female,Group A,30-44,1,2
+E1341,Male,Group C,45+,1,5
+E1342,Female,Group C,45+,0,2
+E1343,Male,Group B,45+,0,1
+E1344,Female,Group B,Under 30,1,2
+E1345,Male,Group B,30-44,1,3
+E1346,Male,Group B,Under 30,0,4
+E1347,Male,Group D,30-44,0,3
+E1348,Male,Group D,30-44,1,4
+E1349,Male,Group D,Under 30,0,4
+E1350,Female,Group C,30-44,0,1
+E1351,Female,Group A,30-44,0,2
+E1352,Male,Group B,Under 30,1,4
+E1353,Male,Group C,Under 30,0,3
+E1354,Female,Group A,45+,0,4
+E1355,Male,Group B,Under 30,1,3
+E1356,Female,Group A,45+,0,2
+E1357,Male,Group A,45+,1,5
+E1358,Male,Group A,45+,1,4
+E1359,Male,Group A,45+,1,4
+E1360,Male,Group A,Under 30,0,2
+E1361,Male,Group A,Under 30,0,3
+E1362,Male,Group C,30-44,1,3
+E1363,Female,Group A,Under 30,1,3
+E1364,Non-binary,Group A,Under 30,0,2
+E1365,Male,Group C,45+,1,3
+E1366,Female,Group B,45+,1,3
+E1367,Male,Group A,45+,0,1
+E1368,Female,Group A,Under 30,0,2
+E1369,Male,Group B,45+,0,3
+E1370,Male,Group A,45+,0,3
+E1371,Female,Group A,30-44,1,4
+E1372,Female,Group B,Under 30,1,4
+E1373,Male,Group B,Under 30,0,3
+E1374,Male,Group A,30-44,0,2
+E1375,Female,Group B,45+,0,1
+E1376,Non-binary,Group B,Under 30,1,3
+E1377,Female,Group A,30-44,0,1
+E1378,Female,Group A,30-44,1,5
+E1379,Non-binary,Group A,45+,1,2
+E1380,Female,Group C,Under 30,1,4
+E1381,Female,Group A,30-44,1,3
+E1382,Male,Group A,30-44,1,4
+E1383,Male,Group A,30-44,0,3
+E1384,Female,Group B,45+,0,3
+E1385,Female,Group C,45+,0,2
+E1386,Male,Group A,45+,0,2
+E1387,Male,Group C,Under 30,0,3
+E1388,Male,Group B,Under 30,0,3
+E1389,Female,Group A,Under 30,0,2
+E1390,Male,Group D,Under 30,1,5
+E1391,Female,Group A,Under 30,0,3
+E1392,Male,Group C,45+,0,2
+E1393,Female,Group A,Under 30,0,3
+E1394,Female,Group B,Under 30,0,3
+E1395,Male,Group B,45+,1,4
+E1396,Male,Group C,45+,0,1
+E1397,Male,Group C,45+,1,3
+E1398,Female,Group B,30-44,0,3
+E1399,Male,Group A,Under 30,0,3
+E1400,Male,Group A,45+,0,2
+E1401,Male,Group A,Under 30,1,4
+E1402,Male,Group D,45+,0,2
+E1403,Female,Group B,Under 30,1,4
+E1404,Female,Group A,Under 30,0,2
+E1405,Female,Group A,30-44,0,3
+E1406,Female,Group C,30-44,0,3
+E1407,Female,Group A,30-44,1,5
+E1408,Male,Group C,30-44,0,2
+E1409,Female,Group B,30-44,1,4
+E1410,Female,Group A,Under 30,0,3
+E1411,Female,Group C,Under 30,0,1
+E1412,Female,Group A,30-44,1,2
+E1413,Female,Group A,30-44,0,2
+E1414,Male,Group A,Under 30,0,1
+E1415,Female,Group A,Under 30,1,3
+E1416,Female,Group A,30-44,1,4
+E1417,Male,Group A,30-44,1,4
+E1418,Male,Group C,Under 30,0,3
+E1419,Male,Group A,45+,1,4
+E1420,Male,Group B,45+,1,2
+E1421,Male,Group D,Under 30,0,2
+E1422,Male,Group C,30-44,1,2
+E1423,Female,Group D,Under 30,0,3
+E1424,Female,Group B,30-44,0,2
+E1425,Female,Group B,Under 30,1,3
+E1426,Non-binary,Group B,Under 30,0,1
+E1427,Male,Group B,Under 30,1,4
+E1428,Female,Group B,Under 30,0,3
+E1429,Male,Group A,30-44,0,3
+E1430,Male,Group A,Under 30,1,4
+E1431,Female,Group A,45+,1,3
+E1432,Male,Group A,45+,0,4
+E1433,Female,Group C,Under 30,0,2
+E1434,Female,Group B,30-44,0,2
+E1435,Female,Group A,45+,1,3
+E1436,Female,Group C,Under 30,1,4
+E1437,Male,Group A,30-44,0,3
+E1438,Male,Group D,30-44,0,3
+E1439,Female,Group B,30-44,1,4
+E1440,Male,Group B,Under 30,1,5
+E1441,Male,Group A,Under 30,0,2
+E1442,Male,Group C,30-44,0,2
+E1443,Non-binary,Group A,Under 30,0,1
+E1444,Male,Group A,30-44,0,4
+E1445,Male,Group B,45+,0,3
+E1446,Female,Group A,30-44,1,4
+E1447,Male,Group A,30-44,1,5
+E1448,Non-binary,Group B,45+,1,4
+E1449,Female,Group A,30-44,1,3
+E1450,Female,Group D,30-44,1,3
+E1451,Male,Group B,Under 30,1,4
+E1452,Male,Group A,30-44,1,5
+E1453,Male,Group C,30-44,1,4
+E1454,Male,Group B,30-44,0,3
+E1455,Male,Group B,30-44,0,4
+E1456,Male,Group C,Under 30,0,1
+E1457,Female,Group D,45+,1,3
+E1458,Female,Group A,30-44,0,2
+E1459,Non-binary,Group D,45+,0,2
+E1460,Female,Group B,30-44,0,3
+E1461,Male,Group A,Under 30,0,5
+E1462,Female,Group A,Under 30,0,3
+E1463,Male,Group A,30-44,0,3
+E1464,Male,Group C,30-44,0,2
+E1465,Female,Group B,Under 30,1,4
+E1466,Male,Group A,Under 30,0,2
+E1467,Male,Group C,Under 30,0,3
+E1468,Male,Group B,45+,1,3
+E1469,Female,Group C,30-44,1,5
+E1470,Male,Group A,45+,1,4
+E1471,Male,Group C,Under 30,1,3
+E1472,Female,Group C,Under 30,1,4
+E1473,Male,Group A,45+,0,2
+E1474,Female,Group B,Under 30,0,1
+E1475,Male,Group A,Under 30,0,1
+E1476,Female,Group B,30-44,0,1
+E1477,Male,Group A,Under 30,1,5
+E1478,Female,Group C,Under 30,0,1
+E1479,Non-binary,Group A,30-44,1,3
+E1480,Female,Group B,30-44,1,3
+E1481,Male,Group B,Under 30,0,4
+E1482,Male,Group A,30-44,0,3
+E1483,Male,Group A,30-44,0,3
+E1484,Male,Group D,45+,0,2
+E1485,Male,Group A,Under 30,0,4
+E1486,Male,Group A,Under 30,1,4
+E1487,Female,Group A,30-44,0,2
+E1488,Female,Group B,Under 30,0,1
+E1489,Female,Group A,45+,0,1
+E1490,Female,Group A,45+,0,3
+E1491,Male,Group B,30-44,0,2
+E1492,Male,Group C,45+,0,3
+E1493,Male,Group C,Under 30,0,2
+E1494,Male,Group B,45+,1,3
+E1495,Male,Group A,Under 30,1,4
+E1496,Female,Group A,Under 30,1,4
+E1497,Male,Group B,Under 30,0,4
+E1498,Male,Group B,30-44,0,4
+E1499,Male,Group A,Under 30,0,5
+E1500,Female,Group D,45+,1,4

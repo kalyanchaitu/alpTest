@@ -1,4 +1,4 @@
-"""AI Bias Audit Dashboard for HR hiring decisions (Streamlit).
+"""AI Bias Audit Dashboard for AI-assisted performance ratings (Streamlit).
 
 Run locally:  streamlit run app.py
 """
@@ -12,12 +12,15 @@ import streamlit as st
 import audit
 from audit import MIN_N, STATUS_TEXT, label, pct, r2
 
-st.set_page_config(page_title="HR Bias Audit", page_icon="⚖️", layout="wide")
+st.set_page_config(page_title="Performance Rating Bias Audit", page_icon="⚖️", layout="wide")
 
-SAMPLE_PATH = Path(__file__).parent / "data" / "sample_hiring_decisions.csv"
+TITLE = "AI Bias Audit · Performance Ratings"
+SAMPLE_PATH = Path(__file__).parent / "data" / "sample_performance_ratings.csv"
 COLORS = {"bad": "#d6336c", "warn": "#f08c00", "ok": "#3b5bdb", "small": "#adb5bd"}
 CELL_BG = {"bad": "rgba(214,51,108,.14)", "warn": "rgba(240,140,0,.16)", "ok": "rgba(47,158,68,.14)", "small": "rgba(134,142,150,.14)"}
 CELL_FG = {"bad": "#c2255c", "warn": "#b35c00", "ok": "#2b8a3e", "small": "#868e96"}
+LOW_SHADES = ["#c2255c", "#e64980", "#f783ac", "#fcc2d7"]   # below the cut-off, darkest = lowest
+HIGH_SHADES = ["#91a7ff", "#5c7cfa", "#3b5bdb", "#364fc7"]  # at or above the cut-off, darkest = highest
 
 
 @st.cache_data
@@ -27,16 +30,25 @@ def load_sample() -> pd.DataFrame:
     return audit.generate_sample()
 
 
+def level_colors(scale, cutoff):
+    low = [v for v in scale if v < cutoff]
+    high = [v for v in scale if v >= cutoff]
+    lows = (LOW_SHADES * 3)[:len(low)]
+    highs = (HIGH_SHADES * 3)[-len(high):] if high else []
+    return dict(zip(low, lows)) | dict(zip(high, highs))
+
+
 # ----------------------------------------------------------------------------- sidebar
 with st.sidebar:
     st.header("Data")
-    uploaded = st.file_uploader("Upload decisions CSV", type=["csv"])
+    uploaded = st.file_uploader("Upload ratings CSV", type=["csv"])
     st.caption(
-        "Needs a **decision** column (1 = AI selected), an optional **qualified** column "
-        "(1 = actually suitable, enables equalised odds) and 1–3 demographic columns."
+        "Needs a **rating** column (the AI-suggested rating, e.g. 1–5, or 1 = high and 0 = not), an optional "
+        "**met_objectives** column (1 = met or exceeded objective targets, enables equalised odds) and 1–3 "
+        "demographic columns."
     )
     st.download_button("Download CSV template", load_sample().to_csv(index=False),
-                       "hr_decisions_template.csv", "text/csv")
+                       "performance_ratings_template.csv", "text/csv")
 
     if uploaded is not None:
         try:
@@ -47,22 +59,31 @@ with st.sidebar:
         source = uploaded.name
     else:
         raw = load_sample()
-        source = "Synthetic hiring sample"
+        source = "Synthetic performance-review sample"
 
     candidates = audit.candidate_dims(raw)
     st.header("Settings")
     dims = st.multiselect("Demographic dimensions", candidates, default=candidates[:3], max_selections=3,
                           format_func=label)
+    scale = audit.rating_scale(raw)
+    cutoff = audit.DEFAULT_CUTOFF
+    if scale is not None:
+        options = scale[1:]
+        default = audit.DEFAULT_CUTOFF if audit.DEFAULT_CUTOFF in options else options[len(options) // 2]
+        cutoff = st.select_slider("High rating = at or above", options=options, value=default,
+                                  format_func=lambda v: audit.scale_label(v, scale),
+                                  help="Ratings at or above this level count as the favourable outcome, "
+                                       "since they drive pay rises, bonuses and promotion.")
     thr = st.slider("Impact ratio threshold", 0.50, 0.95, 0.80, 0.05,
-                    help="Groups whose selection rate is below this fraction of the highest group's rate are flagged "
-                         "(0.80 = the four-fifths rule).")
+                    help="Groups whose high-rating rate is below this fraction of the highest group's rate are "
+                         "flagged (0.80 = the four-fifths rule).")
     st.caption("Uploaded files are processed in memory for this session only and are not stored.")
 
 # ----------------------------------------------------------------------------- analysis
 try:
-    prep = audit.prepare(raw, dims or None)
+    prep = audit.prepare(raw, dims or None, cutoff)
 except ValueError as e:
-    st.title("AI Bias Audit · Hiring Decisions")
+    st.title(TITLE)
     st.error(str(e))
     st.stop()
 
@@ -70,28 +91,31 @@ results = [audit.analyse(prep, d, thr) for d in prep.dims]
 overall = prep.df["decision"].mean()
 flagged = [r for r in results if r.status == "bad"]
 worst = min(results, key=lambda r: r.worst_di)
+high_txt = audit.high_text(prep)
 
 # ----------------------------------------------------------------------------- header + KPIs
-st.title("AI Bias Audit · Hiring Decisions")
-st.caption(f"{source} · {len(prep.df):,} decisions")
+st.title(TITLE)
+st.caption(f"{source} · {len(prep.df):,} employees · high rating = {high_txt}")
+if prep.dropped:
+    st.warning(f"{prep.dropped} rows had no usable rating and were left out.")
 
 k = st.columns(4)
-k[0].metric("Decisions audited", f"{len(prep.df):,}", f"{len(prep.dims)} dimensions", delta_color="off")
-k[1].metric("Overall selection rate", pct(overall))
+k[0].metric("Employees audited", f"{len(prep.df):,}", f"{len(prep.dims)} dimensions", delta_color="off")
+k[1].metric("Overall high-rating rate", pct(overall))
 k[2].metric("Dimensions with adverse impact", f"{len(flagged)} of {len(results)}")
 k[3].metric("Lowest impact ratio", r2(worst.worst_di), f"{worst.worst_group} · {label(worst.dim)}",
             delta_color="off")
 
 # ----------------------------------------------------------------------------- heatmap
 st.subheader("Impact ratio overview")
-st.caption("Each group's selection rate relative to the highest-rate group in that dimension.")
+st.caption("Each group's high-rating rate relative to the highest-rate group in that dimension.")
 rows_html = []
 for r in results:
     cells = "".join(
         f'<td><div style="background:{CELL_BG[g.status]};color:{CELL_FG[g.status]};border-radius:8px;'
         f'padding:6px 10px;min-width:110px;text-align:center">{escape(str(g.group))}<br>'
         f'<b style="font-size:1.1em">{r2(g.impact_ratio)}</b><br>'
-        f'<span style="font-size:.8em;opacity:.8">{pct(g.selection_rate)} selected'
+        f'<span style="font-size:.8em;opacity:.8">{pct(g.selection_rate)} rated high'
         f'{" · n&lt;" + str(MIN_N) if g.status == "small" else ""}</span></div></td>'
         for g in r.groups.itertuples()
     )
@@ -110,12 +134,15 @@ for tab, r in zip(tabs, results):
     with tab:
         badge = {"bad": "🔴", "warn": "🟠", "ok": "🟢"}[r.status]
         st.markdown(f"**Status:** {badge} {STATUS_TEXT[r.status]}")
-        m = st.columns(3)
+        m = st.columns(4)
         m[0].metric("Demographic parity difference", pct(r.dpd),
-                    help="Highest minus lowest group selection rate. 0 = perfect parity.")
+                    help="Highest minus lowest group high-rating rate. 0 = perfect parity.")
         m[1].metric("Equalised odds difference", pct(r.eod),
-                    help="Largest gap in true or false positive rate between groups. Needs a qualified column.")
-        m[2].metric("Lowest impact ratio", r2(r.worst_di), r.worst_group, delta_color="off")
+                    help="Largest gap between groups in the rate of high ratings for employees who met objectives "
+                         "(TPR) or missed them (FPR). Needs a met_objectives column.")
+        m[2].metric("Average rating gap", "—" if r.mean_gap is None else f"{r.mean_gap:.2f} pts",
+                    help="Highest minus lowest group average rating, in rating-scale points.")
+        m[3].metric("Lowest impact ratio", r2(r.worst_di), r.worst_group, delta_color="off")
 
         c1, c2 = st.columns(2)
         with c1:
@@ -127,28 +154,44 @@ for tab, r in zip(tabs, results):
                 hovertemplate="%{y}: %{x:.1%}<extra></extra>"))
             fig.add_vline(x=ref_rate * thr, line_dash="dash", line_color="gray",
                           annotation_text=f"{thr:.0%} of {r.reference}", annotation_position="top")
-            fig.update_layout(title="Selection rate by group", height=320, margin=dict(l=10, r=30, t=60, b=10),
+            fig.update_layout(title="High-rating rate by group", height=320, margin=dict(l=10, r=30, t=60, b=10),
                               xaxis=dict(tickformat=".0%", range=[0, max(g["selection_rate"].max() * 1.25, ref_rate * thr * 1.1)]),
                               yaxis=dict(autorange="reversed"))
             st.plotly_chart(fig, key=f"rate_{r.dim}")
         with c2:
-            if prep.has_truth:
+            dist = audit.distribution(prep, r.dim)
+            if dist is not None:
+                dist = dist.reindex(g["group"])
+                colors = level_colors(prep.scale, prep.cutoff)
                 fig = go.Figure([
-                    go.Bar(name="True positive rate", x=g["group"], y=g["tpr"], marker_color="#3b5bdb",
-                           text=[pct(v) for v in g["tpr"]], textposition="outside"),
-                    go.Bar(name="False positive rate", x=g["group"], y=g["fpr"], marker_color="#91a7ff",
-                           text=[pct(v) for v in g["fpr"]], textposition="outside")])
-                fig.update_layout(title="Equalised odds · error rates by group", barmode="group", height=320,
-                                  margin=dict(l=10, r=10, t=60, b=10), yaxis=dict(tickformat=".0%", range=[0, 1.05]),
-                                  legend=dict(orientation="h", y=-0.15))
-                st.plotly_chart(fig, key=f"eo_{r.dim}")
+                    go.Bar(name=audit.scale_label(v, prep.scale), y=dist.index, x=dist[v], orientation="h",
+                           marker_color=colors[v], hovertemplate="%{y}: %{x:.1%}<extra>" + audit.scale_label(v, prep.scale) + "</extra>")
+                    for v in prep.scale])
+                fig.update_layout(title="Rating distribution by group", barmode="stack", height=320,
+                                  margin=dict(l=10, r=10, t=60, b=10), xaxis=dict(tickformat=".0%", range=[0, 1]),
+                                  yaxis=dict(autorange="reversed"), legend=dict(orientation="h", y=-0.15))
+                st.plotly_chart(fig, key=f"dist_{r.dim}")
             else:
-                st.info("Add a **qualified** column to the CSV to compute true and false positive rates (equalised odds).")
+                st.info("Ratings are binary in this file, so there is no rating distribution to show.")
+
+        if prep.has_truth:
+            fig = go.Figure([
+                go.Bar(name="Met objectives, rated high (TPR)", x=g["group"], y=g["tpr"], marker_color="#3b5bdb",
+                       text=[pct(v) for v in g["tpr"]], textposition="outside"),
+                go.Bar(name="Missed objectives, rated high (FPR)", x=g["group"], y=g["fpr"], marker_color="#91a7ff",
+                       text=[pct(v) for v in g["fpr"]], textposition="outside")])
+            fig.update_layout(title="Equalised odds · high ratings against objective results", barmode="group",
+                              height=320, margin=dict(l=10, r=10, t=60, b=10), yaxis=dict(tickformat=".0%", range=[0, 1.05]),
+                              legend=dict(orientation="h", y=-0.15))
+            st.plotly_chart(fig, key=f"eo_{r.dim}")
+        else:
+            st.info("Add a **met_objectives** column to the CSV to compare ratings against objective results "
+                    "(equalised odds).")
 
         table = pd.DataFrame({
             "Group": [f"{x} (reference)" if x == r.reference else x for x in g["group"]],
-            "Applicants": g["n"], "Selected": g["selected"],
-            "Selection rate": g["selection_rate"].map(pct), "Impact ratio": g["impact_ratio"].map(r2),
+            "Employees": g["n"], "Avg rating": g["mean_rating"].map(r2), "Rated high": g["selected"],
+            "High-rating rate": g["selection_rate"].map(pct), "Impact ratio": g["impact_ratio"].map(r2),
             "TPR": g["tpr"].map(pct), "FPR": g["fpr"].map(pct), "Status": g["status"].map(STATUS_TEXT)})
         st.dataframe(table, hide_index=True)
 
@@ -156,16 +199,17 @@ for tab, r in zip(tabs, results):
 st.subheader("Remediation report")
 report_md = audit.report_markdown(results, prep, thr, source)
 metrics_csv = pd.concat([r.groups.assign(dimension=r.dim) for r in results])[
-    ["dimension", "group", "n", "selected", "selection_rate", "impact_ratio", "tpr", "fpr", "status"]].to_csv(index=False)
+    ["dimension", "group", "n", "mean_rating", "selected", "selection_rate", "impact_ratio", "tpr", "fpr", "status"]
+].rename(columns={"selected": "rated_high", "selection_rate": "high_rating_rate"}).to_csv(index=False)
 
 d1, d2, _ = st.columns([1, 1, 3])
-d1.download_button("Download report (.md)", report_md, "bias_audit_report.md", "text/markdown")
-d2.download_button("Download metrics (.csv)", metrics_csv, "bias_audit_metrics.csv", "text/csv")
+d1.download_button("Download report (.md)", report_md, "performance_rating_bias_audit.md", "text/markdown")
+d2.download_button("Download metrics (.csv)", metrics_csv, "performance_rating_bias_metrics.csv", "text/csv")
 
 with st.container(border=True):
     st.markdown(f"**Summary.** {audit.summary_text(results, thr)}")
     with st.expander("Method"):
-        st.write(audit.method_text(thr, prep.has_truth))
+        st.write(audit.method_text(prep, thr))
     icons = {"High": "🔴", "Medium": "🟠", "Low": "⚪"}
     for rec in audit.recommendations(results, thr):
         st.markdown(f"#### {icons[rec.priority]} [{rec.priority}] {rec.title}")
