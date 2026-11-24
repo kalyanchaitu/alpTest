@@ -13,7 +13,36 @@ ISB "AI in Business" ALP project, Team 1.
   - **Equalised odds**: compares the AI rating with the management rating, the benchmark of actual performance. The true positive rate is the share of employees managers rated top whom the AI also rated top; the false positive rate is the share of the rest whom the AI rated top anyway.
   - **AI − manager score gap**: how many points, on average, the AI scores each group above or below its managers.
 - **Charts**: impact-ratio heatmap, AI vs manager top-rating rates, equalised odds, score gap, and the rating mix (managers vs AI) per group.
-- **Remediation report**: findings ranked High, Medium or Low with concrete actions on the rating process, inputs and governance; downloadable as Markdown, with the metrics as CSV.
+- **Remediation report**, in two forms:
+  - **Rule-based**: findings ranked High, Medium or Low with concrete actions on the rating process, inputs and governance.
+  - **AI-drafted** (optional): an LLM, called through [OpenRouter](https://openrouter.ai), writes a narrative report for HR leadership from the computed metrics.
+  Both download as Markdown, and the metrics download as CSV.
+
+## AI-drafted report (OpenRouter)
+
+How it works (`llm_report.py`):
+
+1. The dashboard calculates every metric itself (`audit.py`). The LLM never does the maths.
+2. Only group-level figures are sent: group sizes, top-rating rates, impact ratios, true/false positive rates, score gaps and the rule-based findings. No employee rows, IDs or names leave the app. The dashboard shows exactly what is sent.
+3. A fixed prompt asks for an executive summary, key findings, likely causes, an actions table (priority, owner, timing) and a monitoring plan, using only the numbers provided.
+4. Every number in the draft is checked against the figures sent; any that don't match are flagged for review.
+5. If no key is set, or the call fails (for example the free daily limit is reached), the rule-based report is still shown.
+
+Setup:
+
+1. Create a free account at [openrouter.ai](https://openrouter.ai) and create an API key.
+2. If requests fail with "No endpoints found matching your data policy", allow free models in OpenRouter **Settings → Privacy**.
+3. On Streamlit Community Cloud, open the app's **Settings → Secrets** and add:
+
+   ```toml
+   OPENROUTER_API_KEY = "sk-or-..."
+   # optional: pin one free model for consistent wording; the default lets OpenRouter pick a free model
+   # OPENROUTER_MODEL = "openrouter/free"
+   ```
+
+   For local runs, copy `.streamlit/secrets.toml.example` to `.streamlit/secrets.toml` (it is git-ignored). Never commit a real key: this repository is public.
+
+Free models are limited to 50 requests a day across the account (1,000 a day after buying at least 10 credits), and the default `openrouter/free` setting may pick a different model each time, so wording varies between drafts.
 
 Out of scope: retraining the AI model.
 
@@ -54,10 +83,12 @@ Or open the repository in GitHub Codespaces: the dev container installs the requ
 
 ```
 app.py                              Streamlit UI
-audit.py                            Metrics, recommendations and report (pandas only, reusable)
+audit.py                            Metrics, recommendations and rule-based report (pandas only, reusable)
+llm_report.py                       AI-drafted report via OpenRouter (aggregate-only payload, number check)
 data/sample_performance_ratings.csv Synthetic sample data
 requirements.txt
 .streamlit/config.toml
+.streamlit/secrets.toml.example     Template for the OpenRouter key (local runs)
 .devcontainer/                      GitHub Codespaces setup
 ```
 

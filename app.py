@@ -2,6 +2,9 @@
 
 Run locally:  streamlit run app.py
 """
+import hashlib
+import json
+import os
 from html import escape
 from pathlib import Path
 
@@ -10,6 +13,7 @@ import plotly.graph_objects as go
 import streamlit as st
 
 import audit
+import llm_report
 from audit import BANDS, MIN_N, STATUS_TEXT, TOP_BANDS, label, pct, pts, r2
 
 st.set_page_config(page_title="Performance Rating Bias Audit", page_icon="⚖️", layout="wide")
@@ -21,6 +25,15 @@ CELL_FG = {"bad": "#c2255c", "warn": "#b35c00", "ok": "#2b8a3e", "small": "#868e
 BAND_COLORS = {"Outstanding": "#1c7ed6", "Exceeds Expectations": "#74c0fc", "Meets Expectations": "#ced4da",
                "Needs Improvement": "#ffa94d", "Unsatisfactory": "#e8590c"}
 MGMT_MARK = "#2b2f36"
+
+
+def setting(name: str, default: str | None = None) -> str | None:
+    """Read a value from Streamlit secrets, then environment variables."""
+    try:
+        value = st.secrets.get(name)
+    except Exception:  # no secrets file configured
+        value = None
+    return value or os.environ.get(name) or default
 
 
 @st.cache_data
@@ -237,15 +250,57 @@ metrics_csv = pd.concat([r.groups.assign(dimension=r.dim) for r in results])[
      "score_gap", "tpr", "fpr", "status"]].to_csv(index=False)
 
 d1, d2, _ = st.columns([1, 1, 3])
-d1.download_button("Download report (.md)", report_md, "bias_audit_report.md", "text/markdown")
+d1.download_button("Download rule-based report (.md)", report_md, "bias_audit_report.md", "text/markdown")
 d2.download_button("Download metrics (.csv)", metrics_csv, "bias_audit_metrics.csv", "text/csv")
 
-with st.container(border=True):
-    st.markdown(f"**Summary.** {audit.summary_text(results, thr, prep)}")
-    with st.expander("Method"):
-        st.write(audit.method_text(thr, prep))
-    icons = {"High": "🔴", "Medium": "🟠", "Low": "⚪"}
-    for rec in audit.recommendations(results, thr, prep):
-        st.markdown(f"#### {icons[rec.priority]} [{rec.priority}] {rec.title}")
-        st.write(rec.finding)
-        st.markdown("\n".join(f"- {a}" for a in rec.actions))
+tab_ai, tab_rules = st.tabs(["🤖 AI-drafted report", "📋 Rule-based report"])
+
+with tab_ai:
+    api_key = setting("OPENROUTER_API_KEY")
+    model = setting("OPENROUTER_MODEL", llm_report.DEFAULT_MODEL)
+    payload = llm_report.build_payload(results, prep, thr, source)
+    if not api_key:
+        st.info(
+            "The AI-drafted report is switched off because no OpenRouter API key is set. "
+            "Add `OPENROUTER_API_KEY` in the app's **Settings → Secrets** on Streamlit Cloud "
+            "(or in `.streamlit/secrets.toml` when running locally). The rule-based report is in the next tab."
+        )
+    else:
+        st.caption(
+            f"An LLM ({model} via OpenRouter) writes the narrative from the metrics above. Only group-level figures "
+            "are sent, never individual employee records. All numbers are calculated by the dashboard, not the LLM."
+        )
+        sig = hashlib.sha256((json.dumps(payload, sort_keys=True) + model).encode()).hexdigest()[:16]
+        if st.button("Draft report with AI", type="primary"):
+            with st.spinner("Drafting the report… free models can take up to a minute."):
+                try:
+                    st.session_state[f"draft_{sig}"] = llm_report.draft_report(
+                        results, prep, thr, source, api_key, model)
+                except llm_report.LLMError as e:
+                    st.error(f"{e} The rule-based report is still available in the next tab.")
+        draft = st.session_state.get(f"draft_{sig}")
+        if draft:
+            st.caption(f"Drafted by **{draft.model}** · AI-generated text: review it before sharing.")
+            if draft.unverified:
+                st.warning("These numbers in the draft do not match the audit figures; check them before using the "
+                           "report: " + ", ".join(draft.unverified))
+            with st.container(border=True):
+                st.markdown(draft.text)
+            st.download_button("Download AI-drafted report (.md)",
+                               f"{draft.text}\n\n---\n*Drafted by {draft.model} via OpenRouter from the audit "
+                               f"metrics; reviewed by: ______*\n", "bias_audit_report_ai.md", "text/markdown")
+        else:
+            st.write("Click **Draft report with AI** to generate a narrative report for HR leadership.")
+    with st.expander("See exactly what is sent to the LLM"):
+        st.json(payload, expanded=False)
+
+with tab_rules:
+    with st.container(border=True):
+        st.markdown(f"**Summary.** {audit.summary_text(results, thr, prep)}")
+        with st.expander("Method"):
+            st.write(audit.method_text(thr, prep))
+        icons = {"High": "🔴", "Medium": "🟠", "Low": "⚪"}
+        for rec in audit.recommendations(results, thr, prep):
+            st.markdown(f"#### {icons[rec.priority]} [{rec.priority}] {rec.title}")
+            st.write(rec.finding)
+            st.markdown("\n".join(f"- {a}" for a in rec.actions))
