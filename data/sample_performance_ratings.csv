@@ -1,0 +1,1001 @@
+employee_id,gender,age,age_group,region,department,kpi_score,competency_score,behaviour_score,management_score,management_rating,ai_score,ai_rating,qualified,decision
+EMP0001,Male,55,45+,West,Management,96,86.0,80,90.8,Outstanding,87.8,Exceeds Expectations,1,1
+EMP0002,Female,29,Under 30,South,Sales,90,80.0,80,86.0,Exceeds Expectations,86.9,Exceeds Expectations,1,1
+EMP0003,Male,35,30-44,West,Marketing,93,84.0,100,92.6,Outstanding,91.4,Outstanding,1,1
+EMP0004,Male,60,45+,South,HR,84,74.0,100,85.2,Exceeds Expectations,84.5,Exceeds Expectations,1,1
+EMP0005,Female,45,45+,North,Finance,79,60.0,60,71.4,Meets Expectations,62.6,Needs Improvement,0,0
+EMP0006,Female,27,Under 30,South,R&D,92,88.0,80,88.8,Exceeds Expectations,89.4,Exceeds Expectations,1,1
+EMP0007,Male,57,45+,North,Shop Floor,90,80.0,100,90.0,Outstanding,91.9,Outstanding,1,1
+EMP0008,Female,25,Under 30,South,Management,77,60.0,60,70.2,Meets Expectations,65.8,Needs Improvement,0,0
+EMP0009,Female,51,45+,North,Sales,75,62.0,60,69.4,Needs Improvement,60.9,Needs Improvement,0,0
+EMP0010,Female,26,Under 30,North,Marketing,76,62.0,100,78.0,Meets Expectations,80.7,Exceeds Expectations,0,1
+EMP0011,Female,33,30-44,North,HR,85,74.0,60,77.8,Meets Expectations,80.2,Exceeds Expectations,0,1
+EMP0012,Female,42,30-44,North,Finance,67,44.0,20,53.0,Unsatisfactory,57.2,Unsatisfactory,0,0
+EMP0013,Male,43,30-44,West,R&D,76,64.0,60,70.4,Meets Expectations,73.8,Meets Expectations,0,0
+EMP0014,Male,37,30-44,East,Shop Floor,84,62.0,60,74.8,Meets Expectations,77.6,Meets Expectations,0,0
+EMP0015,Female,39,30-44,North,Management,67,46.0,60,61.4,Needs Improvement,58.6,Unsatisfactory,0,0
+EMP0016,Male,29,Under 30,South,Sales,74,56.0,60,67.6,Needs Improvement,71.8,Meets Expectations,0,0
+EMP0017,Female,58,45+,East,Marketing,75,52.0,60,67.4,Needs Improvement,61.8,Needs Improvement,0,0
+EMP0018,Male,30,30-44,South,HR,83,60.0,60,73.8,Meets Expectations,79.8,Meets Expectations,0,0
+EMP0019,Female,50,45+,West,Finance,59,44.0,20,48.2,Unsatisfactory,42.6,Unsatisfactory,0,0
+EMP0020,Male,32,30-44,West,R&D,78,54.0,60,69.6,Needs Improvement,72.9,Meets Expectations,0,0
+EMP0021,Male,46,45+,South,Shop Floor,78,56.0,60,70.0,Meets Expectations,71.0,Meets Expectations,0,0
+EMP0022,Female,50,45+,East,Management,71,50.0,40,60.6,Needs Improvement,55.3,Unsatisfactory,0,0
+EMP0023,Female,27,Under 30,North,Sales,70,44.0,40,58.8,Unsatisfactory,55.5,Unsatisfactory,0,0
+EMP0024,Female,58,45+,North,Marketing,74,42.0,60,64.8,Needs Improvement,58.5,Unsatisfactory,0,0
+EMP0025,Female,22,Under 30,East,HR,64,40.0,60,58.4,Unsatisfactory,55.8,Unsatisfactory,0,0
+EMP0026,Male,59,45+,South,Finance,87,72.0,80,82.6,Exceeds Expectations,79.9,Meets Expectations,1,0
+EMP0027,Female,52,45+,South,R&D,74,60.0,60,68.4,Needs Improvement,63.1,Needs Improvement,0,0
+EMP0028,Male,32,30-44,East,Shop Floor,84,54.0,60,73.2,Meets Expectations,69.9,Needs Improvement,0,0
+EMP0029,Female,58,45+,East,Management,88,84.0,60,81.6,Exceeds Expectations,73.3,Meets Expectations,1,0
+EMP0030,Male,38,30-44,East,Sales,86,74.0,60,78.4,Meets Expectations,80.0,Exceeds Expectations,0,1
+EMP0031,Female,39,30-44,North,Marketing,94,90.0,100,94.4,Outstanding,95.0,Outstanding,1,1
+EMP0032,Male,58,45+,South,HR,55,36.0,40,48.2,Unsatisfactory,46.1,Unsatisfactory,0,0
+EMP0033,Male,42,30-44,West,Finance,88,80.0,80,84.8,Exceeds Expectations,86.6,Exceeds Expectations,1,1
+EMP0034,Female,57,45+,South,R&D,91,78.0,100,90.2,Outstanding,84.7,Exceeds Expectations,1,1
+EMP0035,Female,45,45+,West,Shop Floor,84,64.0,80,79.2,Meets Expectations,76.9,Meets Expectations,0,0
+EMP0036,Female,56,45+,West,Management,93,78.0,80,87.4,Exceeds Expectations,79.3,Meets Expectations,1,0
+EMP0037,Male,57,45+,West,Sales,80,70.0,80,78.0,Meets Expectations,73.2,Meets Expectations,0,0
+EMP0038,Female,47,45+,North,Marketing,91,82.0,60,83.0,Exceeds Expectations,76.1,Meets Expectations,1,0
+EMP0039,Male,49,45+,West,HR,78,60.0,80,74.8,Meets Expectations,73.8,Meets Expectations,0,0
+EMP0040,Male,27,Under 30,East,Finance,69,58.0,60,65.0,Needs Improvement,61.0,Needs Improvement,0,0
+EMP0041,Female,34,30-44,South,R&D,90,78.0,60,81.6,Exceeds Expectations,82.2,Exceeds Expectations,1,1
+EMP0042,Female,33,30-44,South,Shop Floor,84,68.0,60,76.0,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0043,Male,24,Under 30,West,Management,88,78.0,60,80.4,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0044,Female,21,Under 30,North,Sales,72,52.0,60,65.6,Needs Improvement,62.8,Needs Improvement,0,0
+EMP0045,Male,49,45+,South,Marketing,78,62.0,40,67.2,Needs Improvement,66.5,Needs Improvement,0,0
+EMP0046,Male,58,45+,South,HR,90,82.0,80,86.4,Exceeds Expectations,85.8,Exceeds Expectations,1,1
+EMP0047,Female,45,45+,West,Finance,55,30.0,40,47.0,Unsatisfactory,39.8,Unsatisfactory,0,0
+EMP0048,Female,33,30-44,West,R&D,76,68.0,60,71.2,Meets Expectations,77.6,Meets Expectations,0,0
+EMP0049,Male,32,30-44,East,Shop Floor,84,74.0,80,81.2,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0050,Female,22,Under 30,North,Management,81,64.0,60,73.4,Meets Expectations,73.5,Meets Expectations,0,0
+EMP0051,Female,59,45+,North,Sales,78,68.0,60,72.4,Meets Expectations,69.2,Needs Improvement,0,0
+EMP0052,Female,41,30-44,East,Marketing,78,62.0,80,75.2,Meets Expectations,69.0,Needs Improvement,0,0
+EMP0053,Female,57,45+,South,HR,94,86.0,60,85.6,Exceeds Expectations,79.5,Meets Expectations,1,0
+EMP0054,Male,42,30-44,East,Finance,79,60.0,60,71.4,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0055,Male,30,30-44,South,R&D,84,72.0,100,84.8,Exceeds Expectations,86.2,Exceeds Expectations,1,1
+EMP0056,Female,57,45+,North,Shop Floor,96,94.0,80,92.4,Outstanding,87.4,Exceeds Expectations,1,1
+EMP0057,Female,52,45+,West,Management,85,64.0,60,75.8,Meets Expectations,71.5,Meets Expectations,0,0
+EMP0058,Male,47,45+,North,Sales,74,54.0,60,67.2,Needs Improvement,66.1,Needs Improvement,0,0
+EMP0059,Male,25,Under 30,North,Marketing,76,56.0,60,68.8,Needs Improvement,68.1,Needs Improvement,0,0
+EMP0060,Female,39,30-44,South,HR,95,86.0,100,94.2,Outstanding,90.7,Outstanding,1,1
+EMP0061,Male,47,45+,West,Finance,90,78.0,80,85.6,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0062,Male,53,45+,South,R&D,76,62.0,80,74.0,Meets Expectations,75.9,Meets Expectations,0,0
+EMP0063,Male,43,30-44,South,Shop Floor,90,76.0,80,85.2,Exceeds Expectations,88.1,Exceeds Expectations,1,1
+EMP0064,Female,59,45+,South,Management,79,52.0,60,69.8,Needs Improvement,67.0,Needs Improvement,0,0
+EMP0065,Female,22,Under 30,East,Sales,87,78.0,100,87.8,Exceeds Expectations,82.5,Exceeds Expectations,1,1
+EMP0066,Female,26,Under 30,East,Marketing,96,88.0,80,91.2,Outstanding,87.2,Exceeds Expectations,1,1
+EMP0067,Male,55,45+,South,HR,70,50.0,60,64.0,Needs Improvement,62.6,Needs Improvement,0,0
+EMP0068,Female,55,45+,South,Finance,95,88.0,100,94.6,Outstanding,92.4,Outstanding,1,1
+EMP0069,Male,42,30-44,North,R&D,93,86.0,100,93.0,Outstanding,96.7,Outstanding,1,1
+EMP0070,Male,54,45+,West,Shop Floor,90,82.0,80,86.4,Exceeds Expectations,85.0,Exceeds Expectations,1,1
+EMP0071,Female,47,45+,West,Management,80,72.0,60,74.4,Meets Expectations,67.5,Needs Improvement,0,0
+EMP0072,Male,33,30-44,North,Sales,68,46.0,40,58.0,Unsatisfactory,59.6,Unsatisfactory,0,0
+EMP0073,Female,35,30-44,North,Marketing,81,68.0,40,70.2,Meets Expectations,70.2,Meets Expectations,0,0
+EMP0074,Male,40,30-44,North,HR,66,40.0,60,59.6,Unsatisfactory,64.0,Needs Improvement,0,0
+EMP0075,Female,48,45+,South,Finance,70,42.0,60,62.4,Needs Improvement,56.2,Unsatisfactory,0,0
+EMP0076,Female,42,30-44,South,R&D,76,56.0,40,64.8,Needs Improvement,66.2,Needs Improvement,0,0
+EMP0077,Male,44,30-44,North,Shop Floor,81,52.0,40,67.0,Needs Improvement,67.6,Needs Improvement,0,0
+EMP0078,Female,52,45+,East,Management,81,60.0,60,72.6,Meets Expectations,66.3,Needs Improvement,0,0
+EMP0079,Male,29,Under 30,North,Sales,74,44.0,60,65.2,Needs Improvement,69.6,Needs Improvement,0,0
+EMP0080,Female,39,30-44,North,Marketing,85,66.0,80,80.2,Exceeds Expectations,82.1,Exceeds Expectations,1,1
+EMP0081,Female,27,Under 30,West,HR,62,34.0,40,52.0,Unsatisfactory,48.2,Unsatisfactory,0,0
+EMP0082,Male,24,Under 30,West,Finance,66,36.0,40,54.8,Unsatisfactory,59.7,Unsatisfactory,0,0
+EMP0083,Female,34,30-44,West,R&D,78,60.0,60,70.8,Meets Expectations,69.5,Needs Improvement,0,0
+EMP0084,Female,27,Under 30,East,Shop Floor,81,58.0,80,76.2,Meets Expectations,72.9,Meets Expectations,0,0
+EMP0085,Male,37,30-44,East,Management,93,86.0,60,85.0,Exceeds Expectations,85.9,Exceeds Expectations,1,1
+EMP0086,Male,59,45+,West,Sales,84,66.0,80,79.6,Meets Expectations,77.6,Meets Expectations,0,0
+EMP0087,Male,24,Under 30,South,Marketing,79,50.0,80,73.4,Meets Expectations,76.5,Meets Expectations,0,0
+EMP0088,Female,23,Under 30,North,HR,84,70.0,40,72.4,Meets Expectations,70.6,Meets Expectations,0,0
+EMP0089,Male,25,Under 30,South,Finance,62,46.0,40,54.4,Unsatisfactory,54.1,Unsatisfactory,0,0
+EMP0090,Female,55,45+,North,R&D,72,54.0,60,66.0,Needs Improvement,61.5,Needs Improvement,0,0
+EMP0091,Female,31,30-44,North,Shop Floor,81,54.0,60,71.4,Meets Expectations,72.6,Meets Expectations,0,0
+EMP0092,Female,51,45+,West,Management,93,88.0,80,89.4,Exceeds Expectations,84.8,Exceeds Expectations,1,1
+EMP0093,Male,40,30-44,North,Sales,89,76.0,80,84.6,Exceeds Expectations,86.8,Exceeds Expectations,1,1
+EMP0094,Female,24,Under 30,West,Marketing,89,78.0,80,85.0,Exceeds Expectations,87.3,Exceeds Expectations,1,1
+EMP0095,Female,38,30-44,East,HR,84,78.0,60,78.0,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0096,Female,26,Under 30,South,Finance,84,68.0,80,80.0,Exceeds Expectations,78.0,Meets Expectations,1,0
+EMP0097,Male,37,30-44,West,R&D,85,68.0,80,80.6,Exceeds Expectations,77.0,Meets Expectations,1,0
+EMP0098,Male,56,45+,North,Shop Floor,93,80.0,60,83.8,Exceeds Expectations,82.4,Exceeds Expectations,1,1
+EMP0099,Female,28,Under 30,South,Management,93,78.0,60,83.4,Exceeds Expectations,82.0,Exceeds Expectations,1,1
+EMP0100,Male,37,30-44,North,Sales,87,80.0,100,88.2,Exceeds Expectations,88.7,Exceeds Expectations,1,1
+EMP0101,Male,23,Under 30,North,Shop Floor,95,86.0,100,94.2,Outstanding,93.2,Outstanding,1,1
+EMP0102,Female,46,45+,North,Shop Floor,69,52.0,80,67.8,Needs Improvement,63.9,Needs Improvement,0,0
+EMP0103,Male,44,30-44,South,Sales,74,54.0,80,71.2,Meets Expectations,75.7,Meets Expectations,0,0
+EMP0104,Male,59,45+,West,Shop Floor,64,48.0,80,64.0,Needs Improvement,60.0,Needs Improvement,0,0
+EMP0105,Male,60,45+,West,Shop Floor,76,58.0,60,69.2,Needs Improvement,65.8,Needs Improvement,0,0
+EMP0106,Female,37,30-44,East,Finance,99,90.0,80,93.4,Outstanding,86.4,Exceeds Expectations,1,1
+EMP0107,Female,42,30-44,East,Sales,90,80.0,80,86.0,Exceeds Expectations,83.3,Exceeds Expectations,1,1
+EMP0108,Male,35,30-44,West,Sales,75,56.0,60,68.2,Needs Improvement,70.3,Meets Expectations,0,0
+EMP0109,Female,22,Under 30,West,Finance,69,56.0,40,60.6,Needs Improvement,62.5,Needs Improvement,0,0
+EMP0110,Male,24,Under 30,South,Finance,77,66.0,40,67.4,Needs Improvement,70.2,Meets Expectations,0,0
+EMP0111,Female,24,Under 30,North,Finance,93,76.0,100,91.0,Outstanding,88.8,Exceeds Expectations,1,1
+EMP0112,Female,58,45+,West,R&D,91,78.0,80,86.2,Exceeds Expectations,83.9,Exceeds Expectations,1,1
+EMP0113,Female,37,30-44,West,Shop Floor,97,86.0,100,95.4,Outstanding,96.7,Outstanding,1,1
+EMP0114,Female,24,Under 30,East,Marketing,81,62.0,40,69.0,Needs Improvement,63.4,Needs Improvement,0,0
+EMP0115,Male,31,30-44,North,Management,89,78.0,100,89.0,Exceeds Expectations,96.8,Outstanding,1,1
+EMP0116,Female,57,45+,East,HR,76,58.0,80,73.2,Meets Expectations,66.0,Needs Improvement,0,0
+EMP0117,Male,50,45+,North,Shop Floor,87,62.0,80,80.6,Exceeds Expectations,84.4,Exceeds Expectations,1,1
+EMP0118,Male,35,30-44,North,Shop Floor,83,68.0,80,79.4,Meets Expectations,81.9,Exceeds Expectations,0,1
+EMP0119,Male,34,30-44,West,HR,75,56.0,80,72.2,Meets Expectations,75.1,Meets Expectations,0,0
+EMP0120,Male,60,45+,South,Shop Floor,91,74.0,80,85.4,Exceeds Expectations,80.2,Exceeds Expectations,1,1
+EMP0121,Male,37,30-44,South,HR,77,68.0,60,71.8,Meets Expectations,72.7,Meets Expectations,0,0
+EMP0122,Male,26,Under 30,South,Finance,81,72.0,40,71.0,Meets Expectations,71.6,Meets Expectations,0,0
+EMP0123,Female,47,45+,North,Shop Floor,80,58.0,80,75.6,Meets Expectations,70.6,Meets Expectations,0,0
+EMP0124,Male,30,30-44,East,Management,89,88.0,100,91.0,Outstanding,90.7,Outstanding,1,1
+EMP0125,Male,46,45+,West,Shop Floor,98,92.0,100,97.2,Outstanding,96.0,Outstanding,1,1
+EMP0126,Male,52,45+,North,Marketing,98,98.0,100,98.4,Outstanding,97.2,Outstanding,1,1
+EMP0127,Male,43,30-44,South,Management,94,80.0,60,84.4,Exceeds Expectations,85.9,Exceeds Expectations,1,1
+EMP0128,Female,36,30-44,West,Finance,87,82.0,80,84.6,Exceeds Expectations,84.1,Exceeds Expectations,1,1
+EMP0129,Male,45,45+,South,Shop Floor,77,60.0,60,70.2,Meets Expectations,64.5,Needs Improvement,0,0
+EMP0130,Male,38,30-44,West,Shop Floor,75,50.0,80,71.0,Meets Expectations,69.8,Needs Improvement,0,0
+EMP0131,Male,45,45+,East,Sales,81,64.0,80,77.4,Meets Expectations,74.2,Meets Expectations,0,0
+EMP0132,Female,29,Under 30,West,Finance,73,56.0,40,63.0,Needs Improvement,63.5,Needs Improvement,0,0
+EMP0133,Female,51,45+,South,HR,95,80.0,80,89.0,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0134,Female,27,Under 30,West,Shop Floor,84,68.0,100,84.0,Exceeds Expectations,77.5,Meets Expectations,1,0
+EMP0135,Male,32,30-44,North,Sales,70,48.0,60,63.6,Needs Improvement,63.6,Needs Improvement,0,0
+EMP0136,Female,55,45+,West,Marketing,84,70.0,80,80.4,Exceeds Expectations,74.6,Meets Expectations,1,0
+EMP0137,Female,42,30-44,North,Shop Floor,91,84.0,100,91.4,Outstanding,90.5,Outstanding,1,1
+EMP0138,Male,44,30-44,South,Management,95,82.0,100,93.4,Outstanding,92.3,Outstanding,1,1
+EMP0139,Female,48,45+,West,Marketing,82,76.0,80,80.4,Exceeds Expectations,70.6,Meets Expectations,1,0
+EMP0140,Male,52,45+,South,Management,90,78.0,80,85.6,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0141,Female,24,Under 30,West,Shop Floor,87,72.0,100,86.6,Exceeds Expectations,83.5,Exceeds Expectations,1,1
+EMP0142,Male,35,30-44,South,Management,85,70.0,60,77.0,Meets Expectations,82.7,Exceeds Expectations,0,1
+EMP0143,Male,50,45+,East,Shop Floor,87,70.0,60,78.2,Meets Expectations,73.6,Meets Expectations,0,0
+EMP0144,Female,40,30-44,North,Shop Floor,86,72.0,80,82.0,Exceeds Expectations,79.9,Meets Expectations,1,0
+EMP0145,Male,39,30-44,West,Marketing,78,60.0,60,70.8,Meets Expectations,71.9,Meets Expectations,0,0
+EMP0146,Male,57,45+,North,Finance,89,80.0,80,85.4,Exceeds Expectations,85.4,Exceeds Expectations,1,1
+EMP0147,Female,59,45+,North,Shop Floor,92,70.0,60,81.2,Exceeds Expectations,77.7,Meets Expectations,1,0
+EMP0148,Male,57,45+,South,Management,85,86.0,100,88.2,Exceeds Expectations,84.7,Exceeds Expectations,1,1
+EMP0149,Female,23,Under 30,East,R&D,85,68.0,60,76.6,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0150,Male,44,30-44,South,Marketing,84,74.0,80,81.2,Exceeds Expectations,84.6,Exceeds Expectations,1,1
+EMP0151,Female,26,Under 30,South,Management,68,48.0,40,58.4,Unsatisfactory,55.0,Unsatisfactory,0,0
+EMP0152,Male,48,45+,East,Marketing,100,98.0,100,99.6,Outstanding,88.6,Exceeds Expectations,1,1
+EMP0153,Male,30,30-44,North,Finance,89,78.0,80,85.0,Exceeds Expectations,88.4,Exceeds Expectations,1,1
+EMP0154,Male,23,Under 30,West,Shop Floor,84,76.0,100,85.6,Exceeds Expectations,84.3,Exceeds Expectations,1,1
+EMP0155,Male,47,45+,West,Sales,98,96.0,80,94.0,Outstanding,94.1,Outstanding,1,1
+EMP0156,Female,34,30-44,West,Shop Floor,93,84.0,80,88.6,Exceeds Expectations,90.4,Outstanding,1,1
+EMP0157,Female,58,45+,South,Shop Floor,86,82.0,80,84.0,Exceeds Expectations,83.2,Exceeds Expectations,1,1
+EMP0158,Male,43,30-44,East,Shop Floor,88,94.0,80,87.6,Exceeds Expectations,86.6,Exceeds Expectations,1,1
+EMP0159,Male,25,Under 30,East,Sales,99,88.0,80,93.0,Outstanding,87.4,Exceeds Expectations,1,1
+EMP0160,Female,38,30-44,South,Shop Floor,92,76.0,60,82.4,Exceeds Expectations,77.8,Meets Expectations,1,0
+EMP0161,Male,54,45+,South,Shop Floor,75,50.0,60,67.0,Needs Improvement,61.6,Needs Improvement,0,0
+EMP0162,Male,33,30-44,West,Marketing,71,52.0,80,69.0,Needs Improvement,76.4,Meets Expectations,0,0
+EMP0163,Male,47,45+,South,Shop Floor,98,92.0,80,93.2,Outstanding,93.9,Outstanding,1,1
+EMP0164,Male,49,45+,North,Sales,81,78.0,80,80.2,Exceeds Expectations,80.7,Exceeds Expectations,1,1
+EMP0165,Female,32,30-44,East,Management,95,78.0,100,92.6,Outstanding,87.4,Exceeds Expectations,1,1
+EMP0166,Female,30,30-44,West,Shop Floor,89,74.0,60,80.2,Exceeds Expectations,78.8,Meets Expectations,1,0
+EMP0167,Male,50,45+,South,Sales,90,82.0,100,90.4,Outstanding,87.5,Exceeds Expectations,1,1
+EMP0168,Male,57,45+,South,Shop Floor,77,62.0,40,66.6,Needs Improvement,60.2,Needs Improvement,0,0
+EMP0169,Female,37,30-44,West,Marketing,91,82.0,80,87.0,Exceeds Expectations,87.0,Exceeds Expectations,1,1
+EMP0170,Male,29,Under 30,South,Shop Floor,69,42.0,40,57.8,Unsatisfactory,57.3,Unsatisfactory,0,0
+EMP0171,Female,41,30-44,West,Shop Floor,80,70.0,60,74.0,Meets Expectations,71.1,Meets Expectations,0,0
+EMP0172,Male,49,45+,North,Sales,73,48.0,60,65.4,Needs Improvement,65.2,Needs Improvement,0,0
+EMP0173,Female,44,30-44,South,Finance,83,74.0,80,80.6,Exceeds Expectations,81.6,Exceeds Expectations,1,1
+EMP0174,Female,40,30-44,West,Marketing,89,76.0,80,84.6,Exceeds Expectations,86.1,Exceeds Expectations,1,1
+EMP0175,Female,28,Under 30,North,R&D,86,78.0,60,79.2,Meets Expectations,76.5,Meets Expectations,0,0
+EMP0176,Female,50,45+,West,HR,85,78.0,60,78.6,Meets Expectations,70.3,Meets Expectations,0,0
+EMP0177,Male,43,30-44,West,Management,69,50.0,40,59.4,Unsatisfactory,63.8,Needs Improvement,0,0
+EMP0178,Female,37,30-44,West,HR,74,62.0,80,72.8,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0179,Male,47,45+,North,Marketing,82,72.0,60,75.6,Meets Expectations,69.7,Needs Improvement,0,0
+EMP0180,Male,35,30-44,West,Marketing,86,82.0,60,80.0,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0181,Male,27,Under 30,North,Shop Floor,86,86.0,100,88.8,Exceeds Expectations,91.6,Outstanding,1,1
+EMP0182,Female,46,45+,North,Marketing,69,48.0,60,63.0,Needs Improvement,55.1,Unsatisfactory,0,0
+EMP0183,Male,31,30-44,North,Management,98,86.0,100,96.0,Outstanding,100.0,Outstanding,1,1
+EMP0184,Male,59,45+,South,Shop Floor,82,72.0,100,83.6,Exceeds Expectations,82.3,Exceeds Expectations,1,1
+EMP0185,Male,33,30-44,West,Shop Floor,98,96.0,60,90.0,Outstanding,92.6,Outstanding,1,1
+EMP0186,Female,48,45+,West,Shop Floor,93,84.0,80,88.6,Exceeds Expectations,77.7,Meets Expectations,1,0
+EMP0187,Male,28,Under 30,East,Sales,93,88.0,100,93.4,Outstanding,94.3,Outstanding,1,1
+EMP0188,Female,21,Under 30,South,Shop Floor,88,78.0,80,84.4,Exceeds Expectations,87.9,Exceeds Expectations,1,1
+EMP0189,Female,60,45+,North,Sales,81,74.0,60,75.4,Meets Expectations,74.3,Meets Expectations,0,0
+EMP0190,Female,22,Under 30,North,Shop Floor,81,66.0,60,73.8,Meets Expectations,69.5,Needs Improvement,0,0
+EMP0191,Female,21,Under 30,North,Shop Floor,90,90.0,60,84.0,Exceeds Expectations,86.6,Exceeds Expectations,1,1
+EMP0192,Male,29,Under 30,West,Shop Floor,81,64.0,80,77.4,Meets Expectations,76.3,Meets Expectations,0,0
+EMP0193,Female,24,Under 30,West,Shop Floor,67,44.0,60,61.0,Needs Improvement,59.3,Unsatisfactory,0,0
+EMP0194,Female,35,30-44,South,HR,86,68.0,80,81.2,Exceeds Expectations,83.2,Exceeds Expectations,1,1
+EMP0195,Female,51,45+,North,Management,88,70.0,60,78.8,Meets Expectations,76.2,Meets Expectations,0,0
+EMP0196,Female,27,Under 30,South,Management,90,82.0,80,86.4,Exceeds Expectations,87.5,Exceeds Expectations,1,1
+EMP0197,Male,60,45+,West,HR,91,78.0,100,90.2,Outstanding,88.2,Exceeds Expectations,1,1
+EMP0198,Female,59,45+,North,R&D,95,96.0,100,96.2,Outstanding,94.1,Outstanding,1,1
+EMP0199,Male,36,30-44,South,HR,72,46.0,60,64.4,Needs Improvement,66.5,Needs Improvement,0,0
+EMP0200,Female,31,30-44,North,Management,96,90.0,100,95.6,Outstanding,92.1,Outstanding,1,1
+EMP0201,Female,25,Under 30,West,Sales,88,82.0,80,85.2,Exceeds Expectations,82.5,Exceeds Expectations,1,1
+EMP0202,Male,39,30-44,South,Management,82,74.0,60,76.0,Meets Expectations,72.6,Meets Expectations,0,0
+EMP0203,Female,43,30-44,South,Sales,71,50.0,60,64.6,Needs Improvement,60.2,Needs Improvement,0,0
+EMP0204,Male,26,Under 30,South,Shop Floor,86,66.0,80,80.8,Exceeds Expectations,82.3,Exceeds Expectations,1,1
+EMP0205,Female,59,45+,South,Shop Floor,88,78.0,100,88.4,Exceeds Expectations,85.1,Exceeds Expectations,1,1
+EMP0206,Male,33,30-44,East,HR,86,64.0,60,76.4,Meets Expectations,77.2,Meets Expectations,0,0
+EMP0207,Female,45,45+,North,Sales,79,64.0,60,72.2,Meets Expectations,74.2,Meets Expectations,0,0
+EMP0208,Female,42,30-44,North,Marketing,81,74.0,60,75.4,Meets Expectations,74.3,Meets Expectations,0,0
+EMP0209,Female,48,45+,South,Sales,79,66.0,60,72.6,Meets Expectations,71.5,Meets Expectations,0,0
+EMP0210,Male,37,30-44,North,Shop Floor,84,82.0,80,82.8,Exceeds Expectations,79.8,Meets Expectations,1,0
+EMP0211,Female,55,45+,West,R&D,89,80.0,80,85.4,Exceeds Expectations,83.7,Exceeds Expectations,1,1
+EMP0212,Male,24,Under 30,North,Shop Floor,93,82.0,80,88.2,Exceeds Expectations,86.9,Exceeds Expectations,1,1
+EMP0213,Female,46,45+,West,Finance,79,56.0,80,74.6,Meets Expectations,71.1,Meets Expectations,0,0
+EMP0214,Male,50,45+,West,Sales,90,92.0,80,88.4,Exceeds Expectations,86.8,Exceeds Expectations,1,1
+EMP0215,Male,52,45+,North,Finance,100,98.0,100,99.6,Outstanding,100.0,Outstanding,1,1
+EMP0216,Male,59,45+,North,Shop Floor,83,80.0,80,81.8,Exceeds Expectations,79.1,Meets Expectations,1,0
+EMP0217,Male,57,45+,South,Shop Floor,95,88.0,80,90.6,Outstanding,90.7,Outstanding,1,1
+EMP0218,Female,30,30-44,South,Shop Floor,74,54.0,60,67.2,Needs Improvement,63.0,Needs Improvement,0,0
+EMP0219,Male,35,30-44,North,HR,100,98.0,80,95.6,Outstanding,100.0,Outstanding,1,1
+EMP0220,Male,29,Under 30,West,Shop Floor,92,76.0,80,86.4,Exceeds Expectations,91.6,Outstanding,1,1
+EMP0221,Female,25,Under 30,North,R&D,93,84.0,80,88.6,Exceeds Expectations,90.2,Outstanding,1,1
+EMP0222,Female,51,45+,West,Sales,88,76.0,80,84.0,Exceeds Expectations,78.4,Meets Expectations,1,0
+EMP0223,Male,57,45+,South,Shop Floor,71,50.0,60,64.6,Needs Improvement,61.0,Needs Improvement,0,0
+EMP0224,Male,39,30-44,West,Shop Floor,85,80.0,80,83.0,Exceeds Expectations,81.3,Exceeds Expectations,1,1
+EMP0225,Male,57,45+,East,R&D,86,66.0,60,76.8,Meets Expectations,74.8,Meets Expectations,0,0
+EMP0226,Male,22,Under 30,West,Sales,91,84.0,100,91.4,Outstanding,95.5,Outstanding,1,1
+EMP0227,Female,51,45+,South,HR,80,62.0,60,72.4,Meets Expectations,63.9,Needs Improvement,0,0
+EMP0228,Female,22,Under 30,West,Marketing,56,34.0,40,48.4,Unsatisfactory,48.3,Unsatisfactory,0,0
+EMP0229,Male,46,45+,West,Marketing,82,70.0,80,79.2,Meets Expectations,75.8,Meets Expectations,0,0
+EMP0230,Female,60,45+,South,Shop Floor,79,70.0,80,77.4,Meets Expectations,70.9,Meets Expectations,0,0
+EMP0231,Female,36,30-44,South,Sales,91,86.0,80,87.8,Exceeds Expectations,86.4,Exceeds Expectations,1,1
+EMP0232,Female,49,45+,North,Shop Floor,80,66.0,40,69.2,Needs Improvement,64.3,Needs Improvement,0,0
+EMP0233,Female,52,45+,South,Marketing,79,74.0,80,78.2,Meets Expectations,72.4,Meets Expectations,0,0
+EMP0234,Female,41,30-44,South,Shop Floor,83,66.0,80,79.0,Meets Expectations,80.3,Exceeds Expectations,0,1
+EMP0235,Male,37,30-44,North,Sales,77,64.0,80,75.0,Meets Expectations,73.0,Meets Expectations,0,0
+EMP0236,Female,27,Under 30,North,Shop Floor,91,80.0,100,90.6,Outstanding,92.4,Outstanding,1,1
+EMP0237,Female,49,45+,North,Shop Floor,82,72.0,80,79.6,Meets Expectations,72.3,Meets Expectations,0,0
+EMP0238,Female,57,45+,North,HR,81,66.0,60,73.8,Meets Expectations,65.0,Needs Improvement,0,0
+EMP0239,Male,36,30-44,North,R&D,79,62.0,60,71.8,Meets Expectations,78.0,Meets Expectations,0,0
+EMP0240,Female,36,30-44,North,Sales,79,68.0,80,77.0,Meets Expectations,76.6,Meets Expectations,0,0
+EMP0241,Female,28,Under 30,East,Finance,98,96.0,80,94.0,Outstanding,90.8,Outstanding,1,1
+EMP0242,Male,34,30-44,North,Sales,84,68.0,80,80.0,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0243,Male,46,45+,South,Marketing,76,64.0,60,70.4,Meets Expectations,72.1,Meets Expectations,0,0
+EMP0244,Male,52,45+,East,Marketing,86,68.0,80,81.2,Exceeds Expectations,78.5,Meets Expectations,1,0
+EMP0245,Female,58,45+,South,Shop Floor,88,84.0,80,85.6,Exceeds Expectations,77.7,Meets Expectations,1,0
+EMP0246,Male,53,45+,East,Sales,84,70.0,80,80.4,Exceeds Expectations,75.5,Meets Expectations,1,0
+EMP0247,Male,41,30-44,North,Shop Floor,90,78.0,100,89.6,Exceeds Expectations,90.3,Outstanding,1,1
+EMP0248,Male,21,Under 30,East,Sales,90,88.0,60,83.6,Exceeds Expectations,82.9,Exceeds Expectations,1,1
+EMP0249,Male,28,Under 30,South,Sales,97,90.0,80,92.2,Outstanding,95.3,Outstanding,1,1
+EMP0250,Male,43,30-44,West,Finance,83,78.0,80,81.4,Exceeds Expectations,82.2,Exceeds Expectations,1,1
+EMP0251,Female,46,45+,South,Shop Floor,74,50.0,60,66.4,Needs Improvement,59.7,Unsatisfactory,0,0
+EMP0252,Male,35,30-44,North,R&D,86,72.0,100,86.0,Exceeds Expectations,88.8,Exceeds Expectations,1,1
+EMP0253,Female,44,30-44,North,Sales,71,58.0,80,70.2,Meets Expectations,71.0,Meets Expectations,0,0
+EMP0254,Male,59,45+,North,Marketing,90,76.0,80,85.2,Exceeds Expectations,82.7,Exceeds Expectations,1,1
+EMP0255,Female,50,45+,South,Marketing,95,86.0,80,90.2,Outstanding,84.1,Exceeds Expectations,1,1
+EMP0256,Male,33,30-44,South,Shop Floor,80,68.0,60,73.6,Meets Expectations,74.6,Meets Expectations,0,0
+EMP0257,Female,60,45+,West,Finance,91,82.0,80,87.0,Exceeds Expectations,76.8,Meets Expectations,1,0
+EMP0258,Male,33,30-44,South,Shop Floor,91,74.0,80,85.4,Exceeds Expectations,88.6,Exceeds Expectations,1,1
+EMP0259,Male,26,Under 30,North,Management,84,66.0,80,79.6,Meets Expectations,82.5,Exceeds Expectations,0,1
+EMP0260,Female,47,45+,West,Shop Floor,90,86.0,100,91.2,Outstanding,89.1,Exceeds Expectations,1,1
+EMP0261,Female,50,45+,North,Shop Floor,80,74.0,60,74.8,Meets Expectations,66.8,Needs Improvement,0,0
+EMP0262,Male,57,45+,East,HR,81,62.0,80,77.0,Meets Expectations,70.0,Meets Expectations,0,0
+EMP0263,Male,24,Under 30,West,Marketing,79,58.0,60,71.0,Meets Expectations,75.4,Meets Expectations,0,0
+EMP0264,Female,46,45+,South,Sales,90,88.0,80,87.6,Exceeds Expectations,80.7,Exceeds Expectations,1,1
+EMP0265,Male,59,45+,North,Shop Floor,81,62.0,60,73.0,Meets Expectations,70.0,Meets Expectations,0,0
+EMP0266,Male,43,30-44,South,Shop Floor,76,64.0,60,70.4,Meets Expectations,72.7,Meets Expectations,0,0
+EMP0267,Female,55,45+,North,Shop Floor,98,84.0,80,91.6,Outstanding,82.3,Exceeds Expectations,1,1
+EMP0268,Male,25,Under 30,East,Sales,84,74.0,80,81.2,Exceeds Expectations,76.8,Meets Expectations,1,0
+EMP0269,Male,21,Under 30,South,Shop Floor,78,70.0,80,76.8,Meets Expectations,78.6,Meets Expectations,0,0
+EMP0270,Male,31,30-44,West,Shop Floor,81,62.0,80,77.0,Meets Expectations,79.0,Meets Expectations,0,0
+EMP0271,Male,57,45+,North,Shop Floor,83,70.0,60,75.8,Meets Expectations,75.7,Meets Expectations,0,0
+EMP0272,Male,52,45+,South,Shop Floor,74,64.0,60,69.2,Needs Improvement,64.8,Needs Improvement,0,0
+EMP0273,Female,50,45+,North,Marketing,89,80.0,80,85.4,Exceeds Expectations,81.1,Exceeds Expectations,1,1
+EMP0274,Female,26,Under 30,South,Management,87,76.0,80,83.4,Exceeds Expectations,75.1,Meets Expectations,1,0
+EMP0275,Female,58,45+,East,Finance,85,72.0,60,77.4,Meets Expectations,63.9,Needs Improvement,0,0
+EMP0276,Male,58,45+,South,Management,89,64.0,60,78.2,Meets Expectations,78.8,Meets Expectations,0,0
+EMP0277,Female,36,30-44,West,Shop Floor,89,78.0,80,85.0,Exceeds Expectations,87.8,Exceeds Expectations,1,1
+EMP0278,Male,58,45+,North,Management,68,38.0,60,60.4,Needs Improvement,59.2,Unsatisfactory,0,0
+EMP0279,Female,30,30-44,North,Marketing,73,56.0,80,71.0,Meets Expectations,66.7,Needs Improvement,0,0
+EMP0280,Male,46,45+,North,HR,90,88.0,80,87.6,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0281,Female,41,30-44,North,Sales,87,68.0,60,77.8,Meets Expectations,76.0,Meets Expectations,0,0
+EMP0282,Female,33,30-44,North,Marketing,91,86.0,80,87.8,Exceeds Expectations,88.3,Exceeds Expectations,1,1
+EMP0283,Female,29,Under 30,West,Finance,98,88.0,80,92.4,Outstanding,91.3,Outstanding,1,1
+EMP0284,Female,57,45+,South,Shop Floor,99,88.0,100,97.0,Outstanding,93.9,Outstanding,1,1
+EMP0285,Male,54,45+,South,R&D,91,84.0,80,87.4,Exceeds Expectations,85.6,Exceeds Expectations,1,1
+EMP0286,Female,52,45+,West,Shop Floor,86,68.0,80,81.2,Exceeds Expectations,77.9,Meets Expectations,1,0
+EMP0287,Female,35,30-44,South,Shop Floor,96,88.0,80,91.2,Outstanding,93.7,Outstanding,1,1
+EMP0288,Male,50,45+,East,Sales,76,56.0,80,72.8,Meets Expectations,66.9,Needs Improvement,0,0
+EMP0289,Female,59,45+,South,Management,87,84.0,100,89.0,Exceeds Expectations,85.9,Exceeds Expectations,1,1
+EMP0290,Male,26,Under 30,East,Shop Floor,73,68.0,80,73.4,Meets Expectations,69.4,Needs Improvement,0,0
+EMP0291,Male,52,45+,West,Shop Floor,79,72.0,80,77.8,Meets Expectations,76.8,Meets Expectations,0,0
+EMP0292,Male,45,45+,West,Sales,78,60.0,60,70.8,Meets Expectations,65.9,Needs Improvement,0,0
+EMP0293,Male,40,30-44,South,Shop Floor,88,82.0,60,81.2,Exceeds Expectations,84.0,Exceeds Expectations,1,1
+EMP0294,Female,53,45+,West,Finance,75,58.0,40,64.6,Needs Improvement,56.0,Unsatisfactory,0,0
+EMP0295,Female,45,45+,West,Shop Floor,66,48.0,20,53.2,Unsatisfactory,46.6,Unsatisfactory,0,0
+EMP0296,Male,30,30-44,West,R&D,95,84.0,80,89.8,Exceeds Expectations,93.4,Outstanding,1,1
+EMP0297,Female,48,45+,North,Marketing,90,78.0,80,85.6,Exceeds Expectations,78.8,Meets Expectations,1,0
+EMP0298,Male,31,30-44,South,HR,91,82.0,100,91.0,Outstanding,96.7,Outstanding,1,1
+EMP0299,Male,35,30-44,West,Shop Floor,84,76.0,80,81.6,Exceeds Expectations,86.7,Exceeds Expectations,1,1
+EMP0300,Male,38,30-44,North,Shop Floor,87,72.0,80,82.6,Exceeds Expectations,85.3,Exceeds Expectations,1,1
+EMP0301,Female,41,30-44,South,Shop Floor,81,70.0,60,74.6,Meets Expectations,73.2,Meets Expectations,0,0
+EMP0302,Female,53,45+,South,Shop Floor,81,60.0,80,76.6,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0303,Male,31,30-44,North,Shop Floor,80,48.0,40,65.6,Needs Improvement,67.8,Needs Improvement,0,0
+EMP0304,Female,24,Under 30,North,Finance,99,90.0,80,93.4,Outstanding,90.8,Outstanding,1,1
+EMP0305,Female,48,45+,West,Sales,75,56.0,60,68.2,Needs Improvement,61.4,Needs Improvement,0,0
+EMP0306,Female,49,45+,North,Shop Floor,99,90.0,100,97.4,Outstanding,88.4,Exceeds Expectations,1,1
+EMP0307,Male,26,Under 30,North,Shop Floor,70,50.0,60,64.0,Needs Improvement,65.3,Needs Improvement,0,0
+EMP0308,Male,44,30-44,East,Shop Floor,78,60.0,60,70.8,Meets Expectations,72.6,Meets Expectations,0,0
+EMP0309,Female,40,30-44,West,Finance,95,94.0,60,87.8,Exceeds Expectations,89.5,Exceeds Expectations,1,1
+EMP0310,Female,49,45+,South,Shop Floor,92,84.0,80,88.0,Exceeds Expectations,82.8,Exceeds Expectations,1,1
+EMP0311,Male,24,Under 30,West,Shop Floor,89,72.0,80,83.8,Exceeds Expectations,86.8,Exceeds Expectations,1,1
+EMP0312,Female,27,Under 30,North,Management,70,56.0,40,61.2,Needs Improvement,57.4,Unsatisfactory,0,0
+EMP0313,Male,25,Under 30,West,Shop Floor,97,92.0,80,92.6,Outstanding,91.7,Outstanding,1,1
+EMP0314,Male,59,45+,South,Finance,77,50.0,60,68.2,Needs Improvement,64.6,Needs Improvement,0,0
+EMP0315,Male,48,45+,North,Shop Floor,83,70.0,100,83.8,Exceeds Expectations,75.1,Meets Expectations,1,0
+EMP0316,Male,27,Under 30,North,Management,74,58.0,60,68.0,Needs Improvement,67.4,Needs Improvement,0,0
+EMP0317,Male,21,Under 30,South,Shop Floor,95,86.0,100,94.2,Outstanding,98.3,Outstanding,1,1
+EMP0318,Female,53,45+,North,Shop Floor,88,80.0,100,88.8,Exceeds Expectations,88.4,Exceeds Expectations,1,1
+EMP0319,Female,40,30-44,West,Management,95,86.0,80,90.2,Outstanding,85.7,Exceeds Expectations,1,1
+EMP0320,Male,21,Under 30,East,Shop Floor,84,70.0,80,80.4,Exceeds Expectations,83.2,Exceeds Expectations,1,1
+EMP0321,Male,47,45+,East,Finance,76,62.0,80,74.0,Meets Expectations,69.2,Needs Improvement,0,0
+EMP0322,Male,49,45+,South,HR,74,62.0,40,64.8,Needs Improvement,63.1,Needs Improvement,0,0
+EMP0323,Female,37,30-44,North,Shop Floor,86,78.0,100,87.2,Exceeds Expectations,83.2,Exceeds Expectations,1,1
+EMP0324,Male,33,30-44,North,Sales,95,84.0,80,89.8,Exceeds Expectations,90.2,Outstanding,1,1
+EMP0325,Male,27,Under 30,South,Finance,88,78.0,80,84.4,Exceeds Expectations,84.2,Exceeds Expectations,1,1
+EMP0326,Male,36,30-44,North,Shop Floor,80,66.0,80,77.2,Meets Expectations,80.2,Exceeds Expectations,0,1
+EMP0327,Female,51,45+,North,R&D,83,66.0,60,75.0,Meets Expectations,73.4,Meets Expectations,0,0
+EMP0328,Female,56,45+,West,Shop Floor,85,60.0,80,79.0,Meets Expectations,71.8,Meets Expectations,0,0
+EMP0329,Female,29,Under 30,North,Shop Floor,86,74.0,80,82.4,Exceeds Expectations,81.0,Exceeds Expectations,1,1
+EMP0330,Female,36,30-44,West,Shop Floor,88,86.0,80,86.0,Exceeds Expectations,86.9,Exceeds Expectations,1,1
+EMP0331,Male,39,30-44,West,Management,86,70.0,80,81.6,Exceeds Expectations,84.7,Exceeds Expectations,1,1
+EMP0332,Male,42,30-44,North,Management,90,80.0,80,86.0,Exceeds Expectations,90.7,Outstanding,1,1
+EMP0333,Female,36,30-44,South,Management,89,76.0,80,84.6,Exceeds Expectations,81.0,Exceeds Expectations,1,1
+EMP0334,Female,45,45+,West,Marketing,77,60.0,40,66.2,Needs Improvement,58.1,Unsatisfactory,0,0
+EMP0335,Male,47,45+,South,HR,86,80.0,80,83.6,Exceeds Expectations,80.0,Exceeds Expectations,1,1
+EMP0336,Male,21,Under 30,South,Shop Floor,80,52.0,60,70.4,Meets Expectations,71.6,Meets Expectations,0,0
+EMP0337,Male,21,Under 30,North,Management,86,80.0,60,79.6,Meets Expectations,85.0,Exceeds Expectations,0,1
+EMP0338,Female,48,45+,East,Shop Floor,85,82.0,60,79.4,Meets Expectations,73.0,Meets Expectations,0,0
+EMP0339,Male,53,45+,South,Shop Floor,78,60.0,60,70.8,Meets Expectations,75.5,Meets Expectations,0,0
+EMP0340,Male,58,45+,North,Marketing,74,48.0,60,66.0,Needs Improvement,66.0,Needs Improvement,0,0
+EMP0341,Female,42,30-44,North,R&D,86,72.0,60,78.0,Meets Expectations,74.6,Meets Expectations,0,0
+EMP0342,Female,37,30-44,North,Sales,82,78.0,40,72.8,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0343,Female,28,Under 30,West,Shop Floor,93,94.0,80,90.6,Outstanding,88.2,Exceeds Expectations,1,1
+EMP0344,Male,54,45+,North,Finance,76,60.0,40,65.6,Needs Improvement,60.1,Needs Improvement,0,0
+EMP0345,Male,25,Under 30,West,Marketing,95,94.0,80,91.8,Outstanding,95.0,Outstanding,1,1
+EMP0346,Male,30,30-44,East,Management,89,74.0,80,84.2,Exceeds Expectations,85.3,Exceeds Expectations,1,1
+EMP0347,Male,40,30-44,South,Finance,72,52.0,60,65.6,Needs Improvement,67.6,Needs Improvement,0,0
+EMP0348,Male,42,30-44,South,Shop Floor,84,70.0,60,76.4,Meets Expectations,82.0,Exceeds Expectations,0,1
+EMP0349,Male,43,30-44,North,Shop Floor,86,74.0,80,82.4,Exceeds Expectations,83.2,Exceeds Expectations,1,1
+EMP0350,Male,30,30-44,North,Sales,88,76.0,60,80.0,Exceeds Expectations,80.7,Exceeds Expectations,1,1
+EMP0351,Female,30,30-44,South,Finance,80,60.0,40,68.0,Needs Improvement,68.4,Needs Improvement,0,0
+EMP0352,Male,29,Under 30,West,Shop Floor,72,46.0,40,60.4,Needs Improvement,63.3,Needs Improvement,0,0
+EMP0353,Male,33,30-44,South,Shop Floor,76,68.0,80,75.2,Meets Expectations,81.4,Exceeds Expectations,0,1
+EMP0354,Female,46,45+,West,HR,84,76.0,80,81.6,Exceeds Expectations,80.2,Exceeds Expectations,1,1
+EMP0355,Female,29,Under 30,West,Shop Floor,87,76.0,80,83.4,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0356,Female,22,Under 30,South,Finance,90,74.0,80,84.8,Exceeds Expectations,83.0,Exceeds Expectations,1,1
+EMP0357,Male,46,45+,South,Sales,72,56.0,60,66.4,Needs Improvement,62.9,Needs Improvement,0,0
+EMP0358,Female,60,45+,South,Marketing,89,88.0,80,87.0,Exceeds Expectations,79.1,Meets Expectations,1,0
+EMP0359,Female,50,45+,South,Shop Floor,83,68.0,80,79.4,Meets Expectations,73.2,Meets Expectations,0,0
+EMP0360,Female,49,45+,South,Finance,92,84.0,100,92.0,Outstanding,85.7,Exceeds Expectations,1,1
+EMP0361,Female,36,30-44,South,HR,78,64.0,80,75.6,Meets Expectations,76.7,Meets Expectations,0,0
+EMP0362,Male,31,30-44,North,Finance,77,58.0,60,69.8,Needs Improvement,75.3,Meets Expectations,0,0
+EMP0363,Male,47,45+,East,Sales,84,74.0,100,85.2,Exceeds Expectations,78.3,Meets Expectations,1,0
+EMP0364,Female,45,45+,North,HR,91,80.0,60,82.6,Exceeds Expectations,78.9,Meets Expectations,1,0
+EMP0365,Female,51,45+,North,Marketing,84,74.0,80,81.2,Exceeds Expectations,75.3,Meets Expectations,1,0
+EMP0366,Male,23,Under 30,North,Management,66,50.0,60,61.6,Needs Improvement,65.5,Needs Improvement,0,0
+EMP0367,Male,30,30-44,South,Shop Floor,91,88.0,80,88.2,Exceeds Expectations,88.8,Exceeds Expectations,1,1
+EMP0368,Male,47,45+,South,Finance,78,62.0,60,71.2,Meets Expectations,69.5,Needs Improvement,0,0
+EMP0369,Female,57,45+,South,HR,74,50.0,60,66.4,Needs Improvement,65.8,Needs Improvement,0,0
+EMP0370,Male,54,45+,West,Management,72,52.0,60,65.6,Needs Improvement,61.8,Needs Improvement,0,0
+EMP0371,Male,50,45+,South,Sales,89,84.0,100,90.2,Outstanding,85.8,Exceeds Expectations,1,1
+EMP0372,Female,53,45+,North,HR,95,88.0,100,94.6,Outstanding,89.6,Exceeds Expectations,1,1
+EMP0373,Female,58,45+,South,Shop Floor,77,62.0,80,74.6,Meets Expectations,68.4,Needs Improvement,0,0
+EMP0374,Female,26,Under 30,South,Shop Floor,84,66.0,80,79.6,Meets Expectations,79.7,Meets Expectations,0,0
+EMP0375,Male,52,45+,South,HR,83,70.0,80,79.8,Meets Expectations,78.9,Meets Expectations,0,0
+EMP0376,Female,26,Under 30,North,R&D,68,52.0,60,63.2,Needs Improvement,62.4,Needs Improvement,0,0
+EMP0377,Male,38,30-44,South,Shop Floor,85,80.0,80,83.0,Exceeds Expectations,80.9,Exceeds Expectations,1,1
+EMP0378,Male,47,45+,South,R&D,94,72.0,80,86.8,Exceeds Expectations,84.6,Exceeds Expectations,1,1
+EMP0379,Male,34,30-44,North,HR,81,66.0,80,77.8,Meets Expectations,83.9,Exceeds Expectations,0,1
+EMP0380,Male,32,30-44,South,HR,86,78.0,80,83.2,Exceeds Expectations,88.3,Exceeds Expectations,1,1
+EMP0381,Female,30,30-44,West,Shop Floor,74,62.0,100,76.8,Meets Expectations,75.7,Meets Expectations,0,0
+EMP0382,Male,58,45+,East,Shop Floor,91,84.0,80,87.4,Exceeds Expectations,88.2,Exceeds Expectations,1,1
+EMP0383,Male,22,Under 30,South,Shop Floor,69,56.0,60,64.6,Needs Improvement,65.1,Needs Improvement,0,0
+EMP0384,Female,43,30-44,South,Shop Floor,83,70.0,60,75.8,Meets Expectations,72.5,Meets Expectations,0,0
+EMP0385,Female,25,Under 30,North,Shop Floor,91,90.0,80,88.6,Exceeds Expectations,84.4,Exceeds Expectations,1,1
+EMP0386,Female,43,30-44,South,Shop Floor,87,76.0,80,83.4,Exceeds Expectations,80.8,Exceeds Expectations,1,1
+EMP0387,Female,50,45+,East,Finance,100,100.0,80,96.0,Outstanding,89.7,Exceeds Expectations,1,1
+EMP0388,Female,51,45+,North,R&D,91,84.0,80,87.4,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0389,Male,28,Under 30,South,Shop Floor,94,86.0,100,93.6,Outstanding,93.3,Outstanding,1,1
+EMP0390,Female,56,45+,East,Marketing,90,84.0,80,86.8,Exceeds Expectations,79.1,Meets Expectations,1,0
+EMP0391,Male,34,30-44,West,Sales,82,60.0,60,73.2,Meets Expectations,77.4,Meets Expectations,0,0
+EMP0392,Male,39,30-44,West,Shop Floor,87,82.0,80,84.6,Exceeds Expectations,84.4,Exceeds Expectations,1,1
+EMP0393,Female,57,45+,South,Management,76,62.0,60,70.0,Meets Expectations,61.3,Needs Improvement,0,0
+EMP0394,Male,43,30-44,North,Shop Floor,69,52.0,60,63.8,Needs Improvement,65.8,Needs Improvement,0,0
+EMP0395,Female,54,45+,South,Shop Floor,87,78.0,80,83.8,Exceeds Expectations,77.8,Meets Expectations,1,0
+EMP0396,Male,24,Under 30,South,Finance,94,86.0,80,89.6,Exceeds Expectations,93.6,Outstanding,1,1
+EMP0397,Male,54,45+,North,Shop Floor,96,92.0,100,96.0,Outstanding,93.0,Outstanding,1,1
+EMP0398,Male,57,45+,South,R&D,94,68.0,100,90.0,Outstanding,89.7,Exceeds Expectations,1,1
+EMP0399,Male,26,Under 30,South,Sales,84,70.0,80,80.4,Exceeds Expectations,79.0,Meets Expectations,1,0
+EMP0400,Female,56,45+,West,HR,80,68.0,60,73.6,Meets Expectations,67.5,Needs Improvement,0,0
+EMP0401,Female,43,30-44,West,Shop Floor,86,82.0,80,84.0,Exceeds Expectations,84.1,Exceeds Expectations,1,1
+EMP0402,Male,23,Under 30,North,HR,88,82.0,100,89.2,Exceeds Expectations,88.2,Exceeds Expectations,1,1
+EMP0403,Male,50,45+,West,Management,84,74.0,80,81.2,Exceeds Expectations,73.9,Meets Expectations,1,0
+EMP0404,Male,35,30-44,South,HR,91,78.0,60,82.2,Exceeds Expectations,82.4,Exceeds Expectations,1,1
+EMP0405,Male,30,30-44,South,Shop Floor,94,88.0,100,94.0,Outstanding,96.9,Outstanding,1,1
+EMP0406,Male,56,45+,West,Shop Floor,93,88.0,80,89.4,Exceeds Expectations,88.1,Exceeds Expectations,1,1
+EMP0407,Female,32,30-44,South,Shop Floor,93,86.0,80,89.0,Exceeds Expectations,87.7,Exceeds Expectations,1,1
+EMP0408,Male,44,30-44,West,HR,92,84.0,100,92.0,Outstanding,98.2,Outstanding,1,1
+EMP0409,Male,33,30-44,East,Shop Floor,99,96.0,100,98.6,Outstanding,100.0,Outstanding,1,1
+EMP0410,Male,33,30-44,South,Shop Floor,74,60.0,60,68.4,Needs Improvement,70.8,Meets Expectations,0,0
+EMP0411,Male,43,30-44,West,R&D,98,98.0,100,98.4,Outstanding,100.0,Outstanding,1,1
+EMP0412,Female,35,30-44,North,Marketing,89,78.0,80,85.0,Exceeds Expectations,78.8,Meets Expectations,1,0
+EMP0413,Male,41,30-44,South,R&D,70,50.0,60,64.0,Needs Improvement,66.1,Needs Improvement,0,0
+EMP0414,Female,47,45+,North,Shop Floor,83,76.0,80,81.0,Exceeds Expectations,76.5,Meets Expectations,1,0
+EMP0415,Female,41,30-44,West,Shop Floor,87,74.0,60,79.0,Meets Expectations,80.4,Exceeds Expectations,0,1
+EMP0416,Male,48,45+,North,Management,66,54.0,40,58.4,Unsatisfactory,53.0,Unsatisfactory,0,0
+EMP0417,Male,53,45+,North,Sales,84,74.0,80,81.2,Exceeds Expectations,83.6,Exceeds Expectations,1,1
+EMP0418,Male,26,Under 30,East,Shop Floor,65,36.0,40,54.2,Unsatisfactory,57.0,Unsatisfactory,0,0
+EMP0419,Male,25,Under 30,South,Shop Floor,98,88.0,100,96.4,Outstanding,99.3,Outstanding,1,1
+EMP0420,Male,38,30-44,North,Sales,82,66.0,80,78.4,Meets Expectations,80.9,Exceeds Expectations,0,1
+EMP0421,Female,49,45+,North,Shop Floor,84,82.0,60,78.8,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0422,Female,54,45+,West,Management,95,80.0,60,85.0,Exceeds Expectations,82.2,Exceeds Expectations,1,1
+EMP0423,Male,39,30-44,South,Marketing,86,66.0,60,76.8,Meets Expectations,81.3,Exceeds Expectations,0,1
+EMP0424,Female,54,45+,South,Shop Floor,70,62.0,60,66.4,Needs Improvement,60.8,Needs Improvement,0,0
+EMP0425,Male,28,Under 30,South,Finance,69,50.0,60,63.4,Needs Improvement,64.1,Needs Improvement,0,0
+EMP0426,Female,48,45+,East,Sales,88,80.0,80,84.8,Exceeds Expectations,75.5,Meets Expectations,1,0
+EMP0427,Male,48,45+,South,Shop Floor,92,84.0,60,84.0,Exceeds Expectations,85.5,Exceeds Expectations,1,1
+EMP0428,Male,53,45+,North,R&D,84,72.0,80,80.8,Exceeds Expectations,81.0,Exceeds Expectations,1,1
+EMP0429,Female,21,Under 30,South,Shop Floor,64,52.0,60,60.8,Needs Improvement,60.9,Needs Improvement,0,0
+EMP0430,Female,48,45+,East,Shop Floor,87,72.0,80,82.6,Exceeds Expectations,73.0,Meets Expectations,1,0
+EMP0431,Male,42,30-44,North,Marketing,86,70.0,60,77.6,Meets Expectations,79.3,Meets Expectations,0,0
+EMP0432,Female,54,45+,North,Sales,87,86.0,100,89.4,Exceeds Expectations,85.0,Exceeds Expectations,1,1
+EMP0433,Male,54,45+,North,HR,81,58.0,60,72.2,Meets Expectations,69.5,Needs Improvement,0,0
+EMP0434,Female,35,30-44,East,Shop Floor,62,38.0,60,56.8,Unsatisfactory,52.1,Unsatisfactory,0,0
+EMP0435,Female,43,30-44,South,Shop Floor,78,62.0,60,71.2,Meets Expectations,66.7,Needs Improvement,0,0
+EMP0436,Male,23,Under 30,West,R&D,89,82.0,100,89.8,Exceeds Expectations,88.0,Exceeds Expectations,1,1
+EMP0437,Female,25,Under 30,East,Marketing,95,84.0,100,93.8,Outstanding,91.4,Outstanding,1,1
+EMP0438,Male,24,Under 30,West,Finance,80,60.0,60,72.0,Meets Expectations,74.9,Meets Expectations,0,0
+EMP0439,Female,46,45+,West,Shop Floor,81,58.0,80,76.2,Meets Expectations,75.0,Meets Expectations,0,0
+EMP0440,Female,44,30-44,North,Shop Floor,70,44.0,40,58.8,Unsatisfactory,55.8,Unsatisfactory,0,0
+EMP0441,Female,57,45+,North,Shop Floor,90,94.0,80,88.8,Exceeds Expectations,80.7,Exceeds Expectations,1,1
+EMP0442,Female,21,Under 30,South,Sales,79,64.0,80,76.2,Meets Expectations,73.4,Meets Expectations,0,0
+EMP0443,Male,54,45+,North,Shop Floor,80,60.0,80,76.0,Meets Expectations,73.5,Meets Expectations,0,0
+EMP0444,Female,54,45+,West,Shop Floor,75,56.0,60,68.2,Needs Improvement,63.8,Needs Improvement,0,0
+EMP0445,Female,27,Under 30,West,Finance,82,60.0,80,77.2,Meets Expectations,76.2,Meets Expectations,0,0
+EMP0446,Male,28,Under 30,West,Shop Floor,89,82.0,80,85.8,Exceeds Expectations,83.6,Exceeds Expectations,1,1
+EMP0447,Male,53,45+,South,HR,85,62.0,60,75.4,Meets Expectations,73.9,Meets Expectations,0,0
+EMP0448,Male,53,45+,West,R&D,97,86.0,80,91.4,Outstanding,91.4,Outstanding,1,1
+EMP0449,Male,53,45+,South,Shop Floor,95,90.0,100,95.0,Outstanding,93.2,Outstanding,1,1
+EMP0450,Female,35,30-44,North,Finance,90,82.0,100,90.4,Outstanding,90.4,Outstanding,1,1
+EMP0451,Male,53,45+,East,Shop Floor,96,90.0,100,95.6,Outstanding,92.2,Outstanding,1,1
+EMP0452,Female,25,Under 30,North,Sales,74,56.0,60,67.6,Needs Improvement,65.4,Needs Improvement,0,0
+EMP0453,Male,60,45+,North,Sales,85,72.0,60,77.4,Meets Expectations,76.6,Meets Expectations,0,0
+EMP0454,Male,35,30-44,South,Shop Floor,86,80.0,60,79.6,Meets Expectations,82.1,Exceeds Expectations,0,1
+EMP0455,Male,27,Under 30,North,HR,91,86.0,80,87.8,Exceeds Expectations,89.8,Exceeds Expectations,1,1
+EMP0456,Female,21,Under 30,South,Shop Floor,80,60.0,60,72.0,Meets Expectations,74.9,Meets Expectations,0,0
+EMP0457,Male,50,45+,West,R&D,72,54.0,60,66.0,Needs Improvement,64.5,Needs Improvement,0,0
+EMP0458,Male,29,Under 30,South,Shop Floor,66,42.0,40,56.0,Unsatisfactory,55.2,Unsatisfactory,0,0
+EMP0459,Male,21,Under 30,North,R&D,87,84.0,80,85.0,Exceeds Expectations,84.9,Exceeds Expectations,1,1
+EMP0460,Male,26,Under 30,South,Marketing,83,72.0,80,80.2,Exceeds Expectations,81.0,Exceeds Expectations,1,1
+EMP0461,Female,38,30-44,North,Shop Floor,81,72.0,60,75.0,Meets Expectations,74.4,Meets Expectations,0,0
+EMP0462,Male,60,45+,South,Sales,85,70.0,80,81.0,Exceeds Expectations,78.2,Meets Expectations,1,0
+EMP0463,Female,44,30-44,East,R&D,82,72.0,40,71.6,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0464,Female,38,30-44,North,Shop Floor,77,60.0,80,74.2,Meets Expectations,77.3,Meets Expectations,0,0
+EMP0465,Female,42,30-44,West,R&D,90,88.0,80,87.6,Exceeds Expectations,90.9,Outstanding,1,1
+EMP0466,Male,42,30-44,East,HR,71,50.0,60,64.6,Needs Improvement,62.1,Needs Improvement,0,0
+EMP0467,Female,27,Under 30,East,Marketing,70,50.0,60,64.0,Needs Improvement,60.0,Needs Improvement,0,0
+EMP0468,Male,23,Under 30,North,R&D,74,46.0,60,65.6,Needs Improvement,70.7,Meets Expectations,0,0
+EMP0469,Female,27,Under 30,North,Shop Floor,81,70.0,60,74.6,Meets Expectations,75.1,Meets Expectations,0,0
+EMP0470,Male,23,Under 30,North,Shop Floor,90,80.0,80,86.0,Exceeds Expectations,88.8,Exceeds Expectations,1,1
+EMP0471,Male,50,45+,South,Marketing,77,52.0,60,68.6,Needs Improvement,61.0,Needs Improvement,0,0
+EMP0472,Male,45,45+,South,Finance,82,66.0,80,78.4,Meets Expectations,76.3,Meets Expectations,0,0
+EMP0473,Female,50,45+,West,Finance,91,76.0,100,89.8,Exceeds Expectations,89.7,Exceeds Expectations,1,1
+EMP0474,Male,34,30-44,North,Sales,98,90.0,100,96.8,Outstanding,100.0,Outstanding,1,1
+EMP0475,Female,41,30-44,South,Shop Floor,91,82.0,80,87.0,Exceeds Expectations,86.4,Exceeds Expectations,1,1
+EMP0476,Male,32,30-44,West,R&D,76,74.0,60,72.4,Meets Expectations,73.5,Meets Expectations,0,0
+EMP0477,Female,45,45+,West,R&D,72,56.0,60,66.4,Needs Improvement,60.8,Needs Improvement,0,0
+EMP0478,Male,27,Under 30,South,Shop Floor,65,34.0,60,57.8,Unsatisfactory,58.5,Unsatisfactory,0,0
+EMP0479,Male,23,Under 30,North,Sales,82,54.0,80,76.0,Meets Expectations,82.8,Exceeds Expectations,0,1
+EMP0480,Female,51,45+,South,Management,83,80.0,60,77.8,Meets Expectations,71.3,Meets Expectations,0,0
+EMP0481,Male,29,Under 30,North,Shop Floor,82,74.0,60,76.0,Meets Expectations,73.1,Meets Expectations,0,0
+EMP0482,Male,58,45+,North,Shop Floor,98,94.0,80,93.6,Outstanding,88.4,Exceeds Expectations,1,1
+EMP0483,Male,32,30-44,West,Shop Floor,73,56.0,40,63.0,Needs Improvement,60.3,Needs Improvement,0,0
+EMP0484,Male,35,30-44,North,Finance,74,56.0,60,67.6,Needs Improvement,64.5,Needs Improvement,0,0
+EMP0485,Male,51,45+,West,Sales,64,44.0,60,59.2,Unsatisfactory,55.2,Unsatisfactory,0,0
+EMP0486,Male,36,30-44,North,Management,92,86.0,100,92.4,Outstanding,93.4,Outstanding,1,1
+EMP0487,Male,29,Under 30,North,Sales,82,66.0,80,78.4,Meets Expectations,79.5,Meets Expectations,0,0
+EMP0488,Female,32,30-44,North,Sales,63,50.0,40,55.8,Unsatisfactory,54.2,Unsatisfactory,0,0
+EMP0489,Female,52,45+,South,Shop Floor,84,74.0,80,81.2,Exceeds Expectations,75.7,Meets Expectations,1,0
+EMP0490,Male,27,Under 30,South,Sales,94,88.0,80,90.0,Outstanding,94.7,Outstanding,1,1
+EMP0491,Female,39,30-44,South,HR,100,90.0,100,98.0,Outstanding,100.0,Outstanding,1,1
+EMP0492,Male,33,30-44,East,Finance,83,62.0,60,74.2,Meets Expectations,74.7,Meets Expectations,0,0
+EMP0493,Female,36,30-44,West,Management,91,78.0,80,86.2,Exceeds Expectations,84.7,Exceeds Expectations,1,1
+EMP0494,Male,53,45+,South,Marketing,83,58.0,60,73.4,Meets Expectations,74.7,Meets Expectations,0,0
+EMP0495,Female,46,45+,South,Shop Floor,81,72.0,60,75.0,Meets Expectations,68.6,Needs Improvement,0,0
+EMP0496,Female,24,Under 30,North,Finance,76,66.0,80,74.8,Meets Expectations,77.9,Meets Expectations,0,0
+EMP0497,Male,48,45+,West,Finance,93,86.0,80,89.0,Exceeds Expectations,89.6,Exceeds Expectations,1,1
+EMP0498,Female,53,45+,South,Management,75,64.0,80,73.8,Meets Expectations,69.8,Needs Improvement,0,0
+EMP0499,Female,47,45+,West,HR,70,50.0,60,64.0,Needs Improvement,54.0,Unsatisfactory,0,0
+EMP0500,Female,23,Under 30,North,Shop Floor,73,56.0,80,71.0,Meets Expectations,67.9,Needs Improvement,0,0
+EMP0501,Male,41,30-44,East,Shop Floor,80,60.0,60,72.0,Meets Expectations,69.2,Needs Improvement,0,0
+EMP0502,Male,42,30-44,East,HR,89,76.0,60,80.6,Exceeds Expectations,76.6,Meets Expectations,1,0
+EMP0503,Male,22,Under 30,West,Sales,80,64.0,80,76.8,Meets Expectations,77.4,Meets Expectations,0,0
+EMP0504,Male,51,45+,North,HR,86,64.0,40,72.4,Meets Expectations,70.4,Meets Expectations,0,0
+EMP0505,Male,26,Under 30,South,Sales,84,72.0,80,80.8,Exceeds Expectations,83.0,Exceeds Expectations,1,1
+EMP0506,Female,34,30-44,North,Sales,77,64.0,80,75.0,Meets Expectations,75.4,Meets Expectations,0,0
+EMP0507,Male,33,30-44,South,Marketing,85,80.0,80,83.0,Exceeds Expectations,85.1,Exceeds Expectations,1,1
+EMP0508,Female,56,45+,North,Sales,77,62.0,80,74.6,Meets Expectations,67.1,Needs Improvement,0,0
+EMP0509,Male,58,45+,North,Shop Floor,75,64.0,80,73.8,Meets Expectations,72.7,Meets Expectations,0,0
+EMP0510,Female,51,45+,South,Sales,94,78.0,80,88.0,Exceeds Expectations,80.9,Exceeds Expectations,1,1
+EMP0511,Male,35,30-44,East,Shop Floor,91,74.0,80,85.4,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0512,Female,46,45+,West,HR,63,36.0,40,53.0,Unsatisfactory,44.0,Unsatisfactory,0,0
+EMP0513,Female,47,45+,West,Marketing,80,62.0,80,76.4,Meets Expectations,73.9,Meets Expectations,0,0
+EMP0514,Female,35,30-44,North,Shop Floor,89,78.0,80,85.0,Exceeds Expectations,86.3,Exceeds Expectations,1,1
+EMP0515,Male,31,30-44,South,Shop Floor,96,90.0,100,95.6,Outstanding,96.5,Outstanding,1,1
+EMP0516,Male,26,Under 30,East,Marketing,91,76.0,80,85.8,Exceeds Expectations,83.7,Exceeds Expectations,1,1
+EMP0517,Female,39,30-44,North,Shop Floor,89,76.0,100,88.6,Exceeds Expectations,89.4,Exceeds Expectations,1,1
+EMP0518,Female,44,30-44,North,Shop Floor,95,84.0,80,89.8,Exceeds Expectations,90.8,Outstanding,1,1
+EMP0519,Male,49,45+,South,Shop Floor,94,82.0,80,88.8,Exceeds Expectations,84.6,Exceeds Expectations,1,1
+EMP0520,Female,29,Under 30,South,HR,92,82.0,80,87.6,Exceeds Expectations,86.0,Exceeds Expectations,1,1
+EMP0521,Male,46,45+,East,Sales,66,58.0,60,63.2,Needs Improvement,62.4,Needs Improvement,0,0
+EMP0522,Male,56,45+,East,Shop Floor,84,68.0,80,80.0,Exceeds Expectations,74.7,Meets Expectations,1,0
+EMP0523,Female,51,45+,North,Shop Floor,72,42.0,40,59.6,Unsatisfactory,52.4,Unsatisfactory,0,0
+EMP0524,Female,56,45+,West,Shop Floor,94,86.0,60,85.6,Exceeds Expectations,78.8,Meets Expectations,1,0
+EMP0525,Male,52,45+,South,R&D,83,62.0,60,74.2,Meets Expectations,73.8,Meets Expectations,0,0
+EMP0526,Male,40,30-44,West,Shop Floor,78,54.0,60,69.6,Needs Improvement,72.0,Meets Expectations,0,0
+EMP0527,Male,60,45+,East,R&D,99,96.0,100,98.6,Outstanding,90.7,Outstanding,1,1
+EMP0528,Male,48,45+,West,HR,73,62.0,60,68.2,Needs Improvement,69.2,Needs Improvement,0,0
+EMP0529,Female,39,30-44,South,R&D,78,66.0,80,76.0,Meets Expectations,75.6,Meets Expectations,0,0
+EMP0530,Female,50,45+,North,Shop Floor,83,72.0,80,80.2,Exceeds Expectations,72.4,Meets Expectations,1,0
+EMP0531,Female,58,45+,East,Shop Floor,82,80.0,60,77.2,Meets Expectations,65.9,Needs Improvement,0,0
+EMP0532,Male,34,30-44,East,Shop Floor,94,90.0,80,90.4,Outstanding,86.8,Exceeds Expectations,1,1
+EMP0533,Male,21,Under 30,West,Sales,88,86.0,80,86.0,Exceeds Expectations,91.5,Outstanding,1,1
+EMP0534,Female,27,Under 30,East,Shop Floor,76,64.0,60,70.4,Meets Expectations,63.7,Needs Improvement,0,0
+EMP0535,Male,50,45+,South,Shop Floor,97,80.0,60,86.2,Exceeds Expectations,86.9,Exceeds Expectations,1,1
+EMP0536,Male,38,30-44,South,Finance,81,58.0,60,72.2,Meets Expectations,76.0,Meets Expectations,0,0
+EMP0537,Female,22,Under 30,East,R&D,78,66.0,60,72.0,Meets Expectations,67.2,Needs Improvement,0,0
+EMP0538,Male,41,30-44,South,Finance,88,84.0,100,89.6,Exceeds Expectations,91.3,Outstanding,1,1
+EMP0539,Male,57,45+,South,Sales,88,78.0,60,80.4,Exceeds Expectations,79.3,Meets Expectations,1,0
+EMP0540,Male,48,45+,South,Shop Floor,92,80.0,80,87.2,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0541,Female,58,45+,North,R&D,76,60.0,60,69.6,Needs Improvement,61.7,Needs Improvement,0,0
+EMP0542,Male,48,45+,South,Sales,86,72.0,60,78.0,Meets Expectations,73.7,Meets Expectations,0,0
+EMP0543,Female,23,Under 30,West,Shop Floor,75,58.0,40,64.6,Needs Improvement,64.9,Needs Improvement,0,0
+EMP0544,Male,23,Under 30,West,Marketing,93,82.0,60,84.2,Exceeds Expectations,83.5,Exceeds Expectations,1,1
+EMP0545,Male,52,45+,North,HR,80,74.0,80,78.8,Meets Expectations,79.4,Meets Expectations,0,0
+EMP0546,Male,57,45+,South,Finance,82,66.0,100,82.4,Exceeds Expectations,78.9,Meets Expectations,1,0
+EMP0547,Female,42,30-44,West,Marketing,88,80.0,100,88.8,Exceeds Expectations,87.5,Exceeds Expectations,1,1
+EMP0548,Male,29,Under 30,West,R&D,74,70.0,60,70.4,Meets Expectations,73.7,Meets Expectations,0,0
+EMP0549,Female,54,45+,South,Shop Floor,85,86.0,100,88.2,Exceeds Expectations,85.9,Exceeds Expectations,1,1
+EMP0550,Female,30,30-44,West,Marketing,78,62.0,60,71.2,Meets Expectations,72.4,Meets Expectations,0,0
+EMP0551,Female,52,45+,West,Finance,87,74.0,80,83.0,Exceeds Expectations,75.8,Meets Expectations,1,0
+EMP0552,Male,24,Under 30,South,Shop Floor,84,82.0,80,82.8,Exceeds Expectations,87.1,Exceeds Expectations,1,1
+EMP0553,Male,38,30-44,South,HR,67,40.0,60,60.2,Needs Improvement,63.4,Needs Improvement,0,0
+EMP0554,Female,40,30-44,North,HR,79,66.0,80,76.6,Meets Expectations,73.9,Meets Expectations,0,0
+EMP0555,Male,43,30-44,North,Sales,81,66.0,60,73.8,Meets Expectations,80.3,Exceeds Expectations,0,1
+EMP0556,Male,57,45+,North,Sales,82,68.0,80,78.8,Meets Expectations,78.0,Meets Expectations,0,0
+EMP0557,Female,46,45+,South,Sales,89,78.0,60,81.0,Exceeds Expectations,78.5,Meets Expectations,1,0
+EMP0558,Female,47,45+,West,R&D,93,82.0,80,88.2,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0559,Male,53,45+,East,Shop Floor,85,78.0,80,82.6,Exceeds Expectations,76.6,Meets Expectations,1,0
+EMP0560,Male,40,30-44,East,Shop Floor,83,74.0,100,84.6,Exceeds Expectations,81.2,Exceeds Expectations,1,1
+EMP0561,Female,49,45+,North,HR,88,80.0,60,80.8,Exceeds Expectations,75.7,Meets Expectations,1,0
+EMP0562,Female,55,45+,East,Management,91,86.0,80,87.8,Exceeds Expectations,75.3,Meets Expectations,1,0
+EMP0563,Female,21,Under 30,North,HR,88,82.0,80,85.2,Exceeds Expectations,84.1,Exceeds Expectations,1,1
+EMP0564,Male,58,45+,North,Management,92,90.0,100,93.2,Outstanding,88.7,Exceeds Expectations,1,1
+EMP0565,Male,55,45+,South,Shop Floor,94,76.0,80,87.6,Exceeds Expectations,86.5,Exceeds Expectations,1,1
+EMP0566,Male,43,30-44,North,Marketing,80,54.0,60,70.8,Meets Expectations,73.6,Meets Expectations,0,0
+EMP0567,Male,46,45+,West,Shop Floor,86,70.0,60,77.6,Meets Expectations,71.7,Meets Expectations,0,0
+EMP0568,Female,52,45+,South,HR,90,86.0,80,87.2,Exceeds Expectations,79.9,Meets Expectations,1,0
+EMP0569,Male,45,45+,North,Sales,88,76.0,60,80.0,Exceeds Expectations,78.7,Meets Expectations,1,0
+EMP0570,Male,60,45+,South,Sales,55,36.0,20,44.2,Unsatisfactory,42.6,Unsatisfactory,0,0
+EMP0571,Male,47,45+,East,Management,97,100.0,80,94.2,Outstanding,91.5,Outstanding,1,1
+EMP0572,Female,22,Under 30,North,Shop Floor,87,78.0,100,87.8,Exceeds Expectations,86.3,Exceeds Expectations,1,1
+EMP0573,Male,32,30-44,West,Sales,85,80.0,80,83.0,Exceeds Expectations,84.4,Exceeds Expectations,1,1
+EMP0574,Female,44,30-44,West,Shop Floor,90,72.0,100,88.4,Exceeds Expectations,89.4,Exceeds Expectations,1,1
+EMP0575,Male,46,45+,South,Shop Floor,82,58.0,60,72.8,Meets Expectations,72.4,Meets Expectations,0,0
+EMP0576,Female,48,45+,West,R&D,82,70.0,60,75.2,Meets Expectations,73.1,Meets Expectations,0,0
+EMP0577,Female,50,45+,South,R&D,79,68.0,80,77.0,Meets Expectations,72.0,Meets Expectations,0,0
+EMP0578,Female,42,30-44,West,Shop Floor,76,68.0,60,71.2,Meets Expectations,69.7,Needs Improvement,0,0
+EMP0579,Male,25,Under 30,South,Sales,81,64.0,80,77.4,Meets Expectations,78.8,Meets Expectations,0,0
+EMP0580,Female,33,30-44,South,Shop Floor,82,62.0,100,81.6,Exceeds Expectations,77.5,Meets Expectations,1,0
+EMP0581,Male,42,30-44,North,Shop Floor,91,84.0,60,83.4,Exceeds Expectations,89.0,Exceeds Expectations,1,1
+EMP0582,Male,31,30-44,South,Finance,84,72.0,100,84.8,Exceeds Expectations,85.6,Exceeds Expectations,1,1
+EMP0583,Male,40,30-44,East,Sales,83,70.0,80,79.8,Meets Expectations,85.7,Exceeds Expectations,0,1
+EMP0584,Male,56,45+,South,Shop Floor,88,74.0,100,87.6,Exceeds Expectations,84.7,Exceeds Expectations,1,1
+EMP0585,Male,31,30-44,West,Shop Floor,95,92.0,100,95.4,Outstanding,97.8,Outstanding,1,1
+EMP0586,Female,56,45+,South,Sales,93,80.0,100,91.8,Outstanding,89.4,Exceeds Expectations,1,1
+EMP0587,Male,60,45+,West,Sales,84,70.0,60,76.4,Meets Expectations,79.4,Meets Expectations,0,0
+EMP0588,Male,26,Under 30,North,Sales,85,74.0,80,81.8,Exceeds Expectations,85.0,Exceeds Expectations,1,1
+EMP0589,Female,57,45+,South,R&D,86,74.0,60,78.4,Meets Expectations,74.1,Meets Expectations,0,0
+EMP0590,Male,50,45+,East,Shop Floor,99,96.0,100,98.6,Outstanding,94.3,Outstanding,1,1
+EMP0591,Female,36,30-44,West,Sales,88,80.0,100,88.8,Exceeds Expectations,89.5,Exceeds Expectations,1,1
+EMP0592,Male,48,45+,South,Shop Floor,96,90.0,100,95.6,Outstanding,92.0,Outstanding,1,1
+EMP0593,Female,25,Under 30,South,Management,74,52.0,80,70.8,Meets Expectations,66.3,Needs Improvement,0,0
+EMP0594,Female,39,30-44,South,Shop Floor,84,80.0,100,86.4,Exceeds Expectations,84.4,Exceeds Expectations,1,1
+EMP0595,Female,35,30-44,West,Finance,95,94.0,80,91.8,Outstanding,91.7,Outstanding,1,1
+EMP0596,Female,36,30-44,North,Marketing,74,50.0,60,66.4,Needs Improvement,63.1,Needs Improvement,0,0
+EMP0597,Female,53,45+,West,Sales,85,68.0,60,76.6,Meets Expectations,70.5,Meets Expectations,0,0
+EMP0598,Male,33,30-44,East,Shop Floor,68,50.0,40,58.8,Unsatisfactory,61.0,Needs Improvement,0,0
+EMP0599,Male,44,30-44,West,Finance,100,98.0,100,99.6,Outstanding,100.0,Outstanding,1,1
+EMP0600,Male,49,45+,North,Management,89,74.0,80,84.2,Exceeds Expectations,81.5,Exceeds Expectations,1,1
+EMP0601,Female,52,45+,South,Finance,82,64.0,80,78.0,Meets Expectations,71.7,Meets Expectations,0,0
+EMP0602,Male,39,30-44,North,Shop Floor,92,84.0,100,92.0,Outstanding,94.7,Outstanding,1,1
+EMP0603,Female,52,45+,South,R&D,83,66.0,80,79.0,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0604,Male,48,45+,North,Sales,95,82.0,80,89.4,Exceeds Expectations,87.0,Exceeds Expectations,1,1
+EMP0605,Male,28,Under 30,West,Shop Floor,79,68.0,60,73.0,Meets Expectations,72.9,Meets Expectations,0,0
+EMP0606,Male,48,45+,South,Management,95,88.0,80,90.6,Outstanding,86.4,Exceeds Expectations,1,1
+EMP0607,Male,35,30-44,North,R&D,82,68.0,80,78.8,Meets Expectations,77.2,Meets Expectations,0,0
+EMP0608,Male,60,45+,East,Marketing,84,72.0,80,80.8,Exceeds Expectations,77.0,Meets Expectations,1,0
+EMP0609,Male,53,45+,North,Sales,78,66.0,40,68.0,Needs Improvement,63.3,Needs Improvement,0,0
+EMP0610,Female,48,45+,East,Sales,85,80.0,60,79.0,Meets Expectations,69.8,Needs Improvement,0,0
+EMP0611,Male,48,45+,North,Shop Floor,81,62.0,80,77.0,Meets Expectations,78.7,Meets Expectations,0,0
+EMP0612,Male,24,Under 30,South,Sales,75,52.0,40,63.4,Needs Improvement,65.4,Needs Improvement,0,0
+EMP0613,Female,53,45+,South,Sales,100,92.0,100,98.4,Outstanding,95.4,Outstanding,1,1
+EMP0614,Male,29,Under 30,West,Shop Floor,84,68.0,80,80.0,Exceeds Expectations,80.6,Exceeds Expectations,1,1
+EMP0615,Male,51,45+,East,HR,83,62.0,60,74.2,Meets Expectations,69.2,Needs Improvement,0,0
+EMP0616,Female,44,30-44,South,Marketing,93,88.0,80,89.4,Exceeds Expectations,89.0,Exceeds Expectations,1,1
+EMP0617,Male,60,45+,West,Marketing,80,64.0,60,72.8,Meets Expectations,71.7,Meets Expectations,0,0
+EMP0618,Female,21,Under 30,North,Sales,71,56.0,60,65.8,Needs Improvement,64.6,Needs Improvement,0,0
+EMP0619,Male,47,45+,North,Sales,78,56.0,60,70.0,Meets Expectations,67.7,Needs Improvement,0,0
+EMP0620,Male,39,30-44,South,Finance,95,90.0,80,91.0,Outstanding,92.3,Outstanding,1,1
+EMP0621,Female,43,30-44,South,HR,75,58.0,60,68.6,Needs Improvement,64.6,Needs Improvement,0,0
+EMP0622,Female,33,30-44,South,Finance,100,100.0,100,100.0,Outstanding,98.9,Outstanding,1,1
+EMP0623,Female,48,45+,South,Shop Floor,83,78.0,80,81.4,Exceeds Expectations,78.0,Meets Expectations,1,0
+EMP0624,Female,28,Under 30,West,Marketing,91,78.0,60,82.2,Exceeds Expectations,77.1,Meets Expectations,1,0
+EMP0625,Male,26,Under 30,North,Sales,88,70.0,80,82.8,Exceeds Expectations,79.3,Meets Expectations,1,0
+EMP0626,Female,22,Under 30,South,Shop Floor,81,74.0,80,79.4,Meets Expectations,76.3,Meets Expectations,0,0
+EMP0627,Female,24,Under 30,South,Shop Floor,84,78.0,80,82.0,Exceeds Expectations,78.3,Meets Expectations,1,0
+EMP0628,Female,21,Under 30,East,HR,82,60.0,80,77.2,Meets Expectations,72.6,Meets Expectations,0,0
+EMP0629,Male,34,30-44,North,Sales,85,72.0,80,81.4,Exceeds Expectations,86.2,Exceeds Expectations,1,1
+EMP0630,Female,27,Under 30,North,Finance,82,68.0,40,70.8,Meets Expectations,67.6,Needs Improvement,0,0
+EMP0631,Female,48,45+,North,Sales,96,86.0,100,94.8,Outstanding,90.9,Outstanding,1,1
+EMP0632,Female,58,45+,West,Shop Floor,83,84.0,60,78.6,Meets Expectations,72.2,Meets Expectations,0,0
+EMP0633,Male,60,45+,North,R&D,86,72.0,60,78.0,Meets Expectations,74.1,Meets Expectations,0,0
+EMP0634,Female,34,30-44,South,Shop Floor,81,76.0,80,79.8,Meets Expectations,79.4,Meets Expectations,0,0
+EMP0635,Female,56,45+,West,Shop Floor,81,62.0,80,77.0,Meets Expectations,71.5,Meets Expectations,0,0
+EMP0636,Male,58,45+,North,Management,76,62.0,80,74.0,Meets Expectations,71.7,Meets Expectations,0,0
+EMP0637,Male,44,30-44,West,R&D,82,74.0,60,76.0,Meets Expectations,76.5,Meets Expectations,0,0
+EMP0638,Male,24,Under 30,East,Shop Floor,95,84.0,80,89.8,Exceeds Expectations,91.9,Outstanding,1,1
+EMP0639,Female,23,Under 30,North,Shop Floor,87,80.0,80,84.2,Exceeds Expectations,84.0,Exceeds Expectations,1,1
+EMP0640,Female,45,45+,South,Marketing,75,74.0,80,75.8,Meets Expectations,73.6,Meets Expectations,0,0
+EMP0641,Female,45,45+,South,Management,80,56.0,80,75.2,Meets Expectations,68.3,Needs Improvement,0,0
+EMP0642,Female,42,30-44,South,Shop Floor,81,60.0,80,76.6,Meets Expectations,79.7,Meets Expectations,0,0
+EMP0643,Female,44,30-44,East,Finance,95,84.0,100,93.8,Outstanding,89.6,Exceeds Expectations,1,1
+EMP0644,Male,46,45+,East,Sales,93,86.0,100,93.0,Outstanding,88.8,Exceeds Expectations,1,1
+EMP0645,Female,35,30-44,South,Finance,80,60.0,80,76.0,Meets Expectations,71.0,Meets Expectations,0,0
+EMP0646,Male,54,45+,West,Marketing,83,66.0,60,75.0,Meets Expectations,75.9,Meets Expectations,0,0
+EMP0647,Male,50,45+,North,Shop Floor,87,82.0,60,80.6,Exceeds Expectations,77.8,Meets Expectations,1,0
+EMP0648,Male,36,30-44,West,Sales,78,56.0,60,70.0,Meets Expectations,74.3,Meets Expectations,0,0
+EMP0649,Male,49,45+,North,Finance,82,74.0,80,80.0,Exceeds Expectations,72.7,Meets Expectations,1,0
+EMP0650,Female,47,45+,South,HR,100,88.0,80,93.6,Outstanding,87.4,Exceeds Expectations,1,1
+EMP0651,Female,32,30-44,East,Management,77,74.0,60,73.0,Meets Expectations,68.3,Needs Improvement,0,0
+EMP0652,Male,29,Under 30,North,Management,90,70.0,80,84.0,Exceeds Expectations,88.0,Exceeds Expectations,1,1
+EMP0653,Male,32,30-44,West,HR,82,82.0,80,81.6,Exceeds Expectations,87.0,Exceeds Expectations,1,1
+EMP0654,Female,52,45+,North,Shop Floor,91,92.0,80,89.0,Exceeds Expectations,83.5,Exceeds Expectations,1,1
+EMP0655,Female,27,Under 30,West,R&D,87,76.0,60,79.4,Meets Expectations,79.9,Meets Expectations,0,0
+EMP0656,Female,42,30-44,North,Finance,67,58.0,40,59.8,Unsatisfactory,60.9,Needs Improvement,0,0
+EMP0657,Female,59,45+,North,Sales,72,68.0,40,64.8,Needs Improvement,61.6,Needs Improvement,0,0
+EMP0658,Male,24,Under 30,North,R&D,87,82.0,80,84.6,Exceeds Expectations,91.3,Outstanding,1,1
+EMP0659,Male,42,30-44,West,Sales,81,62.0,80,77.0,Meets Expectations,83.3,Exceeds Expectations,0,1
+EMP0660,Male,32,30-44,South,Shop Floor,77,66.0,80,75.4,Meets Expectations,77.1,Meets Expectations,0,0
+EMP0661,Female,54,45+,North,Sales,69,54.0,60,64.2,Needs Improvement,60.2,Needs Improvement,0,0
+EMP0662,Male,26,Under 30,West,Shop Floor,85,68.0,80,80.6,Exceeds Expectations,80.4,Exceeds Expectations,1,1
+EMP0663,Male,44,30-44,West,Finance,79,54.0,60,70.2,Meets Expectations,69.3,Needs Improvement,0,0
+EMP0664,Female,50,45+,North,Marketing,95,92.0,80,91.4,Outstanding,87.1,Exceeds Expectations,1,1
+EMP0665,Male,26,Under 30,South,Shop Floor,84,86.0,80,83.6,Exceeds Expectations,89.0,Exceeds Expectations,1,1
+EMP0666,Male,37,30-44,South,Marketing,80,60.0,60,72.0,Meets Expectations,75.8,Meets Expectations,0,0
+EMP0667,Female,26,Under 30,East,Shop Floor,72,54.0,60,66.0,Needs Improvement,58.8,Unsatisfactory,0,0
+EMP0668,Female,41,30-44,East,Shop Floor,78,64.0,60,71.6,Meets Expectations,68.1,Needs Improvement,0,0
+EMP0669,Female,21,Under 30,South,Shop Floor,84,72.0,100,84.8,Exceeds Expectations,81.7,Exceeds Expectations,1,1
+EMP0670,Female,45,45+,South,Sales,88,78.0,100,88.4,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0671,Female,32,30-44,South,Marketing,65,50.0,60,61.0,Needs Improvement,58.0,Unsatisfactory,0,0
+EMP0672,Female,35,30-44,North,R&D,97,92.0,80,92.6,Outstanding,93.6,Outstanding,1,1
+EMP0673,Female,52,45+,West,Shop Floor,86,70.0,100,85.6,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0674,Female,60,45+,West,Shop Floor,84,66.0,80,79.6,Meets Expectations,72.1,Meets Expectations,0,0
+EMP0675,Male,40,30-44,North,Finance,64,42.0,60,58.8,Unsatisfactory,66.4,Needs Improvement,0,0
+EMP0676,Male,51,45+,West,Sales,75,62.0,60,69.4,Needs Improvement,65.7,Needs Improvement,0,0
+EMP0677,Male,36,30-44,East,R&D,94,86.0,100,93.6,Outstanding,95.1,Outstanding,1,1
+EMP0678,Male,46,45+,South,Shop Floor,86,74.0,60,78.4,Meets Expectations,78.5,Meets Expectations,0,0
+EMP0679,Male,36,30-44,South,R&D,86,72.0,80,82.0,Exceeds Expectations,82.7,Exceeds Expectations,1,1
+EMP0680,Female,27,Under 30,North,Shop Floor,83,68.0,80,79.4,Meets Expectations,74.3,Meets Expectations,0,0
+EMP0681,Female,55,45+,West,Shop Floor,76,70.0,60,71.6,Meets Expectations,64.8,Needs Improvement,0,0
+EMP0682,Male,35,30-44,North,Sales,76,66.0,80,74.8,Meets Expectations,78.2,Meets Expectations,0,0
+EMP0683,Male,35,30-44,East,R&D,92,80.0,100,91.2,Outstanding,89.3,Exceeds Expectations,1,1
+EMP0684,Female,36,30-44,South,R&D,93,86.0,80,89.0,Exceeds Expectations,89.1,Exceeds Expectations,1,1
+EMP0685,Male,53,45+,North,Shop Floor,91,80.0,80,86.6,Exceeds Expectations,85.7,Exceeds Expectations,1,1
+EMP0686,Female,49,45+,East,Sales,80,70.0,80,78.0,Meets Expectations,74.3,Meets Expectations,0,0
+EMP0687,Male,28,Under 30,East,Shop Floor,87,78.0,80,83.8,Exceeds Expectations,81.7,Exceeds Expectations,1,1
+EMP0688,Female,24,Under 30,South,Sales,95,90.0,80,91.0,Outstanding,88.7,Exceeds Expectations,1,1
+EMP0689,Male,45,45+,North,Finance,91,86.0,80,87.8,Exceeds Expectations,86.7,Exceeds Expectations,1,1
+EMP0690,Male,26,Under 30,West,Management,94,90.0,80,90.4,Outstanding,91.8,Outstanding,1,1
+EMP0691,Male,27,Under 30,West,Sales,69,58.0,60,65.0,Needs Improvement,64.7,Needs Improvement,0,0
+EMP0692,Female,52,45+,West,Shop Floor,69,48.0,60,63.0,Needs Improvement,57.8,Unsatisfactory,0,0
+EMP0693,Female,50,45+,West,Shop Floor,84,78.0,80,82.0,Exceeds Expectations,75.1,Meets Expectations,1,0
+EMP0694,Male,36,30-44,South,Finance,82,68.0,60,74.8,Meets Expectations,77.3,Meets Expectations,0,0
+EMP0695,Male,50,45+,South,Shop Floor,56,26.0,20,42.8,Unsatisfactory,41.5,Unsatisfactory,0,0
+EMP0696,Male,32,30-44,South,Management,92,84.0,60,84.0,Exceeds Expectations,86.2,Exceeds Expectations,1,1
+EMP0697,Female,39,30-44,North,Shop Floor,97,82.0,100,94.6,Outstanding,93.5,Outstanding,1,1
+EMP0698,Male,25,Under 30,South,Shop Floor,93,74.0,60,82.6,Exceeds Expectations,83.4,Exceeds Expectations,1,1
+EMP0699,Female,53,45+,West,Marketing,88,80.0,60,80.8,Exceeds Expectations,74.5,Meets Expectations,1,0
+EMP0700,Male,24,Under 30,East,Management,70,52.0,40,60.4,Needs Improvement,59.8,Unsatisfactory,0,0
+EMP0701,Male,58,45+,East,Shop Floor,96,86.0,80,90.8,Outstanding,88.2,Exceeds Expectations,1,1
+EMP0702,Female,37,30-44,North,HR,100,100.0,100,100.0,Outstanding,99.7,Outstanding,1,1
+EMP0703,Male,32,30-44,West,Marketing,100,98.0,100,99.6,Outstanding,100.0,Outstanding,1,1
+EMP0704,Male,39,30-44,North,R&D,84,64.0,80,79.2,Meets Expectations,79.5,Meets Expectations,0,0
+EMP0705,Female,45,45+,East,Sales,85,78.0,80,82.6,Exceeds Expectations,71.6,Meets Expectations,1,0
+EMP0706,Male,59,45+,North,Shop Floor,94,82.0,80,88.8,Exceeds Expectations,85.3,Exceeds Expectations,1,1
+EMP0707,Female,59,45+,South,Shop Floor,75,54.0,60,67.8,Needs Improvement,60.0,Needs Improvement,0,0
+EMP0708,Male,47,45+,North,Management,78,62.0,60,71.2,Meets Expectations,67.3,Needs Improvement,0,0
+EMP0709,Female,60,45+,South,Shop Floor,84,80.0,100,86.4,Exceeds Expectations,79.0,Meets Expectations,1,0
+EMP0710,Female,29,Under 30,East,Finance,83,68.0,80,79.4,Meets Expectations,72.8,Meets Expectations,0,0
+EMP0711,Female,21,Under 30,East,HR,82,58.0,60,72.8,Meets Expectations,69.1,Needs Improvement,0,0
+EMP0712,Male,48,45+,South,Finance,83,72.0,80,80.2,Exceeds Expectations,77.7,Meets Expectations,1,0
+EMP0713,Female,58,45+,North,Shop Floor,77,60.0,60,70.2,Meets Expectations,66.1,Needs Improvement,0,0
+EMP0714,Female,21,Under 30,West,Shop Floor,81,68.0,80,78.2,Meets Expectations,78.7,Meets Expectations,0,0
+EMP0715,Female,56,45+,West,Shop Floor,95,94.0,100,95.8,Outstanding,88.7,Exceeds Expectations,1,1
+EMP0716,Female,50,45+,East,R&D,83,66.0,60,75.0,Meets Expectations,69.6,Needs Improvement,0,0
+EMP0717,Male,50,45+,West,Shop Floor,76,64.0,60,70.4,Meets Expectations,68.5,Needs Improvement,0,0
+EMP0718,Female,33,30-44,East,Shop Floor,77,64.0,80,75.0,Meets Expectations,73.2,Meets Expectations,0,0
+EMP0719,Male,53,45+,West,Shop Floor,69,58.0,60,65.0,Needs Improvement,64.2,Needs Improvement,0,0
+EMP0720,Male,48,45+,South,Management,89,82.0,80,85.8,Exceeds Expectations,84.0,Exceeds Expectations,1,1
+EMP0721,Female,53,45+,East,Management,72,38.0,60,62.8,Needs Improvement,54.5,Unsatisfactory,0,0
+EMP0722,Female,59,45+,North,R&D,76,58.0,60,69.2,Needs Improvement,66.4,Needs Improvement,0,0
+EMP0723,Female,41,30-44,South,Shop Floor,83,84.0,80,82.6,Exceeds Expectations,85.5,Exceeds Expectations,1,1
+EMP0724,Male,60,45+,West,Finance,65,50.0,60,61.0,Needs Improvement,58.4,Unsatisfactory,0,0
+EMP0725,Female,34,30-44,West,HR,93,84.0,80,88.6,Exceeds Expectations,86.1,Exceeds Expectations,1,1
+EMP0726,Female,43,30-44,West,HR,94,86.0,80,89.6,Exceeds Expectations,88.4,Exceeds Expectations,1,1
+EMP0727,Male,57,45+,South,HR,80,66.0,80,77.2,Meets Expectations,71.3,Meets Expectations,0,0
+EMP0728,Female,23,Under 30,North,Marketing,90,86.0,80,87.2,Exceeds Expectations,85.0,Exceeds Expectations,1,1
+EMP0729,Female,31,30-44,West,Finance,91,80.0,80,86.6,Exceeds Expectations,89.4,Exceeds Expectations,1,1
+EMP0730,Male,23,Under 30,West,Shop Floor,88,74.0,80,83.6,Exceeds Expectations,86.4,Exceeds Expectations,1,1
+EMP0731,Male,49,45+,North,HR,95,92.0,80,91.4,Outstanding,88.7,Exceeds Expectations,1,1
+EMP0732,Female,31,30-44,West,Shop Floor,100,98.0,80,95.6,Outstanding,94.2,Outstanding,1,1
+EMP0733,Female,27,Under 30,North,Sales,89,74.0,80,84.2,Exceeds Expectations,82.0,Exceeds Expectations,1,1
+EMP0734,Female,24,Under 30,South,HR,99,98.0,100,99.0,Outstanding,97.5,Outstanding,1,1
+EMP0735,Female,50,45+,South,HR,93,82.0,100,92.2,Outstanding,90.0,Outstanding,1,1
+EMP0736,Female,32,30-44,North,Shop Floor,100,86.0,100,97.2,Outstanding,96.9,Outstanding,1,1
+EMP0737,Female,58,45+,South,HR,84,76.0,80,81.6,Exceeds Expectations,77.3,Meets Expectations,1,0
+EMP0738,Female,56,45+,North,Shop Floor,90,78.0,100,89.6,Exceeds Expectations,81.2,Exceeds Expectations,1,1
+EMP0739,Male,34,30-44,West,Shop Floor,100,94.0,80,94.8,Outstanding,94.2,Outstanding,1,1
+EMP0740,Male,33,30-44,North,Shop Floor,79,66.0,80,76.6,Meets Expectations,78.0,Meets Expectations,0,0
+EMP0741,Female,56,45+,South,Management,71,62.0,80,71.0,Meets Expectations,67.7,Needs Improvement,0,0
+EMP0742,Male,34,30-44,North,Shop Floor,100,96.0,100,99.2,Outstanding,100.0,Outstanding,1,1
+EMP0743,Male,44,30-44,West,R&D,68,46.0,40,58.0,Unsatisfactory,61.8,Needs Improvement,0,0
+EMP0744,Male,54,45+,East,Sales,93,82.0,80,88.2,Exceeds Expectations,82.5,Exceeds Expectations,1,1
+EMP0745,Male,55,45+,South,Shop Floor,79,60.0,80,75.4,Meets Expectations,75.4,Meets Expectations,0,0
+EMP0746,Female,51,45+,East,Finance,81,76.0,80,79.8,Meets Expectations,72.1,Meets Expectations,0,0
+EMP0747,Female,45,45+,West,Management,69,40.0,60,61.4,Needs Improvement,60.4,Needs Improvement,0,0
+EMP0748,Male,33,30-44,West,Sales,83,74.0,60,76.6,Meets Expectations,81.4,Exceeds Expectations,0,1
+EMP0749,Female,30,30-44,South,Shop Floor,72,52.0,60,65.6,Needs Improvement,64.1,Needs Improvement,0,0
+EMP0750,Male,41,30-44,East,Marketing,85,78.0,80,82.6,Exceeds Expectations,82.5,Exceeds Expectations,1,1
+EMP0751,Female,60,45+,North,Management,89,80.0,100,89.4,Exceeds Expectations,86.0,Exceeds Expectations,1,1
+EMP0752,Female,43,30-44,South,HR,68,54.0,80,67.6,Needs Improvement,68.5,Needs Improvement,0,0
+EMP0753,Male,36,30-44,North,Shop Floor,94,86.0,80,89.6,Exceeds Expectations,91.5,Outstanding,1,1
+EMP0754,Male,49,45+,North,HR,92,88.0,80,88.8,Exceeds Expectations,88.2,Exceeds Expectations,1,1
+EMP0755,Female,27,Under 30,South,HR,64,50.0,40,56.4,Unsatisfactory,57.4,Unsatisfactory,0,0
+EMP0756,Male,26,Under 30,North,HR,78,62.0,80,75.2,Meets Expectations,78.9,Meets Expectations,0,0
+EMP0757,Female,35,30-44,East,Sales,75,64.0,60,69.8,Needs Improvement,63.9,Needs Improvement,0,0
+EMP0758,Female,51,45+,South,Finance,100,100.0,100,100.0,Outstanding,92.5,Outstanding,1,1
+EMP0759,Female,54,45+,North,Sales,86,70.0,100,85.6,Exceeds Expectations,79.9,Meets Expectations,1,0
+EMP0760,Female,24,Under 30,North,Marketing,75,46.0,80,70.2,Meets Expectations,65.9,Needs Improvement,0,0
+EMP0761,Male,26,Under 30,South,Shop Floor,90,78.0,80,85.6,Exceeds Expectations,89.7,Exceeds Expectations,1,1
+EMP0762,Female,44,30-44,South,Finance,74,58.0,40,64.0,Needs Improvement,64.4,Needs Improvement,0,0
+EMP0763,Male,50,45+,North,Shop Floor,76,60.0,60,69.6,Needs Improvement,72.4,Meets Expectations,0,0
+EMP0764,Male,58,45+,North,Shop Floor,98,88.0,80,92.4,Outstanding,88.5,Exceeds Expectations,1,1
+EMP0765,Female,37,30-44,South,Sales,80,80.0,80,80.0,Exceeds Expectations,78.8,Meets Expectations,1,0
+EMP0766,Male,27,Under 30,North,Shop Floor,88,64.0,40,73.6,Meets Expectations,76.8,Meets Expectations,0,0
+EMP0767,Male,31,30-44,South,Shop Floor,95,86.0,80,90.2,Outstanding,86.1,Exceeds Expectations,1,1
+EMP0768,Female,51,45+,West,Finance,100,96.0,100,99.2,Outstanding,92.3,Outstanding,1,1
+EMP0769,Female,47,45+,West,Finance,86,80.0,80,83.6,Exceeds Expectations,76.2,Meets Expectations,1,0
+EMP0770,Male,36,30-44,South,Marketing,77,64.0,40,67.0,Needs Improvement,73.4,Meets Expectations,0,0
+EMP0771,Female,43,30-44,South,HR,83,70.0,60,75.8,Meets Expectations,75.1,Meets Expectations,0,0
+EMP0772,Female,30,30-44,South,Shop Floor,87,82.0,80,84.6,Exceeds Expectations,82.6,Exceeds Expectations,1,1
+EMP0773,Female,43,30-44,North,Finance,87,76.0,60,79.4,Meets Expectations,75.3,Meets Expectations,0,0
+EMP0774,Female,41,30-44,East,Shop Floor,88,76.0,80,84.0,Exceeds Expectations,84.0,Exceeds Expectations,1,1
+EMP0775,Male,27,Under 30,North,Management,78,68.0,60,72.4,Meets Expectations,71.2,Meets Expectations,0,0
+EMP0776,Male,28,Under 30,West,Shop Floor,98,94.0,80,93.6,Outstanding,93.7,Outstanding,1,1
+EMP0777,Male,53,45+,North,Shop Floor,93,80.0,100,91.8,Outstanding,89.8,Exceeds Expectations,1,1
+EMP0778,Male,38,30-44,East,Marketing,67,52.0,40,58.6,Unsatisfactory,57.2,Unsatisfactory,0,0
+EMP0779,Male,26,Under 30,East,Finance,84,76.0,80,81.6,Exceeds Expectations,81.3,Exceeds Expectations,1,1
+EMP0780,Male,44,30-44,West,Shop Floor,90,86.0,60,83.2,Exceeds Expectations,85.9,Exceeds Expectations,1,1
+EMP0781,Male,40,30-44,West,Finance,88,76.0,80,84.0,Exceeds Expectations,87.4,Exceeds Expectations,1,1
+EMP0782,Male,51,45+,East,Shop Floor,98,96.0,100,98.0,Outstanding,95.0,Outstanding,1,1
+EMP0783,Female,27,Under 30,South,R&D,79,48.0,60,69.0,Needs Improvement,71.1,Meets Expectations,0,0
+EMP0784,Female,53,45+,North,Finance,72,52.0,60,65.6,Needs Improvement,59.5,Unsatisfactory,0,0
+EMP0785,Male,57,45+,East,Shop Floor,92,78.0,80,86.8,Exceeds Expectations,76.4,Meets Expectations,1,0
+EMP0786,Female,56,45+,West,Sales,79,64.0,60,72.2,Meets Expectations,65.4,Needs Improvement,0,0
+EMP0787,Female,27,Under 30,East,Sales,76,70.0,60,71.6,Meets Expectations,69.7,Needs Improvement,0,0
+EMP0788,Male,40,30-44,North,Management,90,84.0,80,86.8,Exceeds Expectations,88.6,Exceeds Expectations,1,1
+EMP0789,Female,34,30-44,West,Shop Floor,75,60.0,80,73.0,Meets Expectations,71.7,Meets Expectations,0,0
+EMP0790,Female,57,45+,West,R&D,70,58.0,60,65.6,Needs Improvement,61.0,Needs Improvement,0,0
+EMP0791,Male,56,45+,West,Finance,72,60.0,60,67.2,Needs Improvement,68.4,Needs Improvement,0,0
+EMP0792,Female,56,45+,East,Shop Floor,90,76.0,80,85.2,Exceeds Expectations,76.3,Meets Expectations,1,0
+EMP0793,Female,55,45+,East,Sales,76,72.0,80,76.0,Meets Expectations,67.6,Needs Improvement,0,0
+EMP0794,Male,40,30-44,East,Shop Floor,77,58.0,80,73.8,Meets Expectations,73.5,Meets Expectations,0,0
+EMP0795,Female,21,Under 30,South,R&D,67,40.0,40,56.2,Unsatisfactory,56.4,Unsatisfactory,0,0
+EMP0796,Female,25,Under 30,North,R&D,88,86.0,100,90.0,Outstanding,91.6,Outstanding,1,1
+EMP0797,Female,29,Under 30,South,Management,75,58.0,60,68.6,Needs Improvement,72.1,Meets Expectations,0,0
+EMP0798,Male,35,30-44,North,R&D,91,76.0,60,81.8,Exceeds Expectations,85.2,Exceeds Expectations,1,1
+EMP0799,Female,41,30-44,West,Marketing,89,68.0,60,79.0,Meets Expectations,76.2,Meets Expectations,0,0
+EMP0800,Female,50,45+,South,Marketing,89,80.0,80,85.4,Exceeds Expectations,81.1,Exceeds Expectations,1,1
+EMP0801,Male,30,30-44,North,Shop Floor,74,62.0,80,72.8,Meets Expectations,69.2,Needs Improvement,0,0
+EMP0802,Male,43,30-44,East,R&D,85,80.0,60,79.0,Meets Expectations,72.3,Meets Expectations,0,0
+EMP0803,Female,40,30-44,South,Management,63,40.0,40,53.8,Unsatisfactory,50.4,Unsatisfactory,0,0
+EMP0804,Male,28,Under 30,East,Sales,80,62.0,60,72.4,Meets Expectations,71.5,Meets Expectations,0,0
+EMP0805,Male,30,30-44,South,Shop Floor,90,82.0,100,90.4,Outstanding,91.0,Outstanding,1,1
+EMP0806,Male,55,45+,South,Shop Floor,99,92.0,80,93.8,Outstanding,95.0,Outstanding,1,1
+EMP0807,Male,40,30-44,North,Finance,88,82.0,80,85.2,Exceeds Expectations,91.8,Outstanding,1,1
+EMP0808,Female,46,45+,West,Shop Floor,72,52.0,40,61.6,Needs Improvement,58.1,Unsatisfactory,0,0
+EMP0809,Male,35,30-44,North,R&D,76,62.0,80,74.0,Meets Expectations,76.0,Meets Expectations,0,0
+EMP0810,Male,26,Under 30,East,HR,84,74.0,80,81.2,Exceeds Expectations,79.0,Meets Expectations,1,0
+EMP0811,Male,32,30-44,West,Finance,66,48.0,60,61.2,Needs Improvement,64.1,Needs Improvement,0,0
+EMP0812,Female,53,45+,South,Shop Floor,93,82.0,80,88.2,Exceeds Expectations,87.0,Exceeds Expectations,1,1
+EMP0813,Male,56,45+,West,Marketing,98,90.0,100,96.8,Outstanding,91.5,Outstanding,1,1
+EMP0814,Female,41,30-44,North,Management,78,62.0,80,75.2,Meets Expectations,73.1,Meets Expectations,0,0
+EMP0815,Male,46,45+,South,Finance,64,38.0,40,54.0,Unsatisfactory,52.8,Unsatisfactory,0,0
+EMP0816,Male,35,30-44,West,Shop Floor,79,64.0,60,72.2,Meets Expectations,75.6,Meets Expectations,0,0
+EMP0817,Female,56,45+,North,HR,80,74.0,80,78.8,Meets Expectations,71.4,Meets Expectations,0,0
+EMP0818,Female,41,30-44,South,Management,75,66.0,80,74.2,Meets Expectations,73.0,Meets Expectations,0,0
+EMP0819,Female,46,45+,East,Shop Floor,92,88.0,80,88.8,Exceeds Expectations,80.8,Exceeds Expectations,1,1
+EMP0820,Male,42,30-44,South,Shop Floor,93,86.0,100,93.0,Outstanding,94.0,Outstanding,1,1
+EMP0821,Female,42,30-44,North,Shop Floor,80,62.0,80,76.4,Meets Expectations,77.5,Meets Expectations,0,0
+EMP0822,Female,60,45+,South,Shop Floor,93,88.0,100,93.4,Outstanding,87.8,Exceeds Expectations,1,1
+EMP0823,Female,41,30-44,North,Shop Floor,97,96.0,100,97.4,Outstanding,99.7,Outstanding,1,1
+EMP0824,Female,48,45+,North,Shop Floor,71,50.0,60,64.6,Needs Improvement,59.3,Unsatisfactory,0,0
+EMP0825,Female,37,30-44,East,Marketing,81,68.0,80,78.2,Meets Expectations,77.1,Meets Expectations,0,0
+EMP0826,Female,31,30-44,South,R&D,86,66.0,80,80.8,Exceeds Expectations,78.9,Meets Expectations,1,0
+EMP0827,Female,26,Under 30,South,Sales,97,92.0,100,96.6,Outstanding,96.6,Outstanding,1,1
+EMP0828,Female,37,30-44,North,R&D,71,52.0,40,61.0,Needs Improvement,54.8,Unsatisfactory,0,0
+EMP0829,Female,44,30-44,South,HR,84,64.0,80,79.2,Meets Expectations,77.3,Meets Expectations,0,0
+EMP0830,Male,25,Under 30,North,Sales,78,62.0,80,75.2,Meets Expectations,75.0,Meets Expectations,0,0
+EMP0831,Male,59,45+,North,Sales,76,58.0,80,73.2,Meets Expectations,74.2,Meets Expectations,0,0
+EMP0832,Female,35,30-44,South,Shop Floor,84,68.0,100,84.0,Exceeds Expectations,84.5,Exceeds Expectations,1,1
+EMP0833,Female,58,45+,East,Shop Floor,90,86.0,80,87.2,Exceeds Expectations,79.7,Meets Expectations,1,0
+EMP0834,Male,53,45+,North,Shop Floor,90,86.0,60,83.2,Exceeds Expectations,77.8,Meets Expectations,1,0
+EMP0835,Male,25,Under 30,South,R&D,96,88.0,80,91.2,Outstanding,94.2,Outstanding,1,1
+EMP0836,Male,37,30-44,South,R&D,79,72.0,80,77.8,Meets Expectations,80.6,Exceeds Expectations,0,1
+EMP0837,Male,26,Under 30,West,R&D,89,70.0,100,87.4,Exceeds Expectations,86.7,Exceeds Expectations,1,1
+EMP0838,Female,53,45+,East,Finance,88,78.0,80,84.4,Exceeds Expectations,76.9,Meets Expectations,1,0
+EMP0839,Female,34,30-44,North,Shop Floor,98,86.0,100,96.0,Outstanding,98.0,Outstanding,1,1
+EMP0840,Male,33,30-44,West,R&D,73,58.0,60,67.4,Needs Improvement,69.4,Needs Improvement,0,0
+EMP0841,Female,52,45+,East,HR,87,68.0,80,81.8,Exceeds Expectations,75.8,Meets Expectations,1,0
+EMP0842,Male,45,45+,South,R&D,76,64.0,40,66.4,Needs Improvement,65.4,Needs Improvement,0,0
+EMP0843,Female,21,Under 30,South,Finance,90,80.0,80,86.0,Exceeds Expectations,85.0,Exceeds Expectations,1,1
+EMP0844,Male,23,Under 30,North,R&D,66,46.0,60,60.8,Needs Improvement,61.5,Needs Improvement,0,0
+EMP0845,Female,22,Under 30,South,Shop Floor,75,54.0,60,67.8,Needs Improvement,68.7,Needs Improvement,0,0
+EMP0846,Male,26,Under 30,South,HR,84,68.0,80,80.0,Exceeds Expectations,78.9,Meets Expectations,1,0
+EMP0847,Female,38,30-44,South,Shop Floor,72,62.0,60,67.6,Needs Improvement,68.7,Needs Improvement,0,0
+EMP0848,Male,37,30-44,South,Shop Floor,88,86.0,80,86.0,Exceeds Expectations,87.6,Exceeds Expectations,1,1
+EMP0849,Male,35,30-44,North,R&D,74,64.0,40,65.2,Needs Improvement,66.7,Needs Improvement,0,0
+EMP0850,Female,57,45+,South,Shop Floor,58,52.0,40,53.2,Unsatisfactory,47.6,Unsatisfactory,0,0
+EMP0851,Female,43,30-44,South,Sales,82,64.0,60,74.0,Meets Expectations,71.0,Meets Expectations,0,0
+EMP0852,Male,49,45+,East,R&D,95,88.0,100,94.6,Outstanding,93.7,Outstanding,1,1
+EMP0853,Female,27,Under 30,West,Shop Floor,85,76.0,80,82.2,Exceeds Expectations,79.1,Meets Expectations,1,0
+EMP0854,Male,29,Under 30,South,Marketing,86,80.0,80,83.6,Exceeds Expectations,91.2,Outstanding,1,1
+EMP0855,Male,31,30-44,East,Shop Floor,58,26.0,40,48.0,Unsatisfactory,47.7,Unsatisfactory,0,0
+EMP0856,Male,32,30-44,South,R&D,78,60.0,60,70.8,Meets Expectations,70.5,Meets Expectations,0,0
+EMP0857,Female,50,45+,South,Management,85,86.0,80,84.2,Exceeds Expectations,77.1,Meets Expectations,1,0
+EMP0858,Female,22,Under 30,South,Sales,79,62.0,80,75.8,Meets Expectations,73.4,Meets Expectations,0,0
+EMP0859,Female,23,Under 30,South,HR,97,82.0,80,90.6,Outstanding,87.9,Exceeds Expectations,1,1
+EMP0860,Female,46,45+,South,Finance,91,78.0,80,86.2,Exceeds Expectations,76.5,Meets Expectations,1,0
+EMP0861,Female,26,Under 30,West,Management,80,60.0,60,72.0,Meets Expectations,69.7,Needs Improvement,0,0
+EMP0862,Female,58,45+,South,R&D,94,80.0,80,88.4,Exceeds Expectations,88.1,Exceeds Expectations,1,1
+EMP0863,Male,22,Under 30,East,Finance,99,90.0,100,97.4,Outstanding,92.3,Outstanding,1,1
+EMP0864,Female,46,45+,West,Shop Floor,90,84.0,80,86.8,Exceeds Expectations,81.0,Exceeds Expectations,1,1
+EMP0865,Female,36,30-44,East,Marketing,91,80.0,100,90.6,Outstanding,88.0,Exceeds Expectations,1,1
+EMP0866,Male,51,45+,South,Shop Floor,72,44.0,40,60.0,Needs Improvement,58.2,Unsatisfactory,0,0
+EMP0867,Male,57,45+,South,Shop Floor,87,84.0,80,85.0,Exceeds Expectations,84.9,Exceeds Expectations,1,1
+EMP0868,Female,36,30-44,East,Sales,82,72.0,80,79.6,Meets Expectations,73.6,Meets Expectations,0,0
+EMP0869,Male,45,45+,East,Shop Floor,76,50.0,60,67.6,Needs Improvement,63.5,Needs Improvement,0,0
+EMP0870,Female,52,45+,North,HR,84,62.0,80,78.8,Meets Expectations,73.8,Meets Expectations,0,0
+EMP0871,Female,39,30-44,South,Shop Floor,79,56.0,60,70.6,Meets Expectations,69.9,Needs Improvement,0,0
+EMP0872,Female,40,30-44,West,Shop Floor,94,86.0,100,93.6,Outstanding,88.5,Exceeds Expectations,1,1
+EMP0873,Female,36,30-44,South,Marketing,74,56.0,40,63.6,Needs Improvement,63.3,Needs Improvement,0,0
+EMP0874,Male,49,45+,North,Marketing,82,78.0,80,80.8,Exceeds Expectations,83.6,Exceeds Expectations,1,1
+EMP0875,Male,59,45+,East,Sales,84,68.0,80,80.0,Exceeds Expectations,75.6,Meets Expectations,1,0
+EMP0876,Female,31,30-44,South,Marketing,86,80.0,80,83.6,Exceeds Expectations,79.6,Meets Expectations,1,0
+EMP0877,Female,32,30-44,North,Shop Floor,84,60.0,80,78.4,Meets Expectations,82.3,Exceeds Expectations,0,1
+EMP0878,Female,49,45+,West,Finance,74,60.0,60,68.4,Needs Improvement,63.3,Needs Improvement,0,0
+EMP0879,Female,35,30-44,West,Shop Floor,87,76.0,80,83.4,Exceeds Expectations,83.9,Exceeds Expectations,1,1
+EMP0880,Female,30,30-44,South,Shop Floor,95,96.0,80,92.2,Outstanding,91.4,Outstanding,1,1
+EMP0881,Female,23,Under 30,West,HR,91,74.0,80,85.4,Exceeds Expectations,77.5,Meets Expectations,1,0
+EMP0882,Female,34,30-44,North,HR,95,90.0,60,87.0,Exceeds Expectations,86.5,Exceeds Expectations,1,1
+EMP0883,Female,41,30-44,West,Management,70,52.0,60,64.4,Needs Improvement,64.5,Needs Improvement,0,0
+EMP0884,Female,32,30-44,South,Sales,100,92.0,100,98.4,Outstanding,100.0,Outstanding,1,1
+EMP0885,Male,49,45+,South,Marketing,93,94.0,60,86.6,Exceeds Expectations,87.6,Exceeds Expectations,1,1
+EMP0886,Female,38,30-44,North,Sales,83,70.0,80,79.8,Meets Expectations,81.3,Exceeds Expectations,0,1
+EMP0887,Female,34,30-44,South,R&D,87,84.0,60,81.0,Exceeds Expectations,78.0,Meets Expectations,1,0
+EMP0888,Female,29,Under 30,North,Shop Floor,94,94.0,80,91.2,Outstanding,89.7,Exceeds Expectations,1,1
+EMP0889,Male,37,30-44,South,R&D,82,68.0,80,78.8,Meets Expectations,79.6,Meets Expectations,0,0
+EMP0890,Male,45,45+,South,Shop Floor,77,68.0,60,71.8,Meets Expectations,68.3,Needs Improvement,0,0
+EMP0891,Male,44,30-44,West,Shop Floor,87,80.0,100,88.2,Exceeds Expectations,92.6,Outstanding,1,1
+EMP0892,Male,46,45+,South,Shop Floor,83,72.0,60,76.2,Meets Expectations,76.8,Meets Expectations,0,0
+EMP0893,Male,36,30-44,South,Finance,90,78.0,60,81.6,Exceeds Expectations,84.2,Exceeds Expectations,1,1
+EMP0894,Male,30,30-44,South,Management,79,68.0,80,77.0,Meets Expectations,76.4,Meets Expectations,0,0
+EMP0895,Female,60,45+,West,Marketing,69,54.0,60,64.2,Needs Improvement,59.5,Unsatisfactory,0,0
+EMP0896,Female,51,45+,South,Marketing,79,62.0,60,71.8,Meets Expectations,68.9,Needs Improvement,0,0
+EMP0897,Male,56,45+,South,Shop Floor,87,80.0,80,84.2,Exceeds Expectations,82.8,Exceeds Expectations,1,1
+EMP0898,Female,47,45+,West,HR,72,58.0,60,66.8,Needs Improvement,61.1,Needs Improvement,0,0
+EMP0899,Male,53,45+,North,Marketing,95,96.0,100,96.2,Outstanding,95.4,Outstanding,1,1
+EMP0900,Male,59,45+,East,Sales,65,44.0,40,55.8,Unsatisfactory,51.9,Unsatisfactory,0,0
+EMP0901,Female,33,30-44,East,R&D,76,62.0,60,70.0,Meets Expectations,68.2,Needs Improvement,0,0
+EMP0902,Female,55,45+,North,Shop Floor,90,76.0,80,85.2,Exceeds Expectations,79.9,Meets Expectations,1,0
+EMP0903,Female,44,30-44,West,Shop Floor,89,80.0,80,85.4,Exceeds Expectations,87.5,Exceeds Expectations,1,1
+EMP0904,Male,58,45+,North,Shop Floor,88,84.0,80,85.6,Exceeds Expectations,87.7,Exceeds Expectations,1,1
+EMP0905,Male,58,45+,West,R&D,85,72.0,40,73.4,Meets Expectations,70.1,Meets Expectations,0,0
+EMP0906,Male,57,45+,East,Shop Floor,98,88.0,80,92.4,Outstanding,88.0,Exceeds Expectations,1,1
+EMP0907,Female,57,45+,West,HR,84,62.0,60,74.8,Meets Expectations,69.3,Needs Improvement,0,0
+EMP0908,Female,57,45+,South,HR,91,82.0,80,87.0,Exceeds Expectations,84.6,Exceeds Expectations,1,1
+EMP0909,Female,47,45+,South,Sales,82,62.0,60,73.6,Meets Expectations,66.6,Needs Improvement,0,0
+EMP0910,Female,60,45+,East,Marketing,96,90.0,80,91.6,Outstanding,82.3,Exceeds Expectations,1,1
+EMP0911,Male,57,45+,South,R&D,84,66.0,80,79.6,Meets Expectations,75.2,Meets Expectations,0,0
+EMP0912,Female,59,45+,South,Shop Floor,83,74.0,60,76.6,Meets Expectations,71.5,Meets Expectations,0,0
+EMP0913,Female,41,30-44,South,R&D,81,62.0,80,77.0,Meets Expectations,76.4,Meets Expectations,0,0
+EMP0914,Male,35,30-44,West,Shop Floor,74,62.0,60,68.8,Needs Improvement,72.2,Meets Expectations,0,0
+EMP0915,Male,27,Under 30,North,Management,80,72.0,60,74.4,Meets Expectations,76.4,Meets Expectations,0,0
+EMP0916,Male,26,Under 30,North,Marketing,71,42.0,40,59.0,Unsatisfactory,60.2,Needs Improvement,0,0
+EMP0917,Female,47,45+,South,Shop Floor,85,76.0,80,82.2,Exceeds Expectations,80.1,Exceeds Expectations,1,1
+EMP0918,Female,58,45+,North,Shop Floor,84,66.0,80,79.6,Meets Expectations,72.8,Meets Expectations,0,0
+EMP0919,Male,47,45+,South,Shop Floor,91,82.0,80,87.0,Exceeds Expectations,83.7,Exceeds Expectations,1,1
+EMP0920,Female,33,30-44,West,Shop Floor,78,64.0,60,71.6,Meets Expectations,67.1,Needs Improvement,0,0
+EMP0921,Male,28,Under 30,North,Shop Floor,73,50.0,60,65.8,Needs Improvement,68.2,Needs Improvement,0,0
+EMP0922,Female,55,45+,North,Finance,81,78.0,60,76.2,Meets Expectations,67.7,Needs Improvement,0,0
+EMP0923,Male,22,Under 30,West,Shop Floor,74,66.0,60,69.6,Needs Improvement,71.1,Meets Expectations,0,0
+EMP0924,Female,60,45+,South,Finance,73,56.0,80,71.0,Meets Expectations,63.8,Needs Improvement,0,0
+EMP0925,Male,28,Under 30,South,Shop Floor,99,100.0,100,99.4,Outstanding,99.9,Outstanding,1,1
+EMP0926,Female,45,45+,East,Sales,87,66.0,40,73.4,Meets Expectations,68.5,Needs Improvement,0,0
+EMP0927,Male,54,45+,West,Finance,100,98.0,100,99.6,Outstanding,98.3,Outstanding,1,1
+EMP0928,Female,32,30-44,North,HR,77,62.0,80,74.6,Meets Expectations,75.1,Meets Expectations,0,0
+EMP0929,Female,23,Under 30,North,Sales,72,50.0,60,65.2,Needs Improvement,62.0,Needs Improvement,0,0
+EMP0930,Male,47,45+,South,Shop Floor,85,62.0,60,75.4,Meets Expectations,72.8,Meets Expectations,0,0
+EMP0931,Female,56,45+,South,Management,76,54.0,60,68.4,Needs Improvement,62.2,Needs Improvement,0,0
+EMP0932,Male,54,45+,North,Shop Floor,86,80.0,80,83.6,Exceeds Expectations,76.8,Meets Expectations,1,0
+EMP0933,Male,37,30-44,North,Shop Floor,79,62.0,60,71.8,Meets Expectations,73.1,Meets Expectations,0,0
+EMP0934,Male,27,Under 30,North,Shop Floor,84,80.0,60,78.4,Meets Expectations,78.0,Meets Expectations,0,0
+EMP0935,Male,28,Under 30,East,Shop Floor,92,84.0,80,88.0,Exceeds Expectations,91.5,Outstanding,1,1
+EMP0936,Male,56,45+,West,R&D,83,76.0,80,81.0,Exceeds Expectations,78.2,Meets Expectations,1,0
+EMP0937,Female,42,30-44,East,Management,85,74.0,80,81.8,Exceeds Expectations,80.9,Exceeds Expectations,1,1
+EMP0938,Male,49,45+,West,HR,79,58.0,80,75.0,Meets Expectations,76.0,Meets Expectations,0,0
+EMP0939,Female,53,45+,West,Shop Floor,89,92.0,80,87.8,Exceeds Expectations,81.8,Exceeds Expectations,1,1
+EMP0940,Female,57,45+,East,Finance,97,90.0,100,96.2,Outstanding,87.2,Exceeds Expectations,1,1
+EMP0941,Female,32,30-44,West,Management,85,74.0,60,77.8,Meets Expectations,75.1,Meets Expectations,0,0
+EMP0942,Male,34,30-44,North,HR,76,68.0,40,67.2,Needs Improvement,70.4,Meets Expectations,0,0
+EMP0943,Male,45,45+,North,HR,81,82.0,60,77.0,Meets Expectations,78.1,Meets Expectations,0,0
+EMP0944,Male,57,45+,West,Sales,97,92.0,100,96.6,Outstanding,94.5,Outstanding,1,1
+EMP0945,Female,54,45+,East,Sales,82,72.0,80,79.6,Meets Expectations,69.4,Needs Improvement,0,0
+EMP0946,Female,28,Under 30,South,Marketing,96,88.0,80,91.2,Outstanding,94.2,Outstanding,1,1
+EMP0947,Male,56,45+,West,Shop Floor,73,74.0,60,70.6,Meets Expectations,63.8,Needs Improvement,0,0
+EMP0948,Male,50,45+,North,Finance,79,68.0,80,77.0,Meets Expectations,78.1,Meets Expectations,0,0
+EMP0949,Female,54,45+,West,Marketing,94,90.0,100,94.4,Outstanding,93.0,Outstanding,1,1
+EMP0950,Male,58,45+,North,Marketing,90,84.0,80,86.8,Exceeds Expectations,84.8,Exceeds Expectations,1,1
+EMP0951,Female,23,Under 30,North,Shop Floor,78,54.0,60,69.6,Needs Improvement,64.1,Needs Improvement,0,0
+EMP0952,Female,43,30-44,West,R&D,100,96.0,100,99.2,Outstanding,97.5,Outstanding,1,1
+EMP0953,Male,22,Under 30,West,Sales,81,62.0,60,73.0,Meets Expectations,77.8,Meets Expectations,0,0
+EMP0954,Male,27,Under 30,West,Shop Floor,87,80.0,80,84.2,Exceeds Expectations,90.7,Outstanding,1,1
+EMP0955,Male,34,30-44,South,Finance,77,78.0,80,77.8,Meets Expectations,82.7,Exceeds Expectations,0,1
+EMP0956,Female,59,45+,East,Sales,78,62.0,80,75.2,Meets Expectations,67.9,Needs Improvement,0,0
+EMP0957,Female,47,45+,North,R&D,88,72.0,100,87.2,Exceeds Expectations,80.3,Exceeds Expectations,1,1
+EMP0958,Female,44,30-44,North,Sales,96,94.0,100,96.4,Outstanding,93.9,Outstanding,1,1
+EMP0959,Male,24,Under 30,North,Shop Floor,82,76.0,80,80.4,Exceeds Expectations,84.0,Exceeds Expectations,1,1
+EMP0960,Male,32,30-44,North,Marketing,96,90.0,80,91.6,Outstanding,97.8,Outstanding,1,1
+EMP0961,Female,21,Under 30,West,Marketing,76,56.0,40,64.8,Needs Improvement,61.7,Needs Improvement,0,0
+EMP0962,Female,57,45+,East,Shop Floor,83,78.0,60,77.4,Meets Expectations,68.4,Needs Improvement,0,0
+EMP0963,Male,37,30-44,South,R&D,86,88.0,80,85.2,Exceeds Expectations,89.6,Exceeds Expectations,1,1
+EMP0964,Female,54,45+,North,Shop Floor,86,82.0,60,80.0,Exceeds Expectations,73.7,Meets Expectations,1,0
+EMP0965,Female,22,Under 30,North,Shop Floor,80,72.0,80,78.4,Meets Expectations,80.8,Exceeds Expectations,0,1
+EMP0966,Male,58,45+,West,Shop Floor,67,48.0,80,65.8,Needs Improvement,66.3,Needs Improvement,0,0
+EMP0967,Female,42,30-44,North,Finance,83,64.0,80,78.6,Meets Expectations,74.2,Meets Expectations,0,0
+EMP0968,Male,46,45+,West,Finance,96,82.0,100,94.0,Outstanding,93.1,Outstanding,1,1
+EMP0969,Male,49,45+,North,Sales,91,90.0,80,88.6,Exceeds Expectations,89.8,Exceeds Expectations,1,1
+EMP0970,Female,29,Under 30,West,Shop Floor,84,64.0,80,79.2,Meets Expectations,80.7,Exceeds Expectations,0,1
+EMP0971,Female,40,30-44,West,Shop Floor,95,92.0,80,91.4,Outstanding,92.5,Outstanding,1,1
+EMP0972,Female,44,30-44,South,Shop Floor,72,56.0,40,62.4,Needs Improvement,58.4,Unsatisfactory,0,0
+EMP0973,Female,52,45+,North,HR,91,78.0,80,86.2,Exceeds Expectations,75.6,Meets Expectations,1,0
+EMP0974,Male,41,30-44,South,Shop Floor,97,92.0,100,96.6,Outstanding,100.0,Outstanding,1,1
+EMP0975,Female,44,30-44,West,Shop Floor,99,88.0,80,93.0,Outstanding,96.8,Outstanding,1,1
+EMP0976,Male,41,30-44,North,HR,98,96.0,100,98.0,Outstanding,100.0,Outstanding,1,1
+EMP0977,Male,33,30-44,South,HR,81,60.0,60,72.6,Meets Expectations,73.2,Meets Expectations,0,0
+EMP0978,Female,21,Under 30,West,Sales,75,78.0,60,72.6,Meets Expectations,71.3,Meets Expectations,0,0
+EMP0979,Male,53,45+,North,Shop Floor,84,76.0,80,81.6,Exceeds Expectations,76.6,Meets Expectations,1,0
+EMP0980,Male,31,30-44,West,Shop Floor,91,78.0,60,82.2,Exceeds Expectations,82.0,Exceeds Expectations,1,1
+EMP0981,Male,36,30-44,South,R&D,74,64.0,60,69.2,Needs Improvement,74.9,Meets Expectations,0,0
+EMP0982,Female,31,30-44,West,Shop Floor,84,80.0,80,82.4,Exceeds Expectations,75.5,Meets Expectations,1,0
+EMP0983,Female,48,45+,East,Shop Floor,75,64.0,60,69.8,Needs Improvement,62.1,Needs Improvement,0,0
+EMP0984,Female,24,Under 30,North,HR,82,68.0,80,78.8,Meets Expectations,81.2,Exceeds Expectations,0,1
+EMP0985,Male,39,30-44,East,Shop Floor,68,54.0,60,63.6,Needs Improvement,58.9,Unsatisfactory,0,0
+EMP0986,Male,36,30-44,East,Shop Floor,90,78.0,100,89.6,Exceeds Expectations,92.7,Outstanding,1,1
+EMP0987,Male,45,45+,South,Shop Floor,66,40.0,40,55.6,Unsatisfactory,52.0,Unsatisfactory,0,0
+EMP0988,Male,38,30-44,North,Shop Floor,87,78.0,80,83.8,Exceeds Expectations,82.3,Exceeds Expectations,1,1
+EMP0989,Female,29,Under 30,West,Shop Floor,72,62.0,60,67.6,Needs Improvement,71.0,Meets Expectations,0,0
+EMP0990,Male,48,45+,South,HR,73,60.0,40,63.8,Needs Improvement,59.6,Unsatisfactory,0,0
+EMP0991,Male,52,45+,South,HR,90,76.0,60,81.2,Exceeds Expectations,79.8,Meets Expectations,1,0
+EMP0992,Female,41,30-44,North,HR,85,84.0,80,83.8,Exceeds Expectations,82.7,Exceeds Expectations,1,1
+EMP0993,Male,49,45+,South,Shop Floor,73,54.0,60,66.6,Needs Improvement,63.5,Needs Improvement,0,0
+EMP0994,Female,39,30-44,North,HR,66,40.0,60,59.6,Unsatisfactory,61.3,Needs Improvement,0,0
+EMP0995,Female,42,30-44,South,HR,89,70.0,60,79.4,Meets Expectations,79.0,Meets Expectations,0,0
+EMP0996,Female,26,Under 30,North,Shop Floor,87,78.0,80,83.8,Exceeds Expectations,88.2,Exceeds Expectations,1,1
+EMP0997,Female,44,30-44,West,R&D,69,50.0,60,63.4,Needs Improvement,60.2,Needs Improvement,0,0
+EMP0998,Female,30,30-44,West,Management,99,98.0,80,95.0,Outstanding,92.5,Outstanding,1,1
+EMP0999,Female,55,45+,North,Shop Floor,87,84.0,100,89.0,Exceeds Expectations,81.3,Exceeds Expectations,1,1
+EMP1000,Female,33,30-44,West,Finance,70,48.0,80,67.6,Needs Improvement,65.2,Needs Improvement,0,0
